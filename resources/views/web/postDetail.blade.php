@@ -7,8 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>60 Inch, Diesel, Double Drum, Ride-On Roller &#8211; Backhoe &#8211; Heavy &amp; Construction Equipment
-        Rentals &amp; Machinery WordPress Theme</title>
+    <title>{{$DetailAD->vehicle_name}}</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
         href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
@@ -2443,34 +2442,32 @@
                             <div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images"
                                 data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
                                 <div class="woocommerce-product-gallery__wrapper">
-                                    <div data-thumb="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg"
-                                        data-thumb-alt="" class="woocommerce-product-gallery__image"><a
-                                            href="{{asset('frontend/wp-content/uploads/2018/03/img6.jpg')}}"><img width="800"
-                                                height="608" src="{{asset('frontend/wp-content/uploads/2018/03/img6-800x608.jpg')}}"
+                                    <div class="woocommerce-product-gallery__image">
+                                        <a
+                                            href="{{asset($DetailAD->image)}}">
+                                            <img width="800"
+                                                height="608" src="{{ asset($DetailAD->image) }}"
                                                 class="wp-post-image" alt="" title="img6" data-caption=""
-                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6.jpg"
-                                                data-large_image="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6.jpg"
-                                                data-large_image_width="1000" data-large_image_height="760"
-                                                decoding="async"
-                                                srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-800x608.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-300x228.jpg 300w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-768x584.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6.jpg 1000w"
-                                                sizes="(max-width: 800px) 100vw, 800px" /></a></div>
+                                            />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="summary entry-summary">
-                                <h1 class="product_title entry-title">60 Inch, Diesel, Double Drum, Ride-On Roller</h1>
+                                <h1 class="product_title entry-title">{{ $DetailAD->vehicle_name }}</h1>
                                 <div class="pricing-location">
                                     <div class="pricing-partial rates-3">
                                         <ul>
                                             <li class="pricing pricing-day">
                                                 <div><span class="woocommerce-Price-amount amount"><bdi><span
-                                                                class="woocommerce-Price-currencySymbol">$</span>432.00</bdi></span><small>/
-                                                        Day</small></div>
+                                                                class="woocommerce-Price-currencySymbol"></span>{{ $DetailAD->price }}</bdi></span><small>/
+                                                        {{ $DetailAD->duration }}</small></div>
                                             </li>
                                             <li class="pricing pricing-week"></li>
                                             <li class="pricing pricing-fourWeek"></li>
                                         </ul>
                                     </div>
-                                    <div class="location"> Fort Worth, TX</div>
+                                    <div class="location"> {{ $DetailAD->location }}</div>
                                 </div>
                                 <div class="woocommerce-product-details__short-description">
                                     <p>Designed to easily compact materials like gravel, soil, and asphalt, the 60 inch
@@ -2560,259 +2557,59 @@
                             <section class="related products">
                                 <h2>Related products</h2>
                                 <ul class="products columns-4 grid">
-                                    <li
-                                        class="product type-product post-25 status-publish first outofstock product_cat-compaction-equipment product_cat-double-drum-roller product_cat-self-propelled-manlift has-post-thumbnail shipping-taxable purchasable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../multiquip-ar13har/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="../../wp-content/uploads/2018/03/product_0015_13-700x700.jpg"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0015_13-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../multiquip-ar13har/index.html">Multiquip-AR13HAR </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>125.00</bdi></span>
-                                                                    <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week"></li>
-                                                        <li class="pricing pricing-fourWeek"></li>
-                                                    </ul>
+                                    @foreach ($relatedPost as $malihaHashmi)
+                                        <li
+                                            class="product type-product post-25 status-publish first outofstock product_cat-compaction-equipment product_cat-double-drum-roller product_cat-self-propelled-manlift has-post-thumbnail shipping-taxable purchasable product-type-simple wd-wc-style-1">
+                                            <div class='product-image-wrapper'>
+                                                <a
+                                                    href="{{ url('post-detail/'.$malihaHashmi->id) }}">
+                                                            <img
+                                                                width="700" height="700"
+                                                                src="{{ asset($malihaHashmi->image) }}"
+                                                                class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                            />
+                                                        </a>
+                                                    </div>
+                                            <div class="product-details-wrapper">
+                                                <h2 class="woocommerce-loop-product__title"> <a
+                                                        href="{{ url('post-detail/'.$malihaHashmi->id) }}">{{ $malihaHashmi->vehicle_name }} </a></h2>
+                                                <div class="pricing-location">
+                                                    <div class="pricing-partial rates-3">
+                                                        <h5>Hire</h5>
+                                                        <ul>
+                                                            <li class="pricing pricing-day">
+                                                                <div>
+                                                                    <p class="label">Day Rate</p>
+                                                                    <div class="price_value"> <span
+                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                    class="woocommerce-Price-currencySymbol">$</span>125.00</bdi></span>
+                                                                        <small> / Day</small></div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="pricing pricing-week"></li>
+                                                            <li class="pricing pricing-fourWeek"></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="with-operator">
+                                                        <h5>Hire with operator</h5>
+                                                        <div> <span class="woocommerce-Price-amount amount"><bdi><span
+                                                                        class="woocommerce-Price-currencySymbol">&#36;</span>3.00</bdi></span>
+                                                            <small> / Hour</small></div>
+                                                    </div>
+                                                    <div class="location"> Jacksonville, FL</div>
                                                 </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>3.00</bdi></span>
-                                                        <small> / Hour</small></div>
-                                                </div>
-                                                <div class="location"> Jacksonville, FL</div>
+                                                <div class="description"> scale model of yellow tower crane isolated on
+                                                    white background</div> <a href="../multiquip-ar13har/index.html"
+                                                    aria-describedby="woocommerce_loop_add_to_cart_link_describedby_25"
+                                                    data-quantity="1" class="button product_type_simple"
+                                                    data-product_id="25" data-product_sku=""
+                                                    aria-label="Read more about &ldquo;Multiquip-AR13HAR&rdquo;"
+                                                    rel="nofollow">Read more</a><span
+                                                    id="woocommerce_loop_add_to_cart_link_describedby_25"
+                                                    class="screen-reader-text"> </span>
                                             </div>
-                                            <div class="description"> scale model of yellow tower crane isolated on
-                                                white background</div> <a href="../multiquip-ar13har/index.html"
-                                                aria-describedby="woocommerce_loop_add_to_cart_link_describedby_25"
-                                                data-quantity="1" class="button product_type_simple"
-                                                data-product_id="25" data-product_sku=""
-                                                aria-label="Read more about &ldquo;Multiquip-AR13HAR&rdquo;"
-                                                rel="nofollow">Read more</a><span
-                                                id="woocommerce_loop_add_to_cart_link_describedby_25"
-                                                class="screen-reader-text"> </span>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-4028 status-publish instock product_cat-compaction-equipment product_cat-double-drum-roller product_cat-single-drum-roller has-post-thumbnail shipping-taxable purchasable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../cw16-9-wheel/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{asset('frontend/wp-content/uploads/2018/03/img6-700x700.jpg')}}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cw16-9-wheel/index.html">CW34 </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>23,000.00</bdi></span>
-                                                                    <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week"></li>
-                                                        <li class="pricing pricing-fourWeek"></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="location"> New York, NY</div>
-                                            </div>
-                                            <div class="description"> Designed to easily compact materials like gravel,
-                                                soil, and asphalt, the 60 inch diesel dual drum ride-on roller is a
-                                                perfect tool for any small to medium sized paving jobs. Its 60 inch
-                                                vibratory drums along with its small build make it easy to steer, which
-                                                prevents overlap and improves maneuverability.</div> <a
-                                                href="indexfb48.html?add-to-cart=4028"
-                                                aria-describedby="woocommerce_loop_add_to_cart_link_describedby_4028"
-                                                data-quantity="1"
-                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="4028" data-product_sku="woo-album-1-1-1-1-1-1"
-                                                aria-label="Add to cart: &ldquo;CW34&rdquo;" rel="nofollow">Add to
-                                                cart</a><span id="woocommerce_loop_add_to_cart_link_describedby_4028"
-                                                class="screen-reader-text"> </span>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-4021 status-publish instock product_cat-compaction-equipment product_cat-double-drum-roller has-post-thumbnail downloadable virtual purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../cd54b-split-drum/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{asset('frontend/wp-content/uploads/2018/03/img6-700x700.jpg')}}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cd54b-split-drum/index.html">CD54B &#8211; Split Drum </a>
-                                            </h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>432.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>2,267.00</bdi></span>
-                                                                    <small> / Week</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>400.00</bdi></span>
-                                                                    <small> / Month</small></div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="location"> Columbus, OH</div>
-                                            </div>
-                                            <div class="description"> Designed to easily compact materials like gravel,
-                                                soil, and asphalt, the 60 inch diesel dual drum ride-on roller is a
-                                                perfect tool for any small to medium sized paving jobs. Its 60 inch
-                                                vibratory drums along with its small build make it easy to steer, which
-                                                prevents overlap and improves maneuverability.</div> <a
-                                                href="indexf260.html?add-to-cart=4021"
-                                                aria-describedby="woocommerce_loop_add_to_cart_link_describedby_4021"
-                                                data-quantity="1"
-                                                class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="4021" data-product_sku="woo-album-1-1"
-                                                aria-label="Add to cart: &ldquo;CD54B - Split Drum&rdquo;"
-                                                rel="nofollow">Add to cart</a><span
-                                                id="woocommerce_loop_add_to_cart_link_describedby_4021"
-                                                class="screen-reader-text"> </span>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-4019 status-publish last outofstock product_cat-compaction-equipment product_cat-single-drum-roller has-post-thumbnail shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../ccs9-combination-asphalt-compactor/index.html"><noscript><img
-                                                        width="700" height="700"
-                                                        src="{{asset('/wp-content/uploads/2018/03/img6-700x700.jpg')}}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img6-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../ccs9-combination-asphalt-compactor/index.html">CCS9
-                                                    Combination Asphalt Compactor </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>6,200.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>2,267.00</bdi></span>
-                                                                    <small> / Week</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>400.00</bdi></span>
-                                                                    <small> / Month</small></div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="location"> Dallas, TX</div>
-                                            </div>
-                                            <div class="description"> Designed to easily compact materials like
-                                                gravel, soil, and asphalt, the 60 inch diesel dual drum ride-on roller
-                                                is a perfect tool for any small to medium sized paving jobs. Its 60 inch
-                                                vibratory drums along with its small build make it easy to steer, which
-                                                prevents overlap and improves maneuverability.</div> <a
-                                                href="../ccs9-combination-asphalt-compactor/index.html"
-                                                aria-describedby="woocommerce_loop_add_to_cart_link_describedby_4019"
-                                                data-quantity="1" class="button product_type_backhoe_bookin_product"
-                                                data-product_id="4019" data-product_sku="woo-album-1"
-                                                aria-label="Read more about &ldquo;CCS9 Combination Asphalt Compactor&rdquo;"
-                                                rel="nofollow">Read more</a><span
-                                                id="woocommerce_loop_add_to_cart_link_describedby_4019"
-                                                class="screen-reader-text"> </span>
-                                        </div>
-                                    </li>
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </section>
                         </div>
@@ -2916,7 +2713,6 @@
             </div>
         </footer>
     </div>
-    <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/steamroller\/#product","name":"60 Inch, Diesel, Double Drum, Ride-On Roller","url":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/steamroller\/","description":"Designed to easily compact materials like gravel, soil, and asphalt, the 60 inch diesel dual drum ride-on roller is a perfect tool for any small to medium sized paving jobs. Its 60 inch vibratory drums along with its small build make it easy to steer, which prevents overlap and improves maneuverability.","image":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-content\/uploads\/2018\/03\/img6.jpg","sku":"woo-album","offers":[{"@type":"Offer","price":"432.00","priceValidUntil":"2025-12-31","priceSpecification":{"price":"432.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/steamroller\/","seller":{"@type":"Organization","name":"Backhoe - Heavy &amp;amp; Construction Equipment Rentals &amp;amp; Machinery WordPress Theme","url":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme"}}]}</script><noscript>
         <style>
             .lazyload {
                 display: none

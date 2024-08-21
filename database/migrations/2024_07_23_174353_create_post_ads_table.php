@@ -1,11 +1,13 @@
 <?php
 
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    use SoftDeletes;
     /**
      * Run the migrations.
      */
@@ -13,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('post_ads', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained()->onDelete('cascade'); // assuming you want a foreign key for users
+            $table->foreignId('user_id')->constrained();
             $table->string('image');
-            $table->string('vehiclename');
+            $table->string('vehicle_name');
             $table->string('duration');
             $table->string('location');
             $table->string('weight');
@@ -23,7 +25,8 @@ return new class extends Migration
             $table->string('categories');
             $table->string('contact');
             $table->string('price');
-            $table->string('status');
+            $table->string('status')->default(1);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

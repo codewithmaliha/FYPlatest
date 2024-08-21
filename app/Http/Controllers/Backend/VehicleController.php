@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\PostAds;
 use Illuminate\Http\Request;
-use App\Models\Vehicle;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Auth\Events\Validated;
 use Illuminate\Support\Facades\Validator;
@@ -26,16 +26,16 @@ class VehicleController extends Controller
     public function create(Request $request)
     {
 
-    //    $vehicle = new Vehicle();
-    //     $vehicle->vehiclename =$request->vehiclename;
-    //     $vehicle->type =$request->type;
-    //     $vehicle->price =$request->price;
-    //     $vehicle->weight =$request->weight;
-    //     $vehicle->save();
+    //    $PostAds = new PostAds();
+    //     $PostAds->vehiclename =$request->vehiclename;
+    //     $PostAds->type =$request->type;
+    //     $PostAds->price =$request->price;
+    //     $PostAds->weight =$request->weight;
+    //     $PostAds->save();
 
         // toast('Ad Created Successfully!','success');
         // alert()->error('ErrorAlert','Lorem ipsum dolor sit amet.');
-       
+
 
         // return $request->all();
       $imagename= "";
@@ -45,21 +45,21 @@ class VehicleController extends Controller
         $destinationPath = public_path('/frontend/services');
         $image->move($destinationPath, $imagename);
 
-        $vehicle = new Vehicle();
-        $vehicle->user_id =Auth::user()->id;
-        $vehicle->image ='/frontend/services/'.$imagename;
-        $vehicle->vehiclename =$request->vehiclename;
-        $vehicle->duration =$request->duration;
-        $vehicle->location =$request->location;
-        $vehicle->weight =$request->weight;
-        $vehicle->description =$request->description;
-        $vehicle->categories =$request->categories;
-        $vehicle->contact =$request->contact;
-        $vehicle->price =$request->price;
-        $vehicle->save();
+        $PostAds = new PostAds();
+        $PostAds->user_id =Auth::user()->id;
+        $PostAds->image ='/frontend/services/'.$imagename;
+        $PostAds->vehicle_name =$request->vehiclename;
+        $PostAds->duration =$request->duration;
+        $PostAds->location =$request->location;
+        $PostAds->weight =$request->weight;
+        $PostAds->description =$request->description;
+        $PostAds->categories =$request->categories;
+        $PostAds->contact =$request->contact;
+        $PostAds->price =$request->price;
+        $PostAds->save();
         alert()->success('Ad Created successfully!','Your Ad is live !');
 
-        
+
         return redirect()->to('/admin/post-ads');  /* by url return*/
     }
     else {
@@ -91,16 +91,16 @@ class VehicleController extends Controller
      */
     public function showCreateAdPage()
         {
-    
+
             return view('admin.adminTabs.createPost');
         }
     public function editPostAds($id)
-    
+
         {
-            $post = Vehicle::find($id);
+            $post = PostAds::find($id);
             return view('admin.adminTabs.editPost', compact('post'));
         }
-    
+
 
     /**
      * Update the specified resource in storage.
@@ -108,7 +108,7 @@ class VehicleController extends Controller
     public function updatePostAds(Request $request, $id)
     {
         $imagename= "";
-        $post = Vehicle::find($id);
+        $post = PostAds::find($id);
         $post->vehiclename = $request->input('vehiclename');
         $post->categories = $request->input('categories');
         if($request->hasfile('image')){

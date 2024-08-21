@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 
 use App\Models\ContactUs;
-use App\Models\Vehicle;
+use App\Models\PostAds;
 use App\Models\User;
 
 use Illuminate\Http\Request;
@@ -20,28 +20,28 @@ class AdminController extends Controller
     return view('admin.adminTabs.dashboard');
 }
 
-     
+
     public function postAds(){
         // return 'misbah';
         if(Auth::user()->role == 'super admin'){
-            
-            $post = Vehicle::with('user')->get();
+
+            $post = PostAds::with('user')->get();
 
         }
         else{
 
-            $post = Vehicle::where('user_id',Auth::user()->id)->get();
+            $post = PostAds::where('user_id',Auth::user()->id)->get();
         }
 
         return view('admin.adminTabs.postAds', compact('post'));
- 
+
     }
     public function deletePostAds($id){
-        Vehicle::find($id)->delete();
+        PostAds::find($id)->delete();
         return redirect()->to('/admin/post-ads');
-       
-    } 
-   
+
+    }
+
 
 
     public function contactUS(){
@@ -54,7 +54,7 @@ class AdminController extends Controller
     public function deleteContactUS($id){
         ContactUs::find($id)->delete();
         return redirect()->to('/admin/contact-us');
-       
+
     }
 
     public function showLoginPage(){
@@ -107,7 +107,7 @@ class AdminController extends Controller
         $user = new User();
         $user->name = $request->name;
         $user->email = $request->email;
-        $user->role = 'service provider'; 
+        $user->role = 'service provider';
         $user->password = Hash::make($request->password);
         $user->status = 1;
         $user->save();

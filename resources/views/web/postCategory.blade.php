@@ -2733,79 +2733,23 @@
 
                 <ul class="products columns-3 grid">
                     @foreach ($post as $item)
-                        <li
-                            class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
-                            <div class='product-image-wrapper'><a href="{{ url('/post-detail') }}"><img
+                        <li class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
+                            <div class='product-image-wrapper'>
+                                <a href="{{ url('/post-detail/'.$item->id) }}">
+                                    <img
                                         width="700" height="700" src="{{ asset($item->image) }}"
-                                        alt=""
+                                        alt="{{ $item->vehicle_name }}"
                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                        alt="" decoding="async" fetchpriority="high"
-                                        sizes="(max-width: 700px) 100vw, 700px" /></a></div>
+                                        alt=""
+                                        sizes="(max-width: 700px) 100vw, 700px" />
+                                </a>
+                            </div>
                             <div class="product-details-wrapper">
-                                <h2 class="woocommerce-loop-product__title"> <a href="#">35000 &#8211; 39000
-                                        lbs,
-                                        Excavator </a></h2>
-                                <div class="pricing-location">
-                                    <div class="pricing-partial rates-3">
-                                        <h5>Hire</h5>
-                                        <ul>
-                                            <li class="pricing pricing-day">
-                                                <div>
-                                                    <p class="label">Day Rate</p>
-                                                    <div class="price_value"> <span
-                                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">$</span>230.00</bdi></span>
-                                                        – <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">$</span>3,300.00</bdi></span>
-                                                        <small> / Day</small>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-week">
-                                                <div>
-                                                    <p class="label">Week Rate</p>
-                                                    <div class="price_value"> <span
-                                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
-                                                        <small> / Week</small>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-fourWeek">
-                                                <div>
-                                                    <p class="label">Month Rate</p>
-                                                    <div class="price_value"> <span
-                                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
-                                                        <small> / Month</small>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="with-operator">
-                                        <h5>Hire with operator</h5>
-                                        <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                            <small> / Hour</small>
-                                        </div>
-                                    </div>
-                                    <div class="location"> San Francisco, CA</div>
-                                </div>
-                                <div class="description"> Mel an esse salutandi, eos wisi nonumes democritum id. Eu
-                                    affert
-                                    dolore rationibus mel. Porro vocent ut vel. Rebum deleniti voluptua at sed, ut
-                                    tollit
-                                    prodesset eum, ea eos nostrud.</div> <a
-                                    href="../product/telescopic-handler-copy-4/index.html"
-                                    aria-describedby="woocommerce_loop_add_to_cart_link_describedby_3701"
-                                    data-quantity="1" class="button product_type_variable add_to_cart_button"
-                                    data-product_id="3701" data-product_sku="woo-sunglasses-8"
-                                    aria-label="Select options for &ldquo;35000 - 39000 lbs, Excavator&rdquo;"
-                                    rel="nofollow">Select options</a><span
-                                    id="woocommerce_loop_add_to_cart_link_describedby_3701"
-                                    class="screen-reader-text">
-                                </span>
+                                <h2 class="woocommerce-loop-product__title">
+                                     <a href="">
+                                       {{ $item->vehicle_name }}
+                                     </a>
+                                </h2>
                             </div>
                         </li>
                     @endforeach

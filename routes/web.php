@@ -18,7 +18,7 @@ use App\Http\Controllers\Frontend\ServicesController;
 
 Route::get('/', [IndexController::class,'index'] );
 Route::get('/post-category' , [IndexController::class, 'postCategory']);
-Route::get('/post-detail' , [IndexController::class, 'postDetail']);
+Route::get('/post-detail/{id}' , [IndexController::class, 'postDetail']);
 Route::get('/services',[ServicesController::class,'index']);
 Route::get('/details/{id}',[ServicesController::class,'details']);
 
@@ -62,7 +62,7 @@ Route::prefix('/admin')->group(function () {
         Route::post('/edit-post/{id}' ,[VehicleController::class,'updatePostAds']);
         Route::get('/delete-post-ads/{id}',[AdminController::class,'deletePostAds']);
     });
-   
+
 });
 
 
