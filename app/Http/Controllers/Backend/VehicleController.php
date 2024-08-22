@@ -48,7 +48,7 @@ class VehicleController extends Controller
         $PostAds = new PostAds();
         $PostAds->user_id =Auth::user()->id;
         $PostAds->image ='/frontend/services/'.$imagename;
-        $PostAds->vehicle_name =$request->vehiclename;
+        $PostAds->vehicle_name =$request->vehicle_name;
         $PostAds->duration =$request->duration;
         $PostAds->location =$request->location;
         $PostAds->weight =$request->weight;
@@ -109,7 +109,7 @@ class VehicleController extends Controller
     {
         $imagename= "";
         $post = PostAds::find($id);
-        $post->vehiclename = $request->input('vehiclename');
+        $post->vehicle_name = $request->input('vehicle_name');
         $post->categories = $request->input('categories');
         if($request->hasfile('image')){
             $image = $request->file('image');

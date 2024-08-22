@@ -39,7 +39,7 @@
                     <tr>
                         <td>{{ $srNo++ }}</td>
                         <td><img src="{{asset($maliha->image)}}" alt="image" style="width:50px ; height:50px"></td>
-                        <td>{{ $maliha->vehiclename }}</td>
+                        <td>{{ $maliha->vehicle_name }}</td>
                         <td>{{ $maliha->categories }}</td>
                         <td>{{ $maliha->duration }}</td>
                         <td>{{ $maliha->location }}</td>

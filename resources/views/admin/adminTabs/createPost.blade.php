@@ -16,8 +16,8 @@
         </div>
         
         <div class="form-group">
-            <label for="vehiclename">Vehicle Name</label>
-            <input type="text" name="vehiclename"  class="form-control">
+            <label for="vehicle_name">Vehicle Name</label>
+            <input type="text" name="vehicle_name"  class="form-control">
         </div>
         
         <div class="form-group">
@@ -29,21 +29,26 @@
             <label for="location">Location</label>
             <input type="text" name="location"  class="form-control">
         </div>
+
+        
         <div class="form-group">
             <label for="weight">Weight</label>
             <input type="text" name="weight"  class="form-control">
         </div>
         <div class="form-group">
             <label for="description">Description</label>
-            <input type="text" name="description"  class="form-control">
+            <textarea type="text" name="description"  class="form-control"  rows="5" cols="30" maxlength="200"></textarea>
         </div>
         <div class="form-group">
             <label for="categories">Categories</label>
             <input type="text" name="categories"  class="form-control">
         </div>
+
+    
+
         <div class="form-group">
             <label for="contact">Contact No</label>
-            <input type="text" name="contact"  class="form-control">
+            <input type="tel" name="contact"  class="form-control" placeholder="123-456-7890" required>
         </div>
         <div class="form-group">
             <label for="price">Price</label>

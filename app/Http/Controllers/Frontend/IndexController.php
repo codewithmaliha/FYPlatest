@@ -18,7 +18,7 @@ class IndexController extends Controller
     public function postDetail($id){
         $DetailAD = PostAds::find($id);
         $relatedPost = PostAds::get();
-        $review = Review::get();
+        // $review = Review::get();
         return view('web.postDetail',get_defined_vars());
     }
 

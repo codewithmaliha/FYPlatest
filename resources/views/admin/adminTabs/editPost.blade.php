@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
             <label for="vehiclename">Vehicle Name</label>
-            <input type="text" name="vehiclename" value="{{ $post->vehiclename }}" class="form-control">
+            <input type="text" name="vehiclename" value="{{ $post->vehicle_name }}" class="form-control">
         </div>
         <div class="form-group">
             <label for="duration">Duration</label>
@@ -29,13 +29,23 @@
             <label for="location">Location</label>
             <input type="text" name="location" value="{{ $post->location }}" class="form-control">
         </div>
+ 
+
+       
+
+
         <div class="form-group">
             <label for="weight">Weight</label>
-            <input type="text" name="weight" value="{{ $post->weight }}" class="form-control">
+            <input type="number" name="weight" value="{{ $post->weight }}" class="form-control" placeholder="Enter weight in kg" required>
+            <select name="unit" id="unit">
+                <option value="kg">Kg</option>
+                <option value="lbs">Lbs</option>
+              </select>
         </div>
+        
         <div class="form-group">
             <label for="description">Description</label>
-            <input type="text" name="description" value="{{ $post->description }}"  class="form-control">
+            <textarea type="text" name="description" value="{{ $post->description }}"  class="form-control" rows="5" cols="30" maxlength="200" ></textarea>
         </div>
         <div class="form-group">
             <label for="categories">Categories</label>
@@ -43,7 +53,7 @@
         </div>
         <div class="form-group">
             <label for="contact">Contact No</label>
-            <input type="text" name="contact"  value="{{ $post->contact }}"  class="form-control">
+            <input type="tel" name="contact"  value="{{ $post->contact }}"  class="form-control" placeholder="123-456-7890" required>
         </div>
         <div class="form-group">
             <label for="price">Price</label>

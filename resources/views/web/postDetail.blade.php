@@ -4,6 +4,34 @@
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
+<style>
+.review-form {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #ffc107;
+}
+
+.star.active {
+    color: #ffc107;
+}
+</style>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -2470,17 +2498,10 @@
                                     <div class="location"> {{ $DetailAD->location }}</div>
                                 </div>
                                 <div class="woocommerce-product-details__short-description">
-                                    <p>Designed to easily compact materials like gravel, soil, and asphalt, the 60 inch
-                                        diesel dual drum ride-on roller is a perfect tool for any small to medium sized
-                                        paving jobs. Its 60 inch vibratory drums along with its small build make it easy
-                                        to steer, which prevents overlap and improves maneuverability.</p>
+                                    <p>{{$DetailAD->description}}</p>
                                 </div>
-                                <div class="product_meta"> <span class="sku_wrapper">SKU: <span
-                                            class="sku">woo-album</span></span> <span class="posted_in">Categories:
-                                        <a href="../../product-category/compaction-equipment/index.html"
-                                            rel="tag">Compaction Equipment</a>, <a
-                                            href="../../product-category/compaction-equipment/double-drum-roller/index.html"
-                                            rel="tag">Double Drum Roller</a></span></div>
+                                <div class="product_meta">  <span class="posted_in">Categories:
+                                        <a >{{$DetailAD->categories}}</a></span></div>
                                 <form class="cart backhoe_cart"
                                     action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product/steamroller/"
                                     method="post" enctype='multipart/form-data'>
@@ -2497,12 +2518,7 @@
                                     </div>
                                     <div class="backhoe_duration_and_price "></div>
                                     <div class="backhoe_add_tocart">
-                                        <div class="quantity"> <label for="quantity"
-                                                class="screen-reader-text"></label> <input type="number"
-                                                aria-labelledby="" inputmode="numeric" pattern="[0-9]*"
-                                                size="4" title="Qty" value="1" name="quantity"
-                                                max="" min="1" step="1"
-                                                class="input-text qty text"></div> <button id="wd-add-to-cart"
+                                        <div class="quantity"></div> <button id="wd-add-to-cart"
                                             type="submit" name="add-to-cart" value="17" class="button ">Rent
                                             Now</button>
                                     </div>
@@ -2545,11 +2561,22 @@
                                     id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
                                     <div id="reviews" class="woocommerce-Reviews">
                                         <div id="comments">
+                                           
                                             <h2 class="woocommerce-Reviews-title"> Reviews</h2>
-                                            <p class="woocommerce-noreviews">There are no reviews yet.</p>
-                                        </div>
-                                        <p class="woocommerce-verification-required">Only logged in customers who have
-                                            purchased this product may leave a review.</p>
+                                            <div class="review-form">
+                                                <form>
+                                                    <div class="rating">
+                                                        <span class="star" data-value="1">★</span>
+                                                        <span class="star" data-value="2">★</span>
+                                                        <span class="star" data-value="3">★</span>
+                                                        <span class="star" data-value="4">★</span>
+                                                        <span class="star" data-value="5">★</span>
+                                                    </div>
+                                                    <textarea placeholder="Write your review..."></textarea>
+                                                    <button  type="submit">Submit Review</button>
+                                                </form>
+                                            
+                                            </div>
                                         <div class="clear"></div>
                                     </div>
                                 </div>
@@ -2617,6 +2644,7 @@
                 </div>
             </div>
         </div>
+        
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
             <div class="row">
