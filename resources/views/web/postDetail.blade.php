@@ -2503,16 +2503,16 @@
                                 </div>
                                 <div class="product_meta">  <span class="posted_in">Categories:
                                         <a >{{$DetailAD->categories}}</a></span></div>
-                                
+
                                     </div>
                                     <button  data-toggle="modal" data-target="#exampleModal" class="button ">Rent Now</button>
 
 
-  
-     
-                                        
-                                    
-                            
+
+
+
+
+
                             <div class="woocommerce-tabs wc-tabs-wrapper">
                                 <ul class="tabs wc-tabs" role="tablist">
                                     <li class="description_tab" id="tab-title-description" role="tab"
@@ -2550,7 +2550,7 @@
                                     id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
                                     <div id="reviews" class="woocommerce-Reviews">
                                         <div id="comments">
-                                           
+
                                             <h2 class="woocommerce-Reviews-title"> Reviews</h2>
                                             <div class="review-form">
                                                 <form>
@@ -2564,7 +2564,7 @@
                                                     <textarea placeholder="Write your review..."></textarea>
                                                     <button  type="submit">Submit Review</button>
                                                 </form>
-                                            
+
                                             </div>
                                         <div class="clear"></div>
                                     </div>
@@ -2656,6 +2656,10 @@
                     <label for="contact">Contact Number:</label>
                     <input type="tel"  name="contact" class="form-control" >
                 </div>
+                <div class="form-group">
+                    <label for="contact">Time:</label>
+                    <input type="datetime-local"  name="time" class="form-control" >
+                </div>
                 <button  type="submit">Submit</button>
             </form>
         </div>
@@ -2670,7 +2674,7 @@
 
 
 
-        
+
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
             <div class="row">

@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\IndexController;
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\VehicleController;
-use App\Http\Controllers\Backend\RentController;
+use App\Http\Controllers\Backend\OrderController;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,7 +22,7 @@ Route::get('/', [IndexController::class,'index'] );
 Route::get('/post-category' , [IndexController::class, 'postCategory']);
 Route::get('/post-detail/{id}' , [IndexController::class, 'postDetail']);
 
-Route::post('/thank-you',[RentController::class,'StoreClientInfo']);
+Route::post('/thank-you',[OrderController::class,'StoreClientInfo']);
 // Route::post('/',[RentController::class,'create']);
 // Route:: get('/thanku/{id}' , [IndexController::class, 'thankYou']);
 
@@ -65,9 +67,9 @@ Route::prefix('/admin')->group(function () {
         Route::get('/edit-post/{id}' ,[VehicleController::class,'editPostAds']);
         Route::post('/edit-post/{id}' ,[VehicleController::class,'updatePostAds']);
         Route::get('/delete-post-ads/{id}',[AdminController::class,'deletePostAds']);
-        Route::get('order' ,[AdminController::class,'order']);
+        Route::get('/order' ,[OrderController::class,'order']);
         Route::get('/status-change/{id}' ,[VehicleController::class,'statusChange']);
-        
+
     });
 
 });

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 
 use App\Models\ContactUs;
+use App\Models\Order;
 use App\Models\PostAds;
 use App\Models\User;
 
@@ -120,11 +121,6 @@ class AdminController extends Controller
         }
        /* customer orders */
 
-    
-       public function order(){
-        return view('admin.adminTabs.order');
-       }
-       
 
 
 
