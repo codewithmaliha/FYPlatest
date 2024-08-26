@@ -55,6 +55,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel='stylesheet' id='wp-block-library-css' href="{{asset('frontend/wp-includes/css/dist/block-library/style.min.css')}}"
         type='text/css' media='all' />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <style id='webdevia-all-products-style-inline-css' type='text/css'>
         .wp-block-webdevia-all-products {
             position: relative
@@ -2502,28 +2503,16 @@
                                 </div>
                                 <div class="product_meta">  <span class="posted_in">Categories:
                                         <a >{{$DetailAD->categories}}</a></span></div>
-                                <form class="cart backhoe_cart"
-                                    action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product/steamroller/"
-                                    method="post" enctype='multipart/form-data'>
-                                    <div class="barb-form-wrapper">
-                                        <div class="barb-pickup-date" data-maxday = "9999" data-weekends = ""> <label
-                                                for="start_date"></label> <input type="text" name="start_date"
-                                                id="backhoe_fdate" autocomplete="off" placeholder="" /></div>
-                                        <div> <label for="end_date"></label> <input type="text" name="end_date"
-                                                id="backhoe_tdate" autocomplete="off" placeholder="" /> <input
-                                                type="hidden" class="backhoe_product_id" value="17"> <input
-                                                type="hidden" class="backhoe_product_type"
-                                                value="backhoe_bookin_product"> <input type="hidden"
-                                                class="backhoe_price" value="432"></div>
+                                
                                     </div>
-                                    <div class="backhoe_duration_and_price "></div>
-                                    <div class="backhoe_add_tocart">
-                                        <div class="quantity"></div> <button id="wd-add-to-cart"
-                                            type="submit" name="add-to-cart" value="17" class="button ">Rent
-                                            Now</button>
-                                    </div>
-                                </form>
-                            </div>
+                                    <button  data-toggle="modal" data-target="#exampleModal" class="button ">Rent Now</button>
+
+
+  
+     
+                                        
+                                    
+                            
                             <div class="woocommerce-tabs wc-tabs-wrapper">
                                 <ul class="tabs wc-tabs" role="tablist">
                                     <li class="description_tab" id="tab-title-description" role="tab"
@@ -2644,6 +2633,43 @@
                 </div>
             </div>
         </div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="{{ url('/thank-you') }}" method="POST">
+                @csrf
+                <div class="form-group">
+                <input type="id" name="id" value="{{$DetailAD->id}}" hidden >
+                    <label for="username">Full Name</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel"  name="contact" class="form-control" >
+                </div>
+                <button  type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
         
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
@@ -2794,6 +2820,8 @@
             document.body.className = c;
         })();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <link rel='stylesheet' id='wc-blocks-style-css'
         href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d7a8127861fe37f332ec855349a23c3d.css')}}"
         type='text/css' media='all' />

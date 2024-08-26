@@ -48,5 +48,11 @@
                 <span class="menu-title">Post Ads</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url('/admin/order')}}">
+                <i class="icon-book menu-icon"></i>
+                <span class="menu-title">Orders</span>
+            </a>
+        </li>
     </ul>
 </nav>

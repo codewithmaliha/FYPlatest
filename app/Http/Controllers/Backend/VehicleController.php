@@ -56,6 +56,7 @@ class VehicleController extends Controller
         $PostAds->categories =$request->categories;
         $PostAds->contact =$request->contact;
         $PostAds->price =$request->price;
+        $PostAds->status =$request->status;
         $PostAds->save();
         alert()->success('Ad Created successfully!','Your Ad is live !');
 
@@ -120,10 +121,25 @@ class VehicleController extends Controller
         }
         $post->weight = $request->input('weight');
         $post->price = $request->input('price');
+      
+        
         $post->save();
 
         return redirect()->to('/admin/post-ads');
     }
+    public function statusChange($id){
+        $post = PostAds::find($id);
+        if ($post->status){
+            $post->status = 0;
+        }
+        else{
+            $post->status = 1;
+        }
+        $post->update();
+        
+        return redirect()->to('/admin/post-ads');
+
+     }
     // else{
     //     alert()->error('Ad Creation failed!','Please Select Image!');
     //     return redirect()->back();

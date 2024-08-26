@@ -2735,7 +2735,7 @@
                     @foreach ($post as $item)
                         <li class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
                             <div class='product-image-wrapper'>
-                                <a href="{{ url('/post-detail'.$item->id) }}">
+                                <a href="{{ url('/post-detail/'.$item->id) }}">
                                     <img
                                         width="700" height="700" src="{{ asset($item->image) }}"
                                         alt="{{ $item->vehicle_name }}"

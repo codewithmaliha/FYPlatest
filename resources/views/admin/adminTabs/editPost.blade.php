@@ -45,7 +45,7 @@
         
         <div class="form-group">
             <label for="description">Description</label>
-            <textarea type="text" name="description" value="{{ $post->description }}"  class="form-control" rows="5" cols="30" maxlength="200" ></textarea>
+            <textarea type="text" name="description" value=""  class="form-control" rows="5" cols="30" maxlength="200" >{{ $post->description }}</textarea>
         </div>
         <div class="form-group">
             <label for="categories">Categories</label>

@@ -118,6 +118,15 @@ class AdminController extends Controller
         return redirect()->to('/admin/dashboard ');
 
         }
+       /* customer orders */
+
+    
+       public function order(){
+        return view('admin.adminTabs.order');
+       }
+       
+
+
 
     }
 

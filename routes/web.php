@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\IndexController;
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\VehicleController;
-use App\Http\Controllers\Frontend\ServicesController;
+use App\Http\Controllers\Backend\RentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,8 +19,11 @@ use App\Http\Controllers\Frontend\ServicesController;
 Route::get('/', [IndexController::class,'index'] );
 Route::get('/post-category' , [IndexController::class, 'postCategory']);
 Route::get('/post-detail/{id}' , [IndexController::class, 'postDetail']);
-Route::get('/services',[ServicesController::class,'index']);
-Route::get('/details/{id}',[ServicesController::class,'details']);
+
+Route::post('/thank-you',[RentController::class,'StoreClientInfo']);
+// Route::post('/',[RentController::class,'create']);
+// Route:: get('/thanku/{id}' , [IndexController::class, 'thankYou']);
+
 
 
 Route::get('/login',function(){
@@ -56,11 +59,15 @@ Route::prefix('/admin')->group(function () {
         Route::get('/delete-contact-us/{id}',[AdminController::class,'deleteContactUS']);
 
         Route::get('post-ads' ,[AdminController::class,'postAds']);
+        Route::get('/post-ads/{id}' ,[VehicleController::class,'updatePostAds']);
         Route::get('/create-post' ,[VehicleController::class,'showCreateAdPage']);
         Route::post('/store-ad',[VehicleController::class,'create']);
         Route::get('/edit-post/{id}' ,[VehicleController::class,'editPostAds']);
         Route::post('/edit-post/{id}' ,[VehicleController::class,'updatePostAds']);
         Route::get('/delete-post-ads/{id}',[AdminController::class,'deletePostAds']);
+        Route::get('order' ,[AdminController::class,'order']);
+        Route::get('/status-change/{id}' ,[VehicleController::class,'statusChange']);
+        
     });
 
 });

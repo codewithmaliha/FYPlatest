@@ -27,6 +27,7 @@
                 <th>Price</th>
                 <th>Posted By</th>
                 <th>Created At</th>
+                <th>Status</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -49,6 +50,13 @@
                         <td>{{ $maliha->price }}</td>
                         <td>{{ $maliha->user->name }}</td>
                         <td>{{ $maliha->created_at->diffForhumans()}}</td>
+                        <td>
+                          <a href="{{url('/admin/status-change/' . $maliha->id)}}" class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}">
+                              {{$maliha->status ? 'Available' : 'Book'}}
+
+
+                          </a>
+                      </td>
 
                         <td>
                             <a href="{{ url('/admin/delete-post-ads/'. $maliha->id ) }}" title="Delete" class="badge badge-danger">Delete</a>

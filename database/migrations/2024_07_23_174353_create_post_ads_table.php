@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('categories');
             $table->string('contact');
             $table->string('price');
-            $table->string('status')->default(1);
+            $table->integer('status')->default('1');
             $table->softDeletes();
             $table->timestamps();
         });

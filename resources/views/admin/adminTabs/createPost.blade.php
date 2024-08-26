@@ -53,7 +53,16 @@
         <div class="form-group">
             <label for="price">Price</label>
             <input type="text" name="price"  class="form-control">
-        </div>
+
+                        </div>
+                                <div class="form-group">
+                                <label for="condition">Condtion:</label>
+                                <select id="condition" name="condition" class="form-control">
+                                    <option value="active">Active</option>
+                                    <option value="inactive">Inactive</option>
+                                </select>
+                        </div>
+
         <button type="submit" class="btn btn-primary">Create Post</button>
     </form>
 </div>
