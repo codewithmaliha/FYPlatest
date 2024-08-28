@@ -127,27 +127,74 @@ class VehicleController extends Controller
 
         return redirect()->to('/admin/post-ads');
     }
-    public function statusChange($id){
+    public function statusChange(Request $request){
+        $id = $request->input('id');
         $post = PostAds::find($id);
         if ($post->status){
+            // Add date
+            
             $post->status = 0;
         }
         else{
+            //clear the previous date
             $post->status = 1;
         }
-        $post->update();
+        $post->save();
         
         return redirect()->to('/admin/post-ads');
 
      }
-    // else{
-    //     alert()->error('Ad Creation failed!','Please Select Image!');
-    //     return redirect()->back();
-    // }
 
 
 
 
+
+// Controller
+// public function statusChange(Request $request) {
+//     $id = $request->input('id');
+//     $scheduleDate = $request->input('schedule_date');
+//     $scheduleTime = $request->input('schedule_time');
+    
+//     $post = PostAds::find($id);
+
+//     // Toggle status
+//     if ($post->status) {
+//         // If the post is currently 'Available', change to 'Booked'
+//         $post->status = 0;
+
+//         // Optionally, save the schedule date and time
+//         if ($scheduleDate && $scheduleTime) {
+//             $post->schedule_date = $scheduleDate;
+//             $post->schedule_time = $scheduleTime;
+//         }
+
+//     } else {
+//         // If the post is currently 'Booked', change to 'Available'
+//         $post->status = 1;
+
+//         // Clear schedule date and time when changing to 'Available'
+//         $post->schedule_date = null;
+//         $post->schedule_time = null;
+//     }
+
+//     $post->save();
+    
+//     return redirect()->to('/admin/post-ads');
+// }
+
+
+
+
+
+
+
+
+
+
+// else{
+//     alert()->error('Ad Creation failed!','Please Select Image!');
+//     return redirect()->back();
+// }
     /**
      * Remove the specified resource from storage.
      */

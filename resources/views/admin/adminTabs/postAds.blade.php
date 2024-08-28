@@ -51,16 +51,41 @@
                         <td>{{ $maliha->user->name }}</td>
                         <td>{{ $maliha->created_at->diffForhumans()}}</td>
                         <td>
-                          <a href="{{url('/admin/status-change/' . $maliha->id)}}" class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}">
-                              {{$maliha->status ? 'Available' : 'Booked'}}
+                          <!-- Blade Template -->
+<!-- Status Change Button -->
+                                {{-- <button href="#" 
+                                data-toggle="modal" data-target="#exampleModal"
+                                class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}" 
+                                data-toggle="modal" 
+                                data-target="#statusChangeModal"
+                                data-id="{{$maliha->id}}"
+                                data-status="{{$maliha->status}}"
+                                data-schedule-date="{{$maliha->schedule_date}}"
+                                data-schedule-time="{{$maliha->schedule_time}}">
+                                {{$maliha->status ? 'Available' : 'Booked'}}
+                        </button> --}}
+
+                        <button  data-toggle="modal" data-target="#exampleModal" href="{{url('/admin/status-change/' . $maliha->id)}}" class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}">
+                          {{$maliha->status ? 'Available' : 'Booked'}}
+                         
 
 
-                          </a>
+                        </button>
+
+                               
+      
+
+                               
+
                       </td>
+
+
+
 
                         <td>
                             <a href="{{ url('/admin/delete-post-ads/'. $maliha->id ) }}" title="Delete" class="badge badge-danger">Delete</a>
-                            <a href="{{ url('/admin/edit-post/'. $maliha->id ) }}" title="Edit" class="badge badge-primary">Edit</a></td>
+                            <a href="{{ url('/admin/edit-post/'. $maliha->id ) }}" title="Edit" class="badge badge-primary">Edit</a>
+                          </td>
                     </tr>
                 @endforeach
             </tbody>
@@ -69,6 +94,35 @@
       </div>
     </div>
   </div>
+
+ <!-- Status Change Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add Booked Time</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body">
+          <form action="{{ url('/status-change') }}" method="POST">
+              @csrf
+              <input type="id" name="id" value="{{$maliha->id}}" >
+              <div class="form-group">
+                <label for="contact">Time:</label>
+                <input type="datetime-local"  name="time" class="form-control" >
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning">Booked Vehicle</button>
+            </div>
+          </form>
+  </div>
+  </div>
+</div>
+
 
 
 @endsection

@@ -1,62 +1,33 @@
-
 <!doctype html> <!--[if IE 9]><html class="lt-ie10" lang="en"> <![endif]-->
 <html class="no-js" lang="en-US">
-<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product/steamroller/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:22:58 GMT -->
+<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:13:06 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<title>Booking Confirmation</title>
-<style>
-.review-form {
-    max-width: 400px;
-    margin: 40px auto;
-}
-
-.rating {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.star {
-    font-size: 24px;
-    color: #ccc;
-    cursor: pointer;
-}
-
-.star:hover {
-    color: #ffc107;
-}
-
-.star.active {
-    color: #ffc107;
-}
-</style>
-
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <title>Shop &#8211; Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme
+    </title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
         href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
-    <link rel='dns-prefetch' href='http://www.openlayers.org/' />
     <link rel='dns-prefetch' href='http://client.crisp.chat/' />
     <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
     <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
     <link rel="alternate" type="application/rss+xml"
         title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Feed"
-        href="../../feed/index.html" />
+        href="../feed/index.html" />
     <link rel="alternate" type="application/rss+xml"
         title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Comments Feed"
-        href="../../comments/feed/index.html" />
+        href="../comments/feed/index.html" />
     <link rel="alternate" type="application/rss+xml"
-        title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; 60 Inch, Diesel, Double Drum, Ride-On Roller Comments Feed"
+        title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Products Feed"
         href="feed/index.html" />
     <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link rel='stylesheet' id='wp-block-library-css' href="{{asset('frontend/wp-includes/css/dist/block-library/style.min.css')}}"
-        type='text/css' media='all' />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel='stylesheet' id='wp-block-library-css'
+        href="{{ asset('frontend/wp-includes/css/dist/block-library/style.min.css') }}" type='text/css'
+        media='all' />
     <style id='webdevia-all-products-style-inline-css' type='text/css'>
         .wp-block-webdevia-all-products {
             position: relative
@@ -672,8 +643,7 @@
         }
     </style>
     <link rel='stylesheet' id='webdevia-tabs-style-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css')}}"
-
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css') }}"
         type='text/css' media='all' />
     <style id='webdevia-tab-style-inline-css' type='text/css'>
         .wp-block-webdevia-tab {
@@ -1590,38 +1560,32 @@
         }
     </style>
     <link rel='stylesheet' id='wd_demo_panel_style-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css') }}"
         type='text/css' media='all' />
     <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-9-css'
-        href='../../wp-content/themes/backhoe/webfonts/fa-solid-900.html' type='text/css' media='all' />
+        href='../wp-content/themes/backhoe/webfonts/fa-solid-900.html' type='text/css' media='all' />
     <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-4-css'
-        href='../../wp-content/themes/backhoe/webfonts/fa-brands-400.html' type='text/css' media='all' />
+        href='../wp-content/themes/backhoe/webfonts/fa-brands-400.html' type='text/css' media='all' />
     <link rel='stylesheet' id='daterangepickers-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='backhoe_booking_app-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='contact-form-7-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_3fd2afa98866679439097f4ab102fe0a.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_3fd2afa98866679439097f4ab102fe0a.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='wd_buy_style-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css')}}"
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='photoswipe-css'
-        href="{{asset('frontend/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css')}}" type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='photoswipe-default-skin-css'
-        href="{{asset('frontend/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-layout-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_279a41fe094a1c0ff59f6d84dc6ec0d2.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_279a41fe094a1c0ff59f6d84dc6ec0d2.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-smallscreen-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_29ed0396622780590223cd919f310dd7.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_29ed0396622780590223cd919f310dd7.css') }}"
         type='text/css' media='only screen and (max-width: 768px)' />
     <link rel='stylesheet' id='woocommerce-general-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_37b03431b5d0e4bab2f0f5def1f3b553.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_37b03431b5d0e4bab2f0f5def1f3b553.css') }}"
         type='text/css' media='all' />
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required {
@@ -1629,20 +1593,21 @@
         }
     </style>
     <link rel='stylesheet' id='select2-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_335074e1d9178324cdfbc4d12292ac56.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_335074e1d9178324cdfbc4d12292ac56.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='animate-custom-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css') }}"
         type='text/css' media='all' />
-    <link rel='stylesheet' id='icofont-css' href="{{asset('frontend/wp-content/themes/backhoe/css/webfonts/icofont.min.css')}}"
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='swiper-bundle-css' href="{{asset('frontend/wp-content/themes/backhoe/css/swiper-bundle.min.css')}}"
-        type='text/css' media='all' />
+    <link rel='stylesheet' id='icofont-css'
+        href="{{ asset('frontend/wp-content/themes/backhoe/css/webfonts/icofont.min.css') }}" type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='swiper-bundle-css'
+        href="{{ asset('/wp-content/themes/backhoe/css/swiper-bundle.min.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' id='backhoe-app-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css') }}"
         type='text/css' media='all' />
     <link rel='stylesheet' id='backhoe-style-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css')}}"
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}"
         type='text/css' media='all' />
     <style id='backhoe-style-inline-css' type='text/css'>
         :root {
@@ -1761,20 +1726,54 @@
         header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper {
             padding: 0
         }
+
+
+       
+        .thank-you-page {
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .thank-you-page h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .thank-you-page p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .thank-you-page .contact-info {
+            font-weight: bold;
+            font-size: 20px;
+            color: #007bff;
+        }
+        .thank-you-page img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+
+
+
     </style>
-    <link rel='stylesheet' id='lightbox-css' href="{{asset('frontend/wp-content/themes/backhoe/css/vendor/lightbox.min.css')}}"
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='all-css' href="{{asset('frontend/wp-content/themes/backhoe/css/vendor/all.min.css')}}"
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-line-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css')}}"
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='dashicons-css' href="{{asset('frontend/wp-includes/css/dashicons.min.css')}}" type='text/css'
+    <link rel='stylesheet' id='lightbox-css'
+        href="{{ asset('frontend/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }}" type='text/css'
         media='all' />
-    <link rel='stylesheet' id='simple-auction-css'
-        href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css')}}"
+    <link rel='stylesheet' id='all-css'
+        href="{{ asset('frontend/wp-content/themes/backhoe/css/vendor/all.min.css') }}" type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='custom-line-css'
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}"
         type='text/css' media='all' />
-    <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/jquery.min.js')}}" id="jquery-core-js"></script>
+    <link rel='stylesheet' id='dashicons-css' href="{{ asset('frontend/wp-includes/css/dashicons.min.css') }}"
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='simple-auction-css'
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}"
+        type='text/css' media='all' />
+    <script type="text/javascript" src="{{ asset('frontend/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
+    </script>
     <script type="text/javascript" id="wd_main_js_functions-js-extra">
         var devia = {
             "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
@@ -1782,7 +1781,8 @@
             "date_format": "d\/m\/Y"
         };
     </script>
-    <script type="module" src="{{asset('/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js')}}"></script>
+    <script type="module" src="{{ asset('frontend/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
+    </script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         var wc_add_to_cart_params = {
             "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
@@ -1791,34 +1791,6 @@
             "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
             "is_cart": "",
             "cart_redirect_after_add": "no"
-        };
-    </script>
-    <script type="text/javascript" id="wc-single-product-js-extra">
-        var wc_single_product_params = {
-            "i18n_required_rating_text": "Please select a rating",
-            "review_rating_required": "yes",
-            "flexslider": {
-                "rtl": false,
-                "animation": "slide",
-                "smoothHeight": true,
-                "directionNav": false,
-                "controlNav": "thumbnails",
-                "slideshow": false,
-                "animationSpeed": 500,
-                "animationLoop": false,
-                "allowOneSlide": false
-            },
-            "zoom_enabled": "1",
-            "zoom_options": [],
-            "photoswipe_enabled": "1",
-            "photoswipe_options": {
-                "shareEl": false,
-                "closeOnScroll": false,
-                "history": false,
-                "hideAnimationDuration": 0,
-                "showAnimationDuration": 0
-            },
-            "flexslider_enabled": ""
         };
     </script>
     <script type="text/javascript" id="woocommerce-js-extra">
@@ -1870,23 +1842,16 @@
             "interval": "1"
         };
         var SA_Ajax = {
-            "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/steamroller\/?wsa-ajax",
+            "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/shop\/?wsa-ajax",
             "najax": "1",
             "last_activity": "1711626526",
             "focus": "yes"
         };
     </script>
-    <link rel="https://api.w.org/" href="../../wp-json/index.html" />
-    <link rel="alternate" type="application/json" href="../../wp-json/wp/v2/product/17.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+    <link rel="https://api.w.org/" href="../wp-json/index.html" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
     <meta name="generator" content="WordPress 6.5.5" />
     <meta name="generator" content="WooCommerce 9.0.2" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='../../indexd8eb.html?p=17' />
-    <link rel="alternate" type="application/json+oembed"
-        href="../../wp-json/oembed/1.0/embed6789.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Fsteamroller%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="../../wp-json/oembed/1.0/embed3af8?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Fsteamroller%2F&amp;format=xml" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -1942,7 +1907,7 @@
 </head>
 
 <body
-class="product-template-default single single-product postid-17 theme-backhoe woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+    class="archive post-type-archive post-type-archive-product theme-backhoe woocommerce-shop woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
     <div class="page-loading">
         <div class="spinner-loading">
             <div class="double-bounce1"></div>
@@ -1958,7 +1923,7 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                             <div id="lang_sel">
                                 <ul>
                                     <li><a href="#" class="lang_sel_sel icl-en"><noscript><img class="iclflag"
-                                                    src="{{asset('frontend/wp-content/uploads/2017/12/en.png')}}"
+                                                    src="{{ asset('frontend/wp-content/uploads/2017/12/en.png') }}"
                                                     alt="en" title="English"></noscript><img
                                                 class="lazyload iclflag"
                                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
@@ -1967,7 +1932,7 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                                                 class="icl_lang_sel_current icl_lang_sel_native">English</span></a>
                                         <ul>
                                             <li class="icl-fr"> <a href="#"> <noscript><img class="iclflag"
-                                                            src="{{asset('frontend/wp-content/uploads/2017/12/fr.png')}}"
+                                                            src="{{ asset('frontend/wp-content/uploads/2017/12/fr.png') }}"
                                                             alt="fr" title="French"></noscript><img
                                                         class="lazyload iclflag"
                                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
@@ -1978,7 +1943,7 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                                                             class="icl_lang_sel_bracket">(</span>French<span
                                                             class="icl_lang_sel_bracket">)</span></span></a></li>
                                             <li class="icl-es"><a href="#"><noscript><img class="iclflag"
-                                                            src="{{asset('frontend/wp-content/uploads/2017/12/es.png')}}"
+                                                            src="{{ asset('frontend/wp-content/uploads/2017/12/es.png') }}"
                                                             alt="es"></noscript><img class="lazyload iclflag"
                                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
                                                         data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/es.png"
@@ -2006,7 +1971,8 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                 <div class="columns small-12 medium-6 large-6 hide-for-small-only">
                     <div class="__top-header-right">
                         <p>Join our team. Are you ready to change the game? <a href="#"><span>Find out more
-                                    →</span></a></p>
+                                    →</span></a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -2017,10 +1983,10 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                     <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
                         <div class="title-bar-left"> <button aria-label="Main Menu" class="menu-icon menu-toggle"
                                 type="button"></button> <span class="site-mobile-title title-bar-title logo"> <a
-                                    href="../../index.html" rel="home"
+                                    href="../index.html" rel="home"
                                     title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
                                     class="active"><noscript><img
-                                            src="{{asset('frontend/wp-content/themes/backhoe/images/logo.png')}}"
+                                            src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}"
                                             alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
                                         class="lazyload"
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
@@ -2028,315 +1994,764 @@ class="product-template-default single single-product postid-17 theme-backhoe wo
                                         alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
                             </span></div>
                     </div>
-
-    <style>
-        .thank-you-page {
-            text-align: center;
-            padding: 50px;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-        .thank-you-page h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        .thank-you-page p {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .thank-you-page .contact-info {
-            font-weight: bold;
-            font-size: 20px;
-            color: #007bff;
-        }
-        .thank-you-page img {
-            margin-top: 20px;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-
-
-
-
-
-    <div class="thank-you-page">
-        <h1>Thank you for your booking!</h1>
-        <p>We have received your request and are now processing it.</p>
-        <p>Our team will contact you shortly to confirm the details.</p>
-        <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
-        <p>We appreciate your trust in us and look forward to serving you.</p>
-
-        <!-- Add your company logo or another relevant image here -->
+                    <nav class="site-navigation top-bar">
+                        <div class="top-bar-left">
+                            <div class="site-desktop-title top-bar-title">
+                                <div class="logo-wrapper " data-dropdown-menu> <a href="../index.html" rel="home"
+                                        title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
+                                        class="active"><noscript><img
+                                                src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}"
+                                                alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
+                                            class="lazyload"
+                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                            data-src="http://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/themes/backhoe/images/logo.png"
+                                            alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
+                                </div>
+                                <div class="header_phone">
+                                    <p>Need I help? Talk to an Expert</p> <strong>+1 910 730 09</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-bar-right">
+                            <ul id="menu-primary-menu" class="desktop-menu menu">
+                                <li
+                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home    color-2 menu-item-home">
+                                    <a href="../index.html">Home</a>
+                                </li>
+                                <li
+                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item active  is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
+                                    <a href="index.html">Shop</a>
+                                    <ul class="submenu is-dropdown-submenu ">
+                                        <li
+                                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
+                                            <a href="#">Product types</a>
+                                            <ul class="submenu is-dropdown-submenu ">
+                                                <li
+                                                    class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
+                                                    <a href="../product/cat-c32-acert/index.html">Rent Per Day
+                                                        Product</a><svg width="100px" height="100px"
+                                                        viewBox="0 0 100 100" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                                <li
+                                                    class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
+                                                    <a href="../product/cw16-9-wheel/index.html">Product For
+                                                        Sale</a><svg width="100px" height="100px"
+                                                        viewBox="0 0 100 100" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                                <li
+                                                    class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
+                                                    <a href="../product/c9-acert/index.html">Call For Price
+                                                        Product</a><svg width="100px" height="100px"
+                                                        viewBox="0 0 100 100" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                                <li
+                                                    class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
+                                                    <a
+                                                        href="../product/33ft-40ft-rough-terrain-scissor-lift/index.html">Product
+                                                        Auction</a><svg width="100px" height="100px"
+                                                        viewBox="0 0 100 100" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                            </ul> <svg width="100px" height="100px" viewBox="0 0 100 100"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
+                                            <a href="../equipment-categories/index.html">Browse By</a>
+                                            <ul class="submenu is-dropdown-submenu ">
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 ">
+                                                    <a href="../locations/index.html">Locations</a><svg width="100px"
+                                                        height="100px" viewBox="0 0 100 100" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 ">
+                                                    <a href="../equipment-categories/index.html">Categories</a><svg
+                                                        width="100px" height="100px" viewBox="0 0 100 100"
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                                    </svg>
+                                                </li>
+                                            </ul> <svg width="100px" height="100px" viewBox="0 0 100 100"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-4 "><a
+                                        href="../pricing/index.html">Pricing</a></li>
+                                <li
+                                    class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-5 menu-item-has-children">
+                                    <a href="#">Pages</a>
+                                    <ul class="submenu is-dropdown-submenu ">
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../about/index.html">About us</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../our-team/index.html">Our Team</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../services-1/index.html">Services 1</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../services-2/index.html">Services 2</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../faq/index.html">FAQ</a><svg width="100px" height="100px"
+                                                viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../contact/index.html">Contact Us</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 ">
+                                            <a href="../contact-us-2/index.html">Contact Us 2</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li
+                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-6 ">
+                                    <a href="../blog/index.html">News</a>
+                                    <ul class="submenu is-dropdown-submenu ">
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 ">
+                                            <a href="../blog/index.html">Blog List</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 ">
+                                            <a href="../blog-grid/index.html">Blog Grid</a><svg width="100px"
+                                                height="100px" viewBox="0 0 100 100" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-post    color-6 ">
+                                            <a
+                                                href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">Single
+                                                Post</a><svg width="100px" height="100px" viewBox="0 0 100 100"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
+ 49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li
+                                    class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click mega-menu color-7 menu-item-has-children">
+                                    <a href="#">Elements</a>
+                                    <ul class="submenu is-dropdown-submenu ">
+                                        <li class=" mega-menu-column">
+                                            <ul>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../columns/index.html">Columns</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../clients/index.html">Clients</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../progress-bar/index.html">Progress Bar</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../testimonials/index.html">Testimonials</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                            </ul>
+                                        </li>
+                                        <li class=" mega-menu-column">
+                                            <ul>
+                                                <li><a href="../count-up/index.html">Count up</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../text-with-icon/index.html">Text with Icon</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../forms-input/index.html">Forms &#038; Input</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../headings/index.html">Headings</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                            </ul>
+                                        </li>
+                                        <li class=" mega-menu-column">
+                                            <ul>
+                                                <li><a href="../buttons/index.html">Buttons</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../tabs/index.html">Tabs</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../accordions/index.html">Accordions</a>
+                                                <li
+                                                    class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
+                                                    <a href="../pricing/index.html">Pricing Table</a>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                            </ul>
+                            <div class="show-cart-btn"> <svg viewBox="0 -31 512 512"
+                                    xmlns="http://www.w3.org/2000/svg" style="width: 25px;">
+                                    <path
+                                        d="M164.96 300.004h.024c.02 0 .04-.004.059-.004H437a15.003 15.003 0 0 0 14.422-10.879l60-210a15.003 15.003 0 0 0-2.445-13.152A15.006 15.006 0 0 0 497 60H130.367l-10.722-48.254A15.003 15.003 0 0 0 105 0H15C6.715 0 0 6.715 0 15s6.715 15 15 15h77.969c1.898 8.55 51.312 230.918 54.156 243.71C131.184 280.64 120 296.536 120 315c0 24.812 20.188 45 45 45h272c8.285 0 15-6.715 15-15s-6.715-15-15-15H165c-8.27 0-15-6.73-15-15 0-8.258 6.707-14.977 14.96-14.996zM477.114 90l-51.43 180H177.032l-40-180zm0 0M150 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0M362 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0">
+                                    </path>
+                                </svg> <span class="min-cart-count"> 0 </span>
+                                <div class="hidden-cart hide">
+                                    <div class="widget woocommerce widget_shopping_cart">
+                                        <h2 class="widgettitle">Cart</h2>
+                                        <div class="widget_shopping_cart_content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-cta show-for-large-up large-screen"> <a
+                                    href="../contact-us-2/index.html" class="wd-btn btn-solid btn-medium  icon-after">
+                                    Request a call </a></div>
+                            <nav class="mobile-menu vertical menu" id="mobile-menu">
+                                <ul id="menu-primary-menu-1" class="vertical menu" data-accordion-menu
+                                    data-submenu-toggle="true">
+                                    <li id="menu-item-5424"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-5424">
+                                        <a href="../index.html">Home</a>
+                                    </li>
+                                    <li id="menu-item-62"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item menu-item-62">
+                                        <a href="index.html" aria-current="page">Shop</a>
+                                        <ul class="vertical nested menu">
+                                            <li id="menu-item-5352"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5352">
+                                                <a href="#">Product types</a>
+                                                <ul class="vertical nested menu">
+                                                    <li id="menu-item-5350"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5350">
+                                                        <a href="../product/cat-c32-acert/index.html">Rent Per Day
+                                                            Product</a>
+                                                    </li>
+                                                    <li id="menu-item-5353"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5353">
+                                                        <a href="../product/cw16-9-wheel/index.html">Product For
+                                                            Sale</a>
+                                                    </li>
+                                                    <li id="menu-item-5351"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5351">
+                                                        <a href="../product/c9-acert/index.html">Call For Price
+                                                            Product</a>
+                                                    </li>
+                                                    <li id="menu-item-5496"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5496">
+                                                        <a
+                                                            href="../product/33ft-40ft-rough-terrain-scissor-lift/index.html">Product
+                                                            Auction</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-3745"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
+                                                <a href="../equipment-categories/index.html">Browse By</a>
+                                                <ul class="vertical nested menu">
+                                                    <li id="menu-item-3707"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3707">
+                                                        <a href="../locations/index.html">Locations</a>
+                                                    </li>
+                                                    <li id="menu-item-3734"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3734">
+                                                        <a href="../equipment-categories/index.html">Categories</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-4078"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078">
+                                        <a href="../pricing/index.html">Pricing</a>
+                                    </li>
+                                    <li id="menu-item-3295"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3295">
+                                        <a href="#">Pages</a>
+                                        <ul class="vertical nested menu">
+                                            <li id="menu-item-3300"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3300">
+                                                <a href="../about/index.html">About us</a>
+                                            </li>
+                                            <li id="menu-item-3296"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296">
+                                                <a href="../our-team/index.html">Our Team</a>
+                                            </li>
+                                            <li id="menu-item-3298"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3298">
+                                                <a href="../services-1/index.html">Services 1</a>
+                                            </li>
+                                            <li id="menu-item-3297"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297">
+                                                <a href="../services-2/index.html">Services 2</a>
+                                            </li>
+                                            <li id="menu-item-3299"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299">
+                                                <a href="../faq/index.html">FAQ</a>
+                                            </li>
+                                            <li id="menu-item-345"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345">
+                                                <a href="../contact/index.html">Contact Us</a>
+                                            </li>
+                                            <li id="menu-item-3769"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                                <a href="../contact-us-2/index.html">Contact Us 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-64"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64">
+                                        <a href="../blog/index.html">News</a>
+                                        <ul class="vertical nested menu">
+                                            <li id="menu-item-3875"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875">
+                                                <a href="../blog/index.html">Blog List</a>
+                                            </li>
+                                            <li id="menu-item-3874"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874">
+                                                <a href="../blog-grid/index.html">Blog Grid</a>
+                                            </li>
+                                            <li id="menu-item-3936"
+                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3936">
                                                 <a
-                                                    href="{{asset($thanku->image)}}">
-                                                    <img width="200"
-                                                        height="200" src="{{ asset($thanku->image) }}"
-                                                        class="wp-post-image" alt="" title="img6" data-caption=""
-                                                    />
-                                                </a>
-        <!-- Additional details about your company -->
-        <p>Best regards,<br>[AgriConnect PVT LTD]</p>
-        <p>Your company address: [COMSATS University]</p>
-        <p>Email us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>Follow us on social media:</p>
-        <p>
-            <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
-            <a href="https://twitter.com/yourpage" target="_blank">Twitter</a> |
-            <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
-        </p>
-    </div>
-
-
-
-<section class="first-footer">
-    <h3 class="hide">Footer</h3>
-    <div class="row">
-        <section class="block">
-            <div class="large-3 medium-6 columns">
-                <div id="text-3" class=" widget_text ">
-                    <h4 class="block-title">About Company</h4>
-                    <div class="textwidget">
-                        <p><noscript><img decoding="async"
-                                    src="{{asset('frontend/wp-content/uploads/2019/09/Logo-v2.png')}}"
-                                    alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                    style="padding-bottom: 15px;" /></noscript><img class="lazyload"
-                                decoding="async"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/Logo-v2.png"
-                                alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                style="padding-bottom: 15px;" /></p>
-                        <p>Backhoe is diversified construction company, made up of team of people who are proven
-                            in their industries. All working to desing build, transport, operate, and maintain
-                            project all over the USA</p>
-                    </div>
+                                                    href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">Single
+                                                    Post</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-3809"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3809">
+                                        <a href="#">Elements</a>
+                                        <ul class="vertical nested menu">
+                                            <li id="menu-item-3798"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3798">
+                                                <a href="../columns/index.html">Columns</a>
+                                            </li>
+                                            <li id="menu-item-3799"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3799">
+                                                <a href="../clients/index.html">Clients</a>
+                                            </li>
+                                            <li id="menu-item-3800"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3800">
+                                                <a href="../progress-bar/index.html">Progress Bar</a>
+                                            </li>
+                                            <li id="menu-item-3801"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3801">
+                                                <a href="../testimonials/index.html">Testimonials</a>
+                                            </li>
+                                            <li id="menu-item-3802"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3802">
+                                                <a href="../count-up/index.html">Count up</a>
+                                            </li>
+                                            <li id="menu-item-3803"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3803">
+                                                <a href="../text-with-icon/index.html">Text with Icon</a>
+                                            </li>
+                                            <li id="menu-item-3804"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3804">
+                                                <a href="../forms-input/index.html">Forms &#038; Input</a>
+                                            </li>
+                                            <li id="menu-item-3805"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3805">
+                                                <a href="../headings/index.html">Headings</a>
+                                            </li>
+                                            <li id="menu-item-3806"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3806">
+                                                <a href="../buttons/index.html">Buttons</a>
+                                            </li>
+                                            <li id="menu-item-3807"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3807">
+                                                <a href="../tabs/index.html">Tabs</a>
+                                            </li>
+                                            <li id="menu-item-3808"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3808">
+                                                <a href="../accordions/index.html">Accordions</a>
+                                            </li>
+                                            <li id="menu-item-4077"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4077">
+                                                <a href="../pricing/index.html">Pricing Table</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="header-cta show-for-large-up large-screen"> <a
+                                        href="../contact-us-2/index.html"
+                                        class="wd-btn btn-solid btn-medium  icon-after"> Request a call </a></div>
+                            </nav>
+                        </div>
+                    </nav>
                 </div>
             </div>
-            <div class="large-3 medium-6 columns">
-                <div id="nav_menu-2" class=" widget_nav_menu ">
-                    <h4 class="block-title">Information</h4>
-                    <div class="menu-footer-menu-container">
-                        <ul id="menu-footer-menu" class="menu">
-                            <li id="menu-item-4828"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4828">
-                                <a href="../../index.html">Main Home</a></li>
-                            <li id="menu-item-4820"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4820">
-                                <a href="../../about/index.html">About us</a></li>
-                            <li id="menu-item-4821"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821">
-                                <a href="../../blog/index.html">Blog</a></li>
-                            <li id="menu-item-4824"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4824">
-                                <a href="../../contact/index.html">Contact Us</a></li>
-                            <li id="menu-item-4825"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4825">
-                                <a href="../../pricing/index.html">Pricing</a></li>
-                            <li id="menu-item-4826"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4826">
-                                <a href="../../services/index.html">Services</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="large-3 medium-6 columns">
-                <div id="text-5" class=" widget_text ">
-                    <h4 class="block-title">contact info</h4>
-                    <div class="textwidget">
-                        <ul class="contact-details">
-                            <li> <span class="icofont-location-pin"></span></p>
-                                <p>Address: 679 Grand avenu, Central Parl, NYC, NY
-                            </li>
-                            <li><span class="icofont-ui-cell-phone"></span>
-                                <p>Custom Support &amp; Sale: +1-5050-607080
-                            </li>
-                            <li><span class="icofont-wall-clock"></span>
-                                <p>Working Time: Mon-Sat: 9 AM – 5 PM
-                            </li>
-                            <li>Email: <a href="#"><span class="icofont-email"></span>
-                                    <p>Contact@devia.web
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="large-3 medium-6 columns">
-                <div id="recent-posts-3" class=" widget_recent_entries ">
-                    <h4 class="block-title">Recent Post</h4>
-                    <ul>
-                        <li> <a href="../../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                Practices of HR management</a> <span class="post-date">28/08/2019</span></li>
-                        <li> <a href="../../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips
-                                to Find Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
-                        <li> <a href="../../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
-                                to Setup a Construction Site</a> <span class="post-date">28/12/2017</span>
-                        </li>
-                    </ul>
-                </div>
+        </header>
+        <section >
+            <div class="thank-you-page">
+                <h1>Thank you for your booking!</h1>
+                <p>We have received your request and are now processing it.</p>
+                <p>Our team will contact you shortly to confirm the details.</p>
+                <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
+                <p>We appreciate your trust in us and look forward to serving you.</p>
+        
+                <!-- Add your company logo or another relevant image here -->
+                                                        <a
+                                                            href="{{asset($thanku->image)}}">
+                                                            <img width="200"
+                                                                height="200" src="{{ asset($thanku->image) }}"
+                                                                class="wp-post-image" alt="" title="img6" data-caption=""
+                                                            />
+                                                        </a>
+                <!-- Additional details about your company -->
+                <p>Best regards,<br>[AgriConnect PVT LTD]</p>
+                <p>Your company address: [COMSATS University]</p>
+                <p>Email us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>Follow us on social media:</p>
+                <p>
+                    <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com/yourpage" target="_blank">Twitter</a> |
+                    <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
+                </p>
             </div>
         </section>
-    </div>
-</section>
-<footer class="second-footer">
-    <div class="row">
-        <div class="copyright medium-12 large-12 columns">
-            <div class="block text-center"> © 2024 Backhoe All rights reserved.</div>
-        </div>
-    </div>
-</footer>
-</div>
-<style>
-    .lazyload {
-        display: none
-    }
-</style>
-</noscript>
-<script data-noptimize="1">
-window.lazySizesConfig = window.lazySizesConfig || {};
-window.lazySizesConfig.loadMode = 1;
-</script>
-<script async data-noptimize="1" src="{{asset('frontend/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js')}}">
-</script>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-    <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-    </div>
-    <div class="pswp__ui pswp__ui--hidden">
-        <div class="pswp__top-bar">
-            <div class="pswp__counter"></div> <button class="pswp__button pswp__button--close"
-                aria-label="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
-                aria-label="Share"></button> <button class="pswp__button pswp__button--fs"
-                aria-label="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
-                aria-label="Zoom in/out"></button>
-            <div class="pswp__preloader">
-                <div class="pswp__preloader__icn">
-                    <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
+
+
+        {{--thanku--}}
+        {{-- <div class="thank-you-page">
+            <h1>Thank you for your booking!</h1>
+            <p>We have received your request and are now processing it.</p>
+            <p>Our team will contact you shortly to confirm the details.</p>
+            <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
+            <p>We appreciate your trust in us and look forward to serving you.</p>
+    
+            <!-- Add your company logo or another relevant image here -->
+                                                    <a
+                                                        href="{{asset($thanku->image)}}">
+                                                        <img width="200"
+                                                            height="200" src="{{ asset($thanku->image) }}"
+                                                            class="wp-post-image" alt="" title="img6" data-caption=""
+                                                        />
+                                                    </a>
+            <!-- Additional details about your company -->
+            <p>Best regards,<br>[AgriConnect PVT LTD]</p>
+            <p>Your company address: [COMSATS University]</p>
+            <p>Email us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
+                <a href="https://twitter.com/yourpage" target="_blank">Twitter</a> |
+                <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
+            </p>
+        </div> --}}
+    
+       
+        <section class="first-footer">
+            <h3 class="hide">Footer</h3>
+            <div class="row">
+                <section class="block">
+                    <div class="large-3 medium-6 columns">
+                        <div id="text-3" class=" widget_text ">
+                            <h4 class="block-title">About Company</h4>
+                            <div class="textwidget">
+                                <p><noscript><img decoding="async"
+                                            src="{{ asset('frontend/wp-content/uploads/2019/09/Logo-v2.png') }}"
+                                            alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
+                                            style="padding-bottom: 15px;" /></noscript><img class="lazyload"
+                                        decoding="async"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                        data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/Logo-v2.png"
+                                        alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
+                                        style="padding-bottom: 15px;" /></p>
+                                <p>Backhoe is diversified construction company, made up of team of people who are proven
+                                    in their industries. All working to desing build, transport, operate, and maintain
+                                    project all over the USA</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="large-3 medium-6 columns">
+                        <div id="nav_menu-2" class=" widget_nav_menu ">
+                            <h4 class="block-title">Information</h4>
+                            <div class="menu-footer-menu-container">
+                                <ul id="menu-footer-menu" class="menu">
+                                    <li id="menu-item-4828"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4828">
+                                        <a href="../index.html">Main Home</a>
+                                    </li>
+                                    <li id="menu-item-4820"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4820">
+                                        <a href="../about/index.html">About us</a>
+                                    </li>
+                                    <li id="menu-item-4821"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821">
+                                        <a href="../blog/index.html">Blog</a>
+                                    </li>
+                                    <li id="menu-item-4824"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4824">
+                                        <a href="../contact/index.html">Contact Us</a>
+                                    </li>
+                                    <li id="menu-item-4825"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4825">
+                                        <a href="../pricing/index.html">Pricing</a>
+                                    </li>
+                                    <li id="menu-item-4826"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4826">
+                                        <a href="../services/index.html">Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-3 medium-6 columns">
+                        <div id="text-5" class=" widget_text ">
+                            <h4 class="block-title">contact info</h4>
+                            <div class="textwidget">
+                                <ul class="contact-details">
+                                    <li> <span class="icofont-location-pin"></span></p>
+                                        <p>Address: 679 Grand avenu, Central Parl, NYC, NY
+                                    </li>
+                                    <li><span class="icofont-ui-cell-phone"></span>
+                                        <p>Custom Support &amp; Sale: +1-5050-607080
+                                    </li>
+                                    <li><span class="icofont-wall-clock"></span>
+                                        <p>Working Time: Mon-Sat: 9 AM – 5 PM
+                                    </li>
+                                    <li>Email: <a href="#"><span class="icofont-email"></span>
+                                            <p>Contact@devia.web
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-3 medium-6 columns">
+                        <div id="recent-posts-3" class=" widget_recent_entries ">
+                            <h4 class="block-title">Recent Post</h4>
+                            <ul>
+                                <li> <a href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
+                                        Practices of HR management</a> <span class="post-date">28/08/2019</span></li>
+                                <li> <a href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips to
+                                        Find Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
+                                <li> <a href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
+                                        to
+                                        Setup a Construction Site</a> <span class="post-date">28/12/2017</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer class="second-footer">
+            <div class="row">
+                <div class="copyright medium-12 large-12 columns">
+                    <div class="block text-center"> © 2024 Backhoe All rights reserved.</div>
                 </div>
             </div>
-        </div>
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-            <div class="pswp__share-tooltip"></div>
-        </div> <button class="pswp__button pswp__button--arrow--left"
-            aria-label="Previous (arrow left)"></button> <button
-            class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
-        <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
-        </div>
-    </div>
-</div>
-</div>
-<script type='text/javascript'>
-(function() {
-    var c = document.body.className;
-    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-    document.body.className = c;
-})();
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-<link rel='stylesheet' id='wc-blocks-style-css'
-href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d7a8127861fe37f332ec855349a23c3d.css')}}"
-type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'
-href="{{asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css')}}"
-type='text/css' media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'></style>
-<script type="text/javascript" id="wd_demo_panel_script-js-extra">
-var demo_panel_vars = {
-    "demo_panel_theme_list": "<div class=\"demos-panel\"> \n\n\t\t<div class=\"demos-panel_overlay\"><\/div>\n\t\t\n\t\t<div class=\"demos-panel_panel\"> \n\t\t\t<div class=\"demos-panel_buttons\"> \n\t\t\t\t<a class=\"demos-panel_button view-themes\" aria-label=\"View Themes\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-book-image\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"\/><circle cx=\"10\" cy=\"8\" r=\"2\"\/><path d=\"m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">View Themes<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\/\" target=\"_blank\" class=\"demos-panel_button\" aria-label=\"Features\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-presentation\"><path d=\"M2 3h20\"\/><path d=\"M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3\"\/><path d=\"m7 21 5-5 5 5\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Features<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/1.envato.market\/qbL6q\" class=\"demos-panel_button\" aria-label=\"Get this Theme\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-shopping-bag\"><path d=\"M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z\"\/><path d=\"M3 6h18\"\/><path d=\"M16 10a4 4 0 0 1-8 0\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Get this Theme<\/span>\n\t\t\t\t<\/a>\n\t\t\t<\/div>\n\t\t\t<div class=\"demos-panel_list-wrapper\">\n\t\t\t\t<ul class=\"demos-panel_list\">\n\t\t\t\t\t\t        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/342824005\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Backhoe\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h5 class=\"demos-panel-theme-title\">Backhoe<\/h5>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/flooring\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/219969421\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Flooring\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Flooring<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/partytent-event-eental-wordPress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/402640017\/preview.__large_preview.png\" width=\"285\" height=\"145\" alt=\"Partytent\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Partytent<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/windows-doors\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/338400814\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Windows & Doors\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Windows & Doors<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/cocina-kitchen-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/462905736\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Cocina\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Cocina<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/voip-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/218971784\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"VOIP\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">VOIP<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/factory\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/371888003\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Manufacturing\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Manufacturing<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/solar-wp\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/222426141\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Green Energy\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Green Energy<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/petroleum-gas\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/267792954\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Petroleum\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Petroleum<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/tires-wheels\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/234290159\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Wheels & Tires\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Wheels & Tires<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/bodyguard\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/472062715\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bodyguard\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bodyguard<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bidpro.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/383205067\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"GRBid\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">GRBid<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$49<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bathrooms.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/246953847\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bathrooms\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bathrooms<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/marbleo.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/481715641\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Marbl\u00e9o\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Marbl\u00e9o<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/compactor-asphal-paving-road-construction-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/291077348\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Compactor\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Compactor<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\n\t\t\t\t<\/ul> \n\t\t\t\t<a href=\"#\" class=\"view-all-themes\">View More Themes<\/a>     \n\t\t\t<\/div>\n\t\t<\/div>  \n  <\/div>",
-    "show_panel": "yes"
-};
-</script>
-<script type="text/javascript" src="{{asset('frontend/openlayers.org/api/2.13.1/OpenLayers.js')}}" id="open-layers-js"></script>
-<script type="text/javascript" id="backhoe_booking_default_js-js-extra">
-var urltheme = {
-    "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
-};
-</script>
-<script type="text/javascript" id="contact-form-7-js-extra">
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-</script>
-<script type="text/javascript" id="wd_buy_script-js-extra">
-var buy_custom_html = {
-    "panel_buy_custom_html": "",
-    "show_panel": ""
-};
-</script>
-<script type="text/javascript" id="wc-order-attribution-js-extra">
-var wc_order_attribution = {
-    "params": {
-        "lifetime": 1.0e-5,
-        "session": 30,
-        "base64": false,
-        "ajaxurl": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-        "prefix": "wc_order_attribution_",
-        "allowTracking": true
-    },
-    "fields": {
-        "source_type": "current.typ",
-        "referrer": "current_add.rf",
-        "utm_campaign": "current.cmp",
-        "utm_source": "current.src",
-        "utm_medium": "current.mdm",
-        "utm_content": "current.cnt",
-        "utm_id": "current.id",
-        "utm_term": "current.trm",
-        "utm_source_platform": "current.plt",
-        "utm_creative_format": "current.fmt",
-        "utm_marketing_tactic": "current.tct",
-        "session_entry": "current_add.ep",
-        "session_start_time": "current_add.fd",
-        "session_pages": "session.pgs",
-        "session_count": "udata.vst",
-        "user_agent": "udata.uag"
-    }
-};
-</script>
-<script type="text/javascript" id="crisp-js-before">
-window.$crisp = [];
-if (!window.CRISP_RUNTIME_CONFIG) {
-    window.CRISP_RUNTIME_CONFIG = {}
-}
-if (!window.CRISP_RUNTIME_CONFIG.locale) {
-    window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
-}
-CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
-$crisp.push(['set', 'session:data', [
-    [
-        ['country', 'GB'],
-        ['shipping_country', 'GB']
-    ]
-]]);
-</script>
-<script type="text/javascript" async src="{{asset('frontend/client.crisp.chat/l.js')}}" id="crisp-js"></script>
-<script type="text/javascript" id="wd-script-js-extra">
-var urltheme = {
-    "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
-};
-</script>
-<script type="text/javascript" id="wc-cart-fragments-js-extra">
-var wc_cart_fragments_params = {
-    "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-    "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-    "cart_hash_key": "wc_cart_hash_728ebccaeb4c0493f1a53f591ab2d1ae",
-    "fragment_name": "wc_fragments_728ebccaeb4c0493f1a53f591ab2d1ae",
-    "request_timeout": "5000"
-};
-</script>
-<script defer src="{{asset('frontend/wp-content/cache/autoptimize/1/js/autoptimize_2453242b2d1e0cf9c8a556a75995bfc1.js')}}"></script>
+        </footer>
+    </div> <noscript>
+        <style>
+            .lazyload {
+                display: none
+            }
+        </style>
+    </noscript>
+    <script data-noptimize="1">
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.loadMode = 1;
+    </script>
+    <script async data-noptimize="1"
+        src="{{ asset('frontend/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js') }}"></script>
+    <script type='text/javascript'>
+        (function() {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <link rel='stylesheet' id='wc-blocks-style-css'
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d7a8127861fe37f332ec855349a23c3d.css') }}"
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'
+        href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}"
+        type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'></style>
+    <script type="text/javascript" id="wd_demo_panel_script-js-extra">
+        var demo_panel_vars = {
+            "demo_panel_theme_list": "<div class=\"demos-panel\"> \n\n\t\t<div class=\"demos-panel_overlay\"><\/div>\n\t\t\n\t\t<div class=\"demos-panel_panel\"> \n\t\t\t<div class=\"demos-panel_buttons\"> \n\t\t\t\t<a class=\"demos-panel_button view-themes\" aria-label=\"View Themes\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-book-image\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"\/><circle cx=\"10\" cy=\"8\" r=\"2\"\/><path d=\"m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">View Themes<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\/\" target=\"_blank\" class=\"demos-panel_button\" aria-label=\"Features\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-presentation\"><path d=\"M2 3h20\"\/><path d=\"M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3\"\/><path d=\"m7 21 5-5 5 5\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Features<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/1.envato.market\/qbL6q\" class=\"demos-panel_button\" aria-label=\"Get this Theme\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-shopping-bag\"><path d=\"M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z\"\/><path d=\"M3 6h18\"\/><path d=\"M16 10a4 4 0 0 1-8 0\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Get this Theme<\/span>\n\t\t\t\t<\/a>\n\t\t\t<\/div>\n\t\t\t<div class=\"demos-panel_list-wrapper\">\n\t\t\t\t<ul class=\"demos-panel_list\">\n\t\t\t\t\t\t        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/342824005\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Backhoe\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h5 class=\"demos-panel-theme-title\">Backhoe<\/h5>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/flooring\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/219969421\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Flooring\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Flooring<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/partytent-event-eental-wordPress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/402640017\/preview.__large_preview.png\" width=\"285\" height=\"145\" alt=\"Partytent\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Partytent<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/windows-doors\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/338400814\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Windows & Doors\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Windows & Doors<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/cocina-kitchen-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/462905736\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Cocina\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Cocina<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/voip-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/218971784\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"VOIP\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">VOIP<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/factory\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/371888003\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Manufacturing\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Manufacturing<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/solar-wp\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/222426141\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Green Energy\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Green Energy<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/petroleum-gas\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/267792954\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Petroleum\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Petroleum<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/tires-wheels\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/234290159\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Wheels & Tires\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Wheels & Tires<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/bodyguard\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/472062715\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bodyguard\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bodyguard<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bidpro.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/383205067\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"GRBid\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">GRBid<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$49<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bathrooms.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/246953847\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bathrooms\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bathrooms<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/marbleo.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/481715641\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Marbl\u00e9o\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Marbl\u00e9o<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/compactor-asphal-paving-road-construction-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/291077348\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Compactor\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Compactor<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\n\t\t\t\t<\/ul> \n\t\t\t\t<a href=\"#\" class=\"view-all-themes\">View More Themes<\/a>     \n\t\t\t<\/div>\n\t\t<\/div>  \n  <\/div>",
+            "show_panel": "yes"
+        };
+    </script>
+    <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
+        var urltheme = {
+            "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
+        };
+    </script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+    </script>
+    <script type="text/javascript" id="wd_buy_script-js-extra">
+        var buy_custom_html = {
+            "panel_buy_custom_html": "",
+            "show_panel": ""
+        };
+    </script>
+    <script type="text/javascript" id="wc-order-attribution-js-extra">
+        var wc_order_attribution = {
+            "params": {
+                "lifetime": 1.0e-5,
+                "session": 30,
+                "base64": false,
+                "ajaxurl": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+                "prefix": "wc_order_attribution_",
+                "allowTracking": true
+            },
+            "fields": {
+                "source_type": "current.typ",
+                "referrer": "current_add.rf",
+                "utm_campaign": "current.cmp",
+                "utm_source": "current.src",
+                "utm_medium": "current.mdm",
+                "utm_content": "current.cnt",
+                "utm_id": "current.id",
+                "utm_term": "current.trm",
+                "utm_source_platform": "current.plt",
+                "utm_creative_format": "current.fmt",
+                "utm_marketing_tactic": "current.tct",
+                "session_entry": "current_add.ep",
+                "session_start_time": "current_add.fd",
+                "session_pages": "session.pgs",
+                "session_count": "udata.vst",
+                "user_agent": "udata.uag"
+            }
+        };
+    </script>
+    <script type="text/javascript" id="crisp-js-before">
+        window.$crisp = [];
+        if (!window.CRISP_RUNTIME_CONFIG) {
+            window.CRISP_RUNTIME_CONFIG = {}
+        }
+        if (!window.CRISP_RUNTIME_CONFIG.locale) {
+            window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
+        }
+        CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
+    </script>
+    <script type="text/javascript" async src="{{ asset('frontend/client.crisp.chat/l.js') }}" id="crisp-js"></script>
+    <script type="text/javascript" id="wd-script-js-extra">
+        var urltheme = {
+            "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
+        };
+    </script>
+    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_728ebccaeb4c0493f1a53f591ab2d1ae",
+            "fragment_name": "wc_fragments_728ebccaeb4c0493f1a53f591ab2d1ae",
+            "request_timeout": "5000"
+        };
+    </script>
+    <script type="text/javascript" id="wc-price-slider-js-extra">
+        var woocommerce_price_slider_params = {
+            "currency_format_num_decimals": "0",
+            "currency_format_symbol": "$",
+            "currency_format_decimal_sep": ".",
+            "currency_format_thousand_sep": ",",
+            "currency_format": "%s%v"
+        };
+    </script>
+    <script defer
+        src="{{ asset('frontend/wp-content/cache/autoptimize/1/js/autoptimize_3adb44c6bd6714559295b8a8abc44644.js') }}">
+    </script>
 </body>
-<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product/steamroller/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:23:03 GMT -->
+<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:13:23 GMT -->
 
 </html>
-
