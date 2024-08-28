@@ -39,5 +39,10 @@ class OrderController extends Controller
 
    return view('admin.adminTabs.order',get_defined_vars());
   }
+  public function deleteOrder($id){
+    Order::find($id)->delete();
+    return redirect()->to('/admin/order');
+
+  }
 
 }

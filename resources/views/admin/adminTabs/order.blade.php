@@ -35,7 +35,7 @@
                     <td>{{ $misbah->username }}</td>
                     <td>{{ $misbah->contact }}</td>
                     <td>
-                        <a href="{{ url('/admin/delete-order/' ) }}" title="Delete" class="badge badge-danger">Delete</a>
+                        <a href="{{ url('/admin/delete-order/'. $misbah->id ) }}" title="Delete" class="badge badge-danger">Delete</a>
                     </td>
                 </tr>
                 @endforeach

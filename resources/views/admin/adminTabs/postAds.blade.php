@@ -52,7 +52,7 @@
                         <td>{{ $maliha->created_at->diffForhumans()}}</td>
                         <td>
                           <a href="{{url('/admin/status-change/' . $maliha->id)}}" class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}">
-                              {{$maliha->status ? 'Available' : 'Book'}}
+                              {{$maliha->status ? 'Available' : 'Booked'}}
 
 
                           </a>
