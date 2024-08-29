@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('categories');
             $table->string('contact');
             $table->string('price');
+            $table->string('booked_until');
             $table->integer('status')->default('1');
             $table->softDeletes();
             $table->timestamps();

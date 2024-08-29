@@ -5,7 +5,7 @@
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">All posted Ads list 
+        <h4 class="card-title">All posted Ads list
         <a href="{{ url('/admin/create-post/' ) }}" title="Create Ad" class=" ml-3 badge badge-primary">Create Ad</a>
 
         </h4>
@@ -27,13 +27,14 @@
                 <th>Price</th>
                 <th>Posted By</th>
                 <th>Created At</th>
+                <th>Available In</th>
                 <th>Status</th>
                 <th>Action</th>
               </tr>
             </thead>
             <tbody>
                 @php
-                    $srNo = 1;    
+                    $srNo = 1;
                 @endphp
 
                 @foreach ($post as $maliha)
@@ -50,13 +51,14 @@
                         <td>{{ $maliha->price }}</td>
                         <td>{{ $maliha->user->name }}</td>
                         <td>{{ $maliha->created_at->diffForhumans()}}</td>
+                        <td>{{$maliha->booked_until ? $maliha->booked_until : 'N/A'}}</td>
                         <td>
                           <!-- Blade Template -->
 <!-- Status Change Button -->
-                                {{-- <button href="#" 
+                                {{-- <button href="#"
                                 data-toggle="modal" data-target="#exampleModal"
-                                class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}" 
-                                data-toggle="modal" 
+                                class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}"
+                                data-toggle="modal"
                                 data-target="#statusChangeModal"
                                 data-id="{{$maliha->id}}"
                                 data-status="{{$maliha->status}}"
@@ -65,17 +67,11 @@
                                 {{$maliha->status ? 'Available' : 'Booked'}}
                         </button> --}}
 
-                        <button  data-toggle="modal" data-target="#exampleModal" href="{{url('/admin/status-change/' . $maliha->id)}}" class="btn btn-sm btn-{{$maliha->status ? 'success' : 'danger'}}">
-                          {{$maliha->status ? 'Available' : 'Booked'}}
-                         
-
-
-                        </button>
-
-                               
-      
-
-                               
+                        @if($maliha->status == 1)
+                            <button data-toggle="modal" data-target="#exampleModal" data-id="{{ $maliha->id }}" class="btn btn-sm btn-success btn-action">Available</button>
+                        @else
+                            <a href="{{ url('/admin/status-change?id='.$maliha->id) }}" class="btn btn-sm btn-danger">Booked</a>
+                        @endif
 
                       </td>
 
@@ -106,22 +102,38 @@
       </button>
       </div>
       <div class="modal-body">
-          <form action="{{ url('/status-change') }}" method="POST">
+          <form action="{{ url('/admin/status-change') }}" method="POST">
               @csrf
-              <input type="id" name="id" value="{{$maliha->id}}" >
+              <input type="hidden" name="id" id="record_id" >
               <div class="form-group">
                 <label for="contact">Time:</label>
                 <input type="datetime-local"  name="time" class="form-control" >
               </div>
-              
+
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning">Booked Vehicle</button>
+              <button type="submit" class="btn btn-warning">Booked Vehicle</button>
             </div>
           </form>
   </div>
   </div>
 </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const buttons = document.querySelectorAll('.btn-action');
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                // alert('Maliha Clicked the Button');
+                // get the id from html input
+                const recordId = this.getAttribute('data-id');
+                // Set the values in the form
+                document.getElementById('record_id').value = recordId;
+            });
+        });
+    });
+</script>
 
 
 

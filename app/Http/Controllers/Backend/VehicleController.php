@@ -7,6 +7,7 @@ use App\Models\PostAds;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Auth\Events\Validated;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Validator;
 
 class VehicleController extends Controller
@@ -25,18 +26,6 @@ class VehicleController extends Controller
      */
     public function create(Request $request)
     {
-
-    //    $PostAds = new PostAds();
-    //     $PostAds->vehiclename =$request->vehiclename;
-    //     $PostAds->type =$request->type;
-    //     $PostAds->price =$request->price;
-    //     $PostAds->weight =$request->weight;
-    //     $PostAds->save();
-
-        // toast('Ad Created Successfully!','success');
-        // alert()->error('ErrorAlert','Lorem ipsum dolor sit amet.');
-
-
         // return $request->all();
       $imagename= "";
     if($request->hasfile('image')){
@@ -56,7 +45,7 @@ class VehicleController extends Controller
         $PostAds->categories =$request->categories;
         $PostAds->contact =$request->contact;
         $PostAds->price =$request->price;
-        $PostAds->status =$request->status;
+        $PostAds->status =1;
         $PostAds->save();
         alert()->success('Ad Created successfully!','Your Ad is live !');
 
@@ -121,26 +110,33 @@ class VehicleController extends Controller
         }
         $post->weight = $request->input('weight');
         $post->price = $request->input('price');
-      
-        
+
+
         $post->save();
 
         return redirect()->to('/admin/post-ads');
     }
     public function statusChange(Request $request){
         $id = $request->input('id');
-        $post = PostAds::find($id);
+
+
+         $post = PostAds::find($id);
         if ($post->status){
-            // Add date
             
+            $timestamp = $request->input('time');
+            $bookingTime = Carbon::createFromFormat('Y-m-d\TH:i', $timestamp)->format('Y-m-d H:i:s');
+
+            // add booked date
+            $post->booked_until = $bookingTime;
             $post->status = 0;
         }
         else{
             //clear the previous date
+            $post->booked_until = null;
             $post->status = 1;
         }
-        $post->save();
-        
+        $post->update();
+
         return redirect()->to('/admin/post-ads');
 
      }
@@ -154,7 +150,7 @@ class VehicleController extends Controller
 //     $id = $request->input('id');
 //     $scheduleDate = $request->input('schedule_date');
 //     $scheduleTime = $request->input('schedule_time');
-    
+
 //     $post = PostAds::find($id);
 
 //     // Toggle status
@@ -178,7 +174,7 @@ class VehicleController extends Controller
 //     }
 
 //     $post->save();
-    
+
 //     return redirect()->to('/admin/post-ads');
 // }
 

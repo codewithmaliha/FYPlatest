@@ -69,7 +69,8 @@ Route::prefix('/admin')->group(function () {
         Route::get('/delete-post-ads/{id}',[AdminController::class,'deletePostAds']);
         Route::get('/order' ,[OrderController::class,'order']);
         Route::get('/delete-order/{id}',[OrderController::class,'deleteOrder']);
-        Route::get('/status-change/{id}' ,[VehicleController::class,'statusChange']);
+        Route::get('/status-change' ,[VehicleController::class,'statusChange']);
+        Route::post('/status-change' ,[VehicleController::class,'statusChange']);
 
     });
 
