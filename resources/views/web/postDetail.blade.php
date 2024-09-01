@@ -4,6 +4,7 @@
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
+<link rel="stylesheet" href="{{ asset('frontend/cs/custom_style.css') }}">
 <style>
 .review-form {
     max-width: 400px;
@@ -2030,7 +2031,7 @@
 
 
 
-                    
+
                     <nav class="site-navigation top-bar">
                         <div class="top-bar-left">
                             <div class="site-desktop-title top-bar-title">
@@ -2526,7 +2527,8 @@
                                         role="tab" aria-controls="tab-additional_information"> <a
                                             href="#tab-additional_information"> Additional information </a></li>
                                     <li class="reviews_tab" id="tab-title-reviews" role="tab"
-                                        aria-controls="tab-reviews"> <a href="#tab-reviews"> Reviews (0) </a></li>
+                                        aria-controls="tab-reviews"> <a href="#tab-reviews"> Reviews (0) </a>
+                                    </li>
                                 </ul>
                                 <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab"
                                     id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
@@ -2557,16 +2559,23 @@
 
                                             <h2 class="woocommerce-Reviews-title"> Reviews</h2>
                                             <div class="review-form">
-                                                <form>
-                                                    <div class="rating">
-                                                        <span class="star" data-value="1">★</span>
-                                                        <span class="star" data-value="2">★</span>
-                                                        <span class="star" data-value="3">★</span>
-                                                        <span class="star" data-value="4">★</span>
-                                                        <span class="star" data-value="5">★</span>
-                                                    </div>
-                                                    <textarea placeholder="Write your review..."></textarea>
-                                                    <button  type="submit">Submit Review</button>
+                                                <form action="{{ url('/submit-reviews') }}" method="POST">
+                                                    @csrf
+                                                    <input type="hidden" value="{{ $DetailAD->id }}" name="post_ads_id">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <textarea name="review" placeholder="Write your review..."></textarea>
+                                                    <button type="submit" class="btn btn-warning">Submit Review</button>
                                                 </form>
 
                                             </div>
