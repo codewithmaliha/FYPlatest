@@ -21,9 +21,7 @@ class IndexController extends Controller
         // $review = Review::get();
         return view('web.postDetail',get_defined_vars());
     }
-   public function submitReviews(Request $request){
-    return $request;
-   }
-
-
+    public function submitReviews(Request $request){
+            return $request;
+    }
 }

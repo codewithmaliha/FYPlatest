@@ -163,6 +163,16 @@
                                         </div>
                                         <div class='wd_empty_space' data-heightmobile='20' data-heighttablet='20'
                                             data-heightdesktop='60' style='height:60px'></div>
+
+                                             {{-- Step #1 For Grid Pick Nav --}}
+
+                                                <nav class="gridlist-toggle"><a href="#" id="show_grid" title="Grid view"><span
+                                                    class="dashicons dashicons-grid-view"></span> <em>Grid view</em></a><a
+                                                    href="#" id="show_list" class="active" title="List view"><span
+                                                    class="dashicons dashicons-exerpt-view"></span> <em>List view</em></a>
+                                                </nav>
+                                                {{-- Step #1 For Grid Pick Nav --}}
+
                                         <div class="woocommerce columns-4">
                                             <ul class="products columns-4 grid">
                                                 <li class="product-category product first"> <a
