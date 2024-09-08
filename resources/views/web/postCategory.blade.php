@@ -1743,13 +1743,6 @@
         type='text/css' media='all' />
     <script type="text/javascript" src="{{ asset('frontend/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
     </script>
-    <script type="text/javascript" id="wd_main_js_functions-js-extra">
-        var devia = {
-            "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-            "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-            "date_format": "d\/m\/Y"
-        };
-    </script>
     <script type="module" src="{{ asset('frontend/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
     </script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
@@ -2449,287 +2442,29 @@
             </div>
         </section>
         <div class="row content-wrapper">
-            <div class="sidebar shop-sidebar">
-                <div id="secondary" class="widget-area">
-                    <div class="first front-widgets">
-                        <div id="woocommerce_product_search-2"
-                            class="widget woocommerce widget_product_search shop-widgets">
-                            <form role="search" method="get" class="woocommerce-product-search"
-                                action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/">
-                                <label class="screen-reader-text" for="woocommerce-product-search-field-0">Search
-                                    for:</label> <input type="search" id="woocommerce-product-search-field-0"
-                                    class="search-field" placeholder="Search products&hellip;" value=""
-                                    name="s" />
-                                <button type="submit" value="Search" class="">Search</button> <input
-                                    type="hidden" name="post_type" value="product" />
-                            </form>
-                        </div>
-                        <div id="woocommerce_product_categories-3"
-                            class="widget woocommerce widget_product_categories shop-widgets">
-                            <h4 class="widget-title">Product categories</h4>
-                            <ul class="product-categories">
-                                <li class="cat-item cat-item-78 cat-parent"><a
-                                        href="../product-category/boom-lift/index.html">Boom Lift</a> <span
-                                        class="count">(8)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-79"><a
-                                                href="../product-category/boom-lift/articulating-boom-lift/index.html">Articulating
-                                                Boom Lift</a> <span class="count">(5)</span></li>
-                                        <li class="cat-item cat-item-80"><a
-                                                href="../product-category/boom-lift/telescopic-boom-lift/index.html">Telescopic
-                                                Boom Lift</a> <span class="count">(3)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-110 cat-parent"><a
-                                        href="../product-category/carry-deck-crane/index.html">Carry Deck Crane</a>
-                                    <span class="count">(11)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-112"><a
-                                                href="../product-category/carry-deck-crane/10-30-ton/index.html">10 -
-                                                30
-                                                Ton</a> <span class="count">(5)</span></li>
-                                        <li class="cat-item cat-item-111"><a
-                                                href="../product-category/carry-deck-crane/2-5-9-ton/index.html">2.5 -
-                                                9
-                                                Ton</a> <span class="count">(6)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-103 cat-parent"><a
-                                        href="../product-category/compaction-equipment/index.html">Compaction
-                                        Equipment</a> <span class="count">(9)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-104"><a
-                                                href="../product-category/compaction-equipment/double-drum-roller/index.html">Double
-                                                Drum Roller</a> <span class="count">(4)</span></li>
-                                        <li class="cat-item cat-item-105"><a
-                                                href="../product-category/compaction-equipment/single-drum-roller/index.html">Single
-                                                Drum Roller</a> <span class="count">(6)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-106 cat-parent"><a
-                                        href="../product-category/construction-site-services/index.html">Construction
-                                        Site Services</a> <span class="count">(10)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-107"><a
-                                                href="../product-category/construction-site-services/dumpster/index.html">Dumpster</a>
-                                            <span class="count">(6)</span>
-                                        </li>
-                                        <li class="cat-item cat-item-108"><a
-                                                href="../product-category/construction-site-services/storage-container/index.html">Storage
-                                                Container</a> <span class="count">(7)</span></li>
-                                        <li class="cat-item cat-item-109"><a
-                                                href="../product-category/construction-site-services/towable-light-tower/index.html">Towable
-                                                Light Tower</a> <span class="count">(5)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-96 cat-parent"><a
-                                        href="../product-category/earthmoving-equipment/index.html">Earthmoving
-                                        Equipment</a> <span class="count">(22)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-97"><a
-                                                href="../product-category/earthmoving-equipment/backhoe-loader/index.html">Backhoe
-                                                Loader</a> <span class="count">(1)</span></li>
-                                        <li class="cat-item cat-item-98"><a
-                                                href="../product-category/earthmoving-equipment/bulldozer/index.html">Bulldozer</a>
-                                            <span class="count">(6)</span>
-                                        </li>
-                                        <li class="cat-item cat-item-102"><a
-                                                href="../product-category/earthmoving-equipment/excavator/index.html">Excavator</a>
-                                            <span class="count">(7)</span>
-                                        </li>
-                                        <li class="cat-item cat-item-99"><a
-                                                href="../product-category/earthmoving-equipment/mini-excavator/index.html">Mini
-                                                Excavator</a> <span class="count">(7)</span></li>
-                                        <li class="cat-item cat-item-100"><a
-                                                href="../product-category/earthmoving-equipment/skid-steer-loader/index.html">Skid
-                                                Steer Loader</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-101"><a
-                                                href="../product-category/earthmoving-equipment/skip-loader/index.html">Skip
-                                                Loader</a> <span class="count">(0)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-84 cat-parent"><a
-                                        href="../product-category/forklift/index.html">Forklift</a> <span
-                                        class="count">(5)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-85"><a
-                                                href="../product-category/forklift/industrial-forklift/index.html">Industrial
-                                                Forklift</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-86"><a
-                                                href="../product-category/forklift/pallet-jack/index.html">Pallet
-                                                Jack</a> <span class="count">(1)</span></li>
-                                        <li class="cat-item cat-item-87"><a
-                                                href="../product-category/forklift/rough-terrain-forklift/index.html">Rough
-                                                Terrain Forklift</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-88"><a
-                                                href="../product-category/forklift/telehandler/index.html">Telehandler</a>
-                                            <span class="count">(2)</span>
-                                        </li>
-                                        <li class="cat-item cat-item-89"><a
-                                                href="../product-category/forklift/walkie-stacker/index.html">Walkie
-                                                Stacker</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-90"><a
-                                                href="../product-category/forklift/warehouse-forklift/index.html">Warehouse
-                                                Forklift</a> <span class="count">(0)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-91 cat-parent"><a
-                                        href="../product-category/manlift/index.html">Manlift</a> <span
-                                        class="count">(1)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-93"><a
-                                                href="../product-category/manlift/atrium-manlift/index.html">Atrium
-                                                Manlift</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-94"><a
-                                                href="../product-category/manlift/push-around-manlift/index.html">Push
-                                                Around Manlift</a> <span class="count">(0)</span></li>
-                                        <li class="cat-item cat-item-92"><a
-                                                href="../product-category/manlift/self-propelled-manlift/index.html">Self
-                                                Propelled Manlift</a> <span class="count">(1)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-81 cat-parent"><a
-                                        href="../product-category/scissor-lift/index.html">Scissor Lift</a> <span
-                                        class="count">(7)</span>
-                                    <ul class='children'>
-                                        <li class="cat-item cat-item-82"><a
-                                                href="../product-category/scissor-lift/electric-scissor-lift/index.html">Electric
-                                                Scissor Lift</a> <span class="count">(5)</span></li>
-                                        <li class="cat-item cat-item-83"><a
-                                                href="../product-category/scissor-lift/rough-terrain-scissor-lift/index.html">Rough
-                                                Terrain Scissor Lift</a> <span class="count">(4)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="cat-item cat-item-15"><a
-                                        href="../product-category/uncategorized/index.html">Uncategorized</a> <span
-                                        class="count">(0)</span></li>
-                            </ul>
-                        </div>
-                        <div id="woocommerce_layered_nav-2"
-                            class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav shop-widgets">
-                            <h4 class="widget-title">Filter by City</h4>
-                            <ul class="woocommerce-widget-layered-nav-list">
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index29bd.html?filter_location=austin-tx&amp;query_type_location=or">Austin,
-                                        TX</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexad5e.html?filter_location=charlotte-nc&amp;query_type_location=or">Charlotte,
-                                        NC</a> <span class="count">(2)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexd614.html?filter_location=chicago-il&amp;query_type_location=or">Chicago,
-                                        IL</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index1870.html?filter_location=columbus-oh&amp;query_type_location=or">Columbus,
-                                        OH</a> <span class="count">(6)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexe205.html?filter_location=dallas-tx&amp;query_type_location=or">Dallas,
-                                        TX</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexc8bd.html?filter_location=el-paso-tx&amp;query_type_location=or">El
-                                        Paso, TX</a> <span class="count">(1)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index3957.html?filter_location=fort-worth-tx&amp;query_type_location=or">Fort
-                                        Worth, TX</a> <span class="count">(1)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index6e2a.html?filter_location=houston-tx&amp;query_type_location=or">Houston,
-                                        TX</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexa336.html?filter_location=indianapolis-in&amp;query_type_location=or">Indianapolis,
-                                        IN</a> <span class="count">(1)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index4ac4.html?filter_location=jacksonville-fl&amp;query_type_location=or">Jacksonville,
-                                        FL</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index1b2a.html?filter_location=los-angeles-ca&amp;query_type_location=or">Los
-                                        Angeles, CA</a> <span class="count">(27)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexa67f.html?filter_location=new-york-ny&amp;query_type_location=or">New
-                                        York, NY</a> <span class="count">(1)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index338a.html?filter_location=phoenix-az&amp;query_type_location=or">Phoenix,
-                                        AZ</a> <span class="count">(2)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index9c9a.html?filter_location=san-antonio-tx&amp;query_type_location=or">San
-                                        Antonio, TX</a> <span class="count">(1)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="indexa880.html?filter_location=san-diego-ca&amp;query_type_location=or">San
-                                        Diego, CA</a> <span class="count">(3)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index28f5.html?filter_location=san-francisco-ca&amp;query_type_location=or">San
-                                        Francisco, CA</a> <span class="count">(21)</span></li>
-                                <li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a
-                                        rel="nofollow"
-                                        href="index5b56.html?filter_location=san-jose-ca&amp;query_type_location=or">San
-                                        Jose, CA</a> <span class="count">(3)</span></li>
-                            </ul>
-                        </div>
-                        <div id="woocommerce_price_filter-3"
-                            class="widget woocommerce widget_price_filter shop-widgets">
-                            <h4 class="widget-title">Filter by price</h4>
-                            <form method="get"
-                                action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">
-                                <div class="price_slider_wrapper">
-                                    <div class="price_slider" style="display:none;"></div>
-                                    <div class="price_slider_amount" data-step="10"> <label
-                                            class="screen-reader-text" for="min_price">Min price</label> <input
-                                            type="text" id="min_price" name="min_price" value="0"
-                                            data-min="0" placeholder="Min price" /> <label
-                                            class="screen-reader-text" for="max_price">Max price</label> <input
-                                            type="text" id="max_price" name="max_price" value="125000"
-                                            data-max="125000" placeholder="Max price" /> <button type="submit"
-                                            class="button">Filter</button>
-                                        <div class="price_label" style="display:none;"> Price: <span
-                                                class="from"></span> &mdash; <span class="to"></span></div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="main-content">
                 <div class='clearfix filter-options'>
                     <div class="filter-flex">
                         <div class="woocommerce-notices-wrapper"></div>
                         <p class="woocommerce-result-count"> Showing 1&ndash;12 of 72 results</p>
-                        <nav class="gridlist-toggle"><a href="#" id="show_grid" title="Grid view"><span
+
+
+
+                                {{-- Step #1 For Grid Pick Nav --}}
+                                <nav class="gridlist-toggle"><a href="#" id="show_grid" title="Grid view"><span
                                     class="dashicons dashicons-grid-view"></span> <em>Grid view</em></a><a
-                                href="#" id="show_list" class="active" title="List view"><span
-                                    class="dashicons dashicons-exerpt-view"></span> <em>List view</em></a></nav>
-                        <form class="woocommerce-ordering" method="get"> <select name="orderby" class="orderby"
-                                aria-label="Shop order">
-                                <option value="menu_order" selected='selected'>Default sorting</option>
-                                <option value="popularity">Sort by popularity</option>
-                                <option value="rating">Sort by average rating</option>
-                                <option value="date">Sort by latest</option>
-                                <option value="price">Sort by price: low to high</option>
-                                <option value="price-desc">Sort by price: high to low</option>
-                                <option value="bid_asc">Sort by current bid: Low to high</option>
-                                <option value="bid_desc">Sort by current bid: High to low</option>
-                                <option value="auction_end">Sort auction by ending soonest</option>
-                                <option value="auction_started">Sort auction by recently started</option>
-                                <option value="auction_activity">Sort auction by most active</option>
-                            </select> <input type="hidden" name="paged" value="1" /></form>
-                    </div>
+                                    href="#" id="show_list" class="active" title="List view"><span
+                                    class="dashicons dashicons-exerpt-view"></span> <em>List view</em></a>
+                                </nav>
+                                {{-- Step #1 For Grid Pick Nav --}}
+
+
+
+
+                         </div>
                 </div>
 
+                {{-- Step #2 For Grid Pick ul --}}
 
                 <ul class="products columns-3 grid">
                     @foreach ($post as $item)
@@ -2755,6 +2490,9 @@
                     @endforeach
 
                 </ul>
+
+
+                {{-- Step #2 For Grid Pick ul --}}
 
 
 
@@ -2900,11 +2638,6 @@
         href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}"
         type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'></style>
-    <script type="text/javascript" id="wd_demo_panel_script-js-extra">
-        var demo_panel_vars = {
-            "demo_panel_theme_list": "<div class=\"demos-panel\"> \n\n\t\t<div class=\"demos-panel_overlay\"><\/div>\n\t\t\n\t\t<div class=\"demos-panel_panel\"> \n\t\t\t<div class=\"demos-panel_buttons\"> \n\t\t\t\t<a class=\"demos-panel_button view-themes\" aria-label=\"View Themes\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-book-image\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"\/><circle cx=\"10\" cy=\"8\" r=\"2\"\/><path d=\"m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">View Themes<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\/\" target=\"_blank\" class=\"demos-panel_button\" aria-label=\"Features\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-presentation\"><path d=\"M2 3h20\"\/><path d=\"M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3\"\/><path d=\"m7 21 5-5 5 5\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Features<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/1.envato.market\/qbL6q\" class=\"demos-panel_button\" aria-label=\"Get this Theme\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-shopping-bag\"><path d=\"M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z\"\/><path d=\"M3 6h18\"\/><path d=\"M16 10a4 4 0 0 1-8 0\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Get this Theme<\/span>\n\t\t\t\t<\/a>\n\t\t\t<\/div>\n\t\t\t<div class=\"demos-panel_list-wrapper\">\n\t\t\t\t<ul class=\"demos-panel_list\">\n\t\t\t\t\t\t        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/342824005\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Backhoe\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h5 class=\"demos-panel-theme-title\">Backhoe<\/h5>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/flooring\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/219969421\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Flooring\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Flooring<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/partytent-event-eental-wordPress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/402640017\/preview.__large_preview.png\" width=\"285\" height=\"145\" alt=\"Partytent\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Partytent<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/windows-doors\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/338400814\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Windows & Doors\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Windows & Doors<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/cocina-kitchen-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/462905736\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Cocina\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Cocina<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/voip-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/218971784\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"VOIP\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">VOIP<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/factory\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/371888003\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Manufacturing\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Manufacturing<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/solar-wp\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/222426141\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Green Energy\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Green Energy<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/petroleum-gas\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/267792954\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Petroleum\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Petroleum<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/tires-wheels\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/234290159\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Wheels & Tires\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Wheels & Tires<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/bodyguard\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/472062715\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bodyguard\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bodyguard<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bidpro.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/383205067\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"GRBid\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">GRBid<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$49<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bathrooms.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/246953847\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bathrooms\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bathrooms<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/marbleo.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/481715641\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Marbl\u00e9o\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Marbl\u00e9o<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/compactor-asphal-paving-road-construction-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/291077348\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Compactor\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Compactor<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\n\t\t\t\t<\/ul> \n\t\t\t\t<a href=\"#\" class=\"view-all-themes\">View More Themes<\/a>     \n\t\t\t<\/div>\n\t\t<\/div>  \n  <\/div>",
-            "show_panel": "yes"
-        };
     </script>
     <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
         var urltheme = {
@@ -2955,44 +2688,8 @@
             }
         };
     </script>
-    <script type="text/javascript" id="crisp-js-before">
-        window.$crisp = [];
-        if (!window.CRISP_RUNTIME_CONFIG) {
-            window.CRISP_RUNTIME_CONFIG = {}
-        }
-        if (!window.CRISP_RUNTIME_CONFIG.locale) {
-            window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
-        }
-        CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
-    </script>
-    <script type="text/javascript" async src="{{ asset('frontend/client.crisp.chat/l.js') }}" id="crisp-js"></script>
-    <script type="text/javascript" id="wd-script-js-extra">
-        var urltheme = {
-            "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
-        };
-    </script>
-    <script type="text/javascript" id="wc-cart-fragments-js-extra">
-        var wc_cart_fragments_params = {
-            "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-            "cart_hash_key": "wc_cart_hash_728ebccaeb4c0493f1a53f591ab2d1ae",
-            "fragment_name": "wc_fragments_728ebccaeb4c0493f1a53f591ab2d1ae",
-            "request_timeout": "5000"
-        };
-    </script>
-    <script type="text/javascript" id="wc-price-slider-js-extra">
-        var woocommerce_price_slider_params = {
-            "currency_format_num_decimals": "0",
-            "currency_format_symbol": "$",
-            "currency_format_decimal_sep": ".",
-            "currency_format_thousand_sep": ",",
-            "currency_format": "%s%v"
-        };
-    </script>
     <script defer
         src="{{ asset('frontend/wp-content/cache/autoptimize/1/js/autoptimize_3adb44c6bd6714559295b8a8abc44644.js') }}">
     </script>
 </body>
-<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:13:23 GMT -->
-
 </html>
