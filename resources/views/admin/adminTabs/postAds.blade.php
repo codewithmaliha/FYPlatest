@@ -17,14 +17,21 @@
               <tr>
                 <th>Sr#</th>
                 <th>Image</th>
-                <th>Vehiclename</th>
-                <th>Categories</th>
+                <th>Service Name</th>
+                <th>Type</th>
                 <th>Duration</th>
                 <th>location</th>
-                <th>weight</th>
-                <th>Description</th>
+                <th >Description</th>
                 <th>Contact</th>
                 <th>Price</th>
+                <th>Model/Year</th>
+                <th>Fuel Type</th>
+                <th>Power Source:</th>
+                <th>Capacity:</th>
+                <th>Goods Supported:</th>
+                <th>Special Features</th>
+                <th>Workers Available</th>
+                <th>Experience/Skills</th>
                 <th>Posted By</th>
                 <th>Created At</th>
                 <th>Available In</th>
@@ -41,14 +48,21 @@
                     <tr>
                         <td>{{ $srNo++ }}</td>
                         <td><img src="{{asset($maliha->image)}}" alt="image" style="width:50px ; height:50px"></td>
-                        <td>{{ $maliha->vehicle_name }}</td>
-                        <td>{{ $maliha->categories }}</td>
+                        <td>{{ $maliha->serviceName }}</td>
+                        <td>{{ $maliha->type }}</td>
                         <td>{{ $maliha->duration }}</td>
                         <td>{{ $maliha->location }}</td>
-                        <td>{{ $maliha->weight }}</td>
-                        <td>{{ $maliha->description }}</td>
+                        <td >{{ Str::limit($maliha->description,30,'....')}}</td>
                         <td>{{ $maliha->contact }}</td>
                         <td>{{ $maliha->price }}</td>
+                        <td>{{ $maliha->modelYear }}</td>
+                        <td>{{ $maliha->fuelType }}</td>
+                        <td>{{ $maliha->powerSource }}</td>
+                        <td>{{ $maliha->capacity }}</td>
+                        <td>{{ $maliha->goodsSupported }}</td>
+                        <td>{{ Str::limit($maliha->specialFeatures, 20,'. . .') }}</td>
+                        <td>{{ $maliha->workersAvailable }}</td>
+                        <td>{{ $maliha->experienceSkills }}</td>
                         <td>{{ $maliha->user->name }}</td>
                         <td>{{ $maliha->created_at->diffForhumans()}}</td>
                         <td>{{$maliha->booked_until ? $maliha->booked_until : 'N/A'}}</td>

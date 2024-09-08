@@ -2487,7 +2487,7 @@
                                 </div>
                             </div>
                             <div class="summary entry-summary">
-                                <h1 class="product_title entry-title">{{ $DetailAD->vehicle_name }}</h1>
+                                <h1 class="product_title entry-title">{{ $DetailAD->serviceName }}</h1>
                                 <div class="pricing-location">
                                     <div class="pricing-partial rates-3">
                                         <ul>
@@ -2505,11 +2505,93 @@
                                 <div class="woocommerce-product-details__short-description">
                                     <p>{{$DetailAD->description}}</p>
                                 </div>
-                                <div class="product_meta">  <span class="posted_in">Categories:
-                                        <a >{{$DetailAD->categories}}</a></span></div>
+                                @if ($DetailAD->type=='agriculture-machinery')
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <span class="posted_in">Power Source:
+                                            {{$DetailAD->powerSource}}</span>
 
                                     </div>
-                                    <button  data-toggle="modal" data-target="#exampleModal" class="button ">Rent Now</button>
+                                    <div class="col-6 ">
+                                        <span class="posted_in">Capacity:
+                                            {{$DetailAD->capacity}}</span>
+
+                                    </div>
+                                </div>
+                                @elseif ($DetailAD->type=='agriculture-vehicle')
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <span class="posted_in">Fuel Type:
+                                            {{$DetailAD->fuelType}}</span>
+
+                                    </div>
+                                    <div class="col-6 ">
+                                        <span class="posted_in">Model/Year:
+                                            {{$DetailAD->modelYear}}</span>
+
+                                    </div>
+                                </div>
+                                @elseif ($DetailAD->type=='loading-vehicle')
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <span class="posted_in">Type of Goods Supported:
+                                            {{$DetailAD->goodsSupported}}</span>
+
+                                    </div>
+                                    <div class="col-6 ">
+                                        <span class="posted_in">Special Features:
+                                            {{$DetailAD->specialFeatures}}</span>
+
+                                    </div>
+                                </div>
+                                @else
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <span class="posted_in">Number of Workers Available:
+                                            {{$DetailAD->workersAvailable}}</span>
+
+                                    </div>
+                                    <div class="col-6 ">
+                                        <span class="posted_in">Experience/Skills:
+                                            {{$DetailAD->experienceSkills}}</span>
+
+                                    </div>
+                                </div>
+                                    
+                                @endif
+
+                                {{-- <div class="row ">
+                                    <div class="col-6">
+                                        <span class="posted_in">Type :
+                                            {{$DetailAD->type}}</span>
+
+                                    </div>
+                                    <div class="col-6 ">
+                                        <span class="posted_in">Model/Year:
+                                            {{$DetailAD->modelYear}}</span>
+
+                                    </div>
+                                </div><br> --}}
+                                
+                                 <br><div class="product_meta " > 
+                                        @if($DetailAD->status == 1)
+                                        <span class="badge badge-pill badge-success" style="width:20% ; height:30px ; padding:1.5%" data-id="{{ $DetailAD->id }}">Available</span>
+                                        @else
+                                       
+                                            <span class="badge badge-pill badge-danger" style="width:20% ; height:30px ; padding:1.5%" data-id="{{ $DetailAD->id }}">Booked</span>
+                                            <span class="badge badge-pill badge-light" style="width:30% ; height:30px ; padding:1.5%">{{$DetailAD->booked_until}}</span>
+
+                                           @endif
+                                        
+                                 </div>
+                              
+
+                                    </div>
+
+                                    
+
+                                    
+                                 <button  data-toggle="modal" data-target="#exampleModal" class="button ">Rent Now</button>
 
 
 
@@ -2660,10 +2742,7 @@
                                             <label for="contact">Contact Number:</label>
                                             <input type="tel"  name="contact" class="form-control" >
                                         </div>
-                                        <div class="form-group">
-                                            <label for="contact">Time:</label>
-                                            <input type="datetime-local"  name="time" class="form-control" >
-                                        </div>
+                                      
                                         <button  type="submit">Submit</button>
                                     </form>
                                 </div>
