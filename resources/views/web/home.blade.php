@@ -175,125 +175,19 @@
 
                                         <div class="woocommerce columns-4">
                                             <ul class="products columns-4 grid">
-                                                <li class="product-category product first"> <a
-                                                        aria-label="Visit product category Scissor Lift"
-                                                        href="{{url('/post-category')}}"><img
-                                                            fetchpriority="high" decoding="async"
-                                                            src="{{ asset('frontend/wp-content/uploads/2019/06/product_image_4-71-600x518.jpg') }}"
-                                                            alt="Scissor Lift" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Scissor Lift
-                                                            <mark class="count">(7)</mark>
-                                                        </h2>
-                                                    </a></li>
-                                                <li class="product-category product"> <a
-                                                        aria-label="Visit product category Rough Terrain Scissor Lift"
-                                                        href="product-category/scissor-lift/rough-terrain-scissor-lift/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_4-403-700x700.jpg"
-                                                                alt="Rough Terrain Scissor Lift" width="700"
-                                                                height="700"
-                                                                srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-600x600.jpg 600w"
-                                                                sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                            class="lazyload" decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg"
-                                                            alt="Rough Terrain Scissor Lift" width="700"
-                                                            height="700"
-                                                            data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-600x600.jpg 600w"
-                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
-                                                        <h2 class="woocommerce-loop-category__title"> Rough Terrain
-                                                            Scissor Lift <mark class="count">(4)</mark></h2>
-                                                    </a></li>
-                                                <li class="product-category product"> <a
-                                                        aria-label="Visit product category Manlift"
-                                                        href="product-category/manlift/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_7-34-600x518.jpg"
-                                                                alt="Manlift" width="700"
-                                                                height="700" /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_7-34-600x518.jpg"
-                                                            alt="Manlift" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Manlift <mark
-                                                                class="count">(1)</mark></h2>
-                                                    </a></li>
-                                                <li class="product-category product last"> <a
-                                                        aria-label="Visit product category Forklift"
-                                                        href="product-category/forklift/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_11-230-600x518.jpg"
-                                                                alt="Forklift" width="700"
-                                                                height="700" /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_11-230-600x518.jpg"
-                                                            alt="Forklift" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Forklift
-                                                            <mark class="count">(5)</mark>
-                                                        </h2>
-                                                    </a></li>
-                                                <li class="product-category product first"> <a
-                                                        aria-label="Visit product category Excavator"
-                                                        href="product-category/earthmoving-equipment/excavator/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_21-105-600x518.jpg"
-                                                                alt="Excavator" width="700"
-                                                                height="700" /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_21-105-600x518.jpg"
-                                                            alt="Excavator" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Excavator
-                                                            <mark class="count">(7)</mark>
-                                                        </h2>
-                                                    </a></li>
-                                                <li class="product-category product"> <a
-                                                        aria-label="Visit product category Earthmoving Equipment"
-                                                        href="product-category/earthmoving-equipment/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_24-1-600x518.jpg"
-                                                                alt="Earthmoving Equipment" width="700"
-                                                                height="700" /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_24-1-600x518.jpg"
-                                                            alt="Earthmoving Equipment" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Earthmoving
-                                                            Equipment <mark class="count">(22)</mark></h2>
-                                                    </a></li>
-                                                <li class="product-category product"> <a
-                                                        aria-label="Visit product category Compaction Equipment"
-                                                        href="product-category/compaction-equipment/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/06/product_image_26-230-600x518.jpg"
-                                                                alt="Compaction Equipment" width="700"
-                                                                height="700" /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_26-230-600x518.jpg"
-                                                            alt="Compaction Equipment" width="700" height="700" />
-                                                        <h2 class="woocommerce-loop-category__title"> Compaction
-                                                            Equipment <mark class="count">(9)</mark></h2>
-                                                    </a></li>
-                                                <li class="product-category product last"> <a
-                                                        aria-label="Visit product category Boom Lift"
-                                                        href="product-category/boom-lift/index.html"><noscript><img
-                                                                decoding="async"
-                                                                src="wp-content/uploads/2019/09/product_0005__-700x700.jpg"
-                                                                alt="Boom Lift" width="700" height="700"
-                                                                srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-600x600.jpg 600w"
-                                                                sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                            class="lazyload" decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg"
-                                                            alt="Boom Lift" width="700" height="700"
-                                                            data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-600x600.jpg 600w"
-                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
-                                                        <h2 class="woocommerce-loop-category__title"> Boom Lift
-                                                            <mark class="count">(8)</mark>
-                                                        </h2>
-                                                    </a></li>
+                                                @foreach ($category as $item)
+                                                    <li class="product-category product first"> <a
+                                                            aria-label="Visit product category Scissor Lift"
+                                                            href="{{url('/post-category')}}"><img
+                                                                fetchpriority="high" decoding="async"
+                                                                src="{{ asset($item->image) }}"
+                                                                alt="Scissor Lift" width="700" height="700" />
+                                                            <h2 class="woocommerce-loop-category__title"> {{ $item->name }}
+                                                                <mark class="count">(7)</mark>
+                                                            </h2>
+                                                        </a>
+                                                    </li>
+                                                @endforeach
                                             </ul>
                                         </div>
                                         <div class="wd_empty_space" data-heightmobile="10" data-heighttablet="25"
