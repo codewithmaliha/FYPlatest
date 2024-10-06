@@ -16,9 +16,24 @@ class CategoryFactory extends Factory
      */
     public function definition(): array
     {
+        // return [
+        //     'name' => 'Agriculture Machinery',
+        //     'slug' => 'agriculture-machinery',
+        //     'image' => 'frontend/images/AgriConnect_category_format.jpg',
+        //    ];
+        // return [
+        //     'name' => 'Agriculture Vehicle ',
+        //     'slug' => 'agriculture-vehicle',
+        //     'image' => 'frontend/images/Agriculture_vehicle.jpg',
+        //    ];
+        // return [
+        //     'name' => 'Loading Vehicle ',
+        //     'slug' => 'loading-vehicle',
+        //     'image' => 'empty',
+        //    ];
         return [
-            'name' => 'Agriculture Machinery',
-            'slug' => 'agriculture-machinery',
+            'name' => 'Labour ',
+            'slug' => 'labour',
             'image' => 'empty',
            ];
     }

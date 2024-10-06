@@ -181,7 +181,7 @@
                                                             href="{{url('/post-category')}}"><img
                                                                 fetchpriority="high" decoding="async"
                                                                 src="{{ asset($item->image) }}"
-                                                                alt="Scissor Lift" width="700" height="700" />
+                                                                alt="{{$item->slug}}" width="700" height="700" />
                                                             <h2 class="woocommerce-loop-category__title"> {{ $item->name }}
                                                                 <mark class="count">(7)</mark>
                                                             </h2>
