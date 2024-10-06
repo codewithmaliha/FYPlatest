@@ -1,65 +1,4 @@
-<div class="top-header">
-    <div class="row">
-        <div class="columns small-12 medium-6 large-6">
-            <div class="__top-header-left">
-                <div class="lang_sel_list_horizontal" id="lang_sel_list">
-                    <div id="lang_sel">
-                        <ul>
-                            <li><a href="#" class="lang_sel_sel icl-en"><noscript><img class="iclflag"
-                                            src="../call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/en.png"
-                                            alt="en" title="English"></noscript><img
-                                        class="lazyload iclflag"
-                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/en.png"
-                                        alt="en" title="English"> <span
-                                        class="icl_lang_sel_current icl_lang_sel_native">English</span></a>
-                                <ul>
-                                    <li class="icl-fr"> <a href="#"> <noscript><img class="iclflag"
-                                                    src="../call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/fr.png"
-                                                    alt="fr" title="French"></noscript><img
-                                                class="lazyload iclflag"
-                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/fr.png"
-                                                alt="fr" title="French"> <span
-                                                class="icl_lang_sel_native">Francais</span> <span
-                                                class="icl_lang_sel_translated"><span
-                                                    class="icl_lang_sel_bracket">(</span>French<span
-                                                    class="icl_lang_sel_bracket">)</span></span></a></li>
-                                    <li class="icl-es"><a href="#"><noscript><img class="iclflag"
-                                                    src="../call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/es.png"
-                                                    alt="es"></noscript><img class="lazyload iclflag"
-                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/es.png"
-                                                alt="es"><span
-                                                class="icl_lang_sel_native">Espanol</span><span
-                                                class="icl_lang_sel_translated"><span
-                                                    class="icl_lang_sel_bracket">(</span>Spanish<span
-                                                    class="icl_lang_sel_bracket">)</span></span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="social-media">
-                    <li class=""> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab fa-flickr"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class=""> <a href="#"><i class="fab "></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="columns small-12 medium-6 large-6 hide-for-small-only">
-            <div class="__top-header-right">
-                <p>Join our team. Are you ready to change the game? <a href="#"><span>Find out more
-                            →</span></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+
 <header class="l-header creative-layout" data-sticky-container>
     <div class="top-bar-container  slideUp sticky ">
         <div class="row">
@@ -100,93 +39,11 @@
                             <a href="index.html">Home</a>
                         </li>
                         <li
-                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                            <a href="shop/index.html">Shop</a>
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
+                            <a href="#"> Category</a>
                             <ul class="submenu is-dropdown-submenu ">
-                                <li
-                                    class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
+                                <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
                                     <a href="#">Product types</a>
-                                    <ul class="submenu is-dropdown-submenu ">
-                                        <li
-                                            class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
-                                            <a href="product/cat-c32-acert/index.html">Rent Per Day
-                                                Product</a><svg width="100px" height="100px"
-                                                viewBox="0 0 100 100" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                        <li
-                                            class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
-                                            <a href="product/cw16-9-wheel/index.html">Product For Sale</a><svg
-                                                width="100px" height="100px" viewBox="0 0 100 100"
-                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                        <li
-                                            class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
-                                            <a href="product/c9-acert/index.html">Call For Price
-                                                Product</a><svg width="100px" height="100px"
-                                                viewBox="0 0 100 100" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                        <li
-                                            class=" menu-item menu-item-type-custom menu-item-object-custom    color-3 ">
-                                            <a href="product/33ft-40ft-rough-terrain-scissor-lift/index.html">Product
-                                                Auction</a><svg width="100px" height="100px"
-                                                viewBox="0 0 100 100" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                    </ul> <svg width="100px" height="100px" viewBox="0 0 100 100"
-                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                    </svg>
-                                </li>
-                                <li
-                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                    <a href="equipment-categories/index.html">Browse By</a>
-                                    <ul class="submenu is-dropdown-submenu ">
-                                        <li
-                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 ">
-                                            <a href="locations/index.html">Locations</a><svg width="100px"
-                                                height="100px" viewBox="0 0 100 100" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                        <li
-                                            class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 ">
-                                            <a href="equipment-categories/index.html">Categories</a><svg
-                                                width="100px" height="100px" viewBox="0 0 100 100"
-                                                version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                                <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                            </svg>
-                                        </li>
-                                    </ul> <svg width="100px" height="100px" viewBox="0 0 100 100"
-                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
-                                        <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
-49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z"> </path>
-                                    </svg>
                                 </li>
                             </ul>
                         </li>
@@ -382,7 +239,7 @@
                             </li>
                             <li id="menu-item-62"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62">
-                                <a href="shop/index.html">Shop</a>
+                                <a href=" Category/index.html"> Category</a>
                                 <ul class="vertical nested menu">
                                     <li id="menu-item-5352"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5352">

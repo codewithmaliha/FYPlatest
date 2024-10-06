@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', [IndexController::class,'index'] );
-Route::get('/post-category' , [IndexController::class, 'postCategory']);
+Route::get('/category/{slug}' , [IndexController::class, 'postCategory']);
 Route::get('/post-detail/{id}' , [IndexController::class, 'postDetail']);
 
 

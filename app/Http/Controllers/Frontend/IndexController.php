@@ -13,8 +13,8 @@ class IndexController extends Controller
         $category = Category::get();
        return view ('web.home',get_defined_vars());
     }
-    public function postCategory(){
-        $post = PostAds::with('user')->get();
+    public function postCategory($slug){
+       $post = PostAds::with('user')->where('type',$slug)->get();
         return view('web.postcategory', compact('post'));
     }
     public function postDetail($id){

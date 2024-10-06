@@ -1,5 +1,6 @@
 @extends('web.index')
 @section('main-container')
+
     <div class="bg-parallax-text">
         <div>Our construction and total service offering lets us deliver projects in their entirety. We can lead
             projects all the way from the initial concept phase to long-term asset management, operations and

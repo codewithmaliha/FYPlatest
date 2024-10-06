@@ -2465,28 +2465,47 @@
                 </div>
 
                 {{-- Step #2 For Grid Pick ul --}}
-
+                {{-- <li class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
+                    <div class='product-image-wrapper'>
+                        <a href="{{ url('/post-detail/'.$item->id) }}">
+                            <img
+                                width="700" height="700" src="{{ asset($item->image) }}"
+                                alt="{{ $item->vehicle_name }}"
+                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                alt=""
+                                sizes="(max-width: 700px) 100vw, 700px" />
+                        </a>
+                    </div>
+                    <div class="product-details-wrapper">
+                        <h2 class="woocommerce-loop-product__title">
+                             <a href="">
+                               {{ $item->vehicle_name }}
+                             </a>
+                        </h2>
+                    </div>
+                </li> --}}
                 <ul class="products columns-3 grid">
                     @foreach ($post as $item)
-                        <li class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
-                            <div class='product-image-wrapper'>
-                                <a href="{{ url('/post-detail/'.$item->id) }}">
-                                    <img
-                                        width="700" height="700" src="{{ asset($item->image) }}"
-                                        alt="{{ $item->vehicle_name }}"
-                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                        alt=""
-                                        sizes="(max-width: 700px) 100vw, 700px" />
+
+                    <li class="product type-product post-3703 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-simple wd-wc-style-1">
+                        <div class="product-image-wrapper" bis_skin_checked="1"><a href="{{ url('/post-detail/'.$item->id) }}" bis_skin_checked="1">
+                                    <img decoding="async" width="700" height="700" src="{{ asset($item->image) }}"
+                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyloaded" alt=""></a>
+                        </div>
+                        <div class="product-details-wrapper" bis_skin_checked="1">
+                            <h2 class="woocommerce-loop-product__title"> <a href="{{ url('/post-detail/'.$item->id) }}" bis_skin_checked="1">
+                                {{ $item->serviceName }} </a></h2>
+                                <a href="index1709.html?add-to-cart=3703"
+                                data-quantity="1"
+                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                >
+                                    View Detail
                                 </a>
-                            </div>
-                            <div class="product-details-wrapper">
-                                <h2 class="woocommerce-loop-product__title">
-                                     <a href="">
-                                       {{ $item->vehicle_name }}
-                                     </a>
-                                </h2>
-                            </div>
-                        </li>
+                                <span id="woocommerce_loop_add_to_cart_link_describedby_3703" class="screen-reader-text">
+                                </span>
+                        </div>
+                    </li>
+
                     @endforeach
 
                 </ul>

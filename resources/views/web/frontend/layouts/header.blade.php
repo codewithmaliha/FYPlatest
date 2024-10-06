@@ -1,20 +1,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &#8211; Just
-        another WordPress site</title>
+    <title>AgriConnect | Your Agriculture Partner</title>
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
-        href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
-    <link rel='dns-prefetch' href='http://client.crisp.chat/' />
+   <link rel='dns-prefetch' href='http://client.crisp.chat/' />
     <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
     <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
-    <link rel="alternate" type="application/rss+xml"
-        title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Feed"
-        href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml"
-        title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Comments Feed"
-        href="comments/feed/index.html" />
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel='stylesheet' id='wp-block-library-css'
         href="{{ asset('frontend/wp-includes/css/dist/block-library/style.min.css') }}" type='text/css'
@@ -80,9 +71,8 @@
         href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}"
         type='text/css' media='all' />
 
-    
-    
-    
+
+
         @include('web.frontend.layouts.css.custom1-style')
 
 
@@ -152,7 +142,7 @@
             "interval": "1"
         };
         var SA_Ajax = {
-            "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wsa-ajax",
+            "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery- -theme\/?wsa-ajax",
             "najax": "1",
             "last_activity": "1711626526",
             "focus": "yes"
@@ -160,12 +150,13 @@
     </script>
 
     <link rel="alternate" type="application/json+oembed"
-        href="wp-json/oembed/1.0/embedaf5e.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2F" />
+        href="wp-json/oembed/1.0/embedaf5e.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery- -theme%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="wp-json/oembed/1.0/embed50f7?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2F&amp;format=xml" />
+        href="wp-json/oembed/1.0/embed50f7?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery- -theme%2F&amp;format=xml" />
 
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for  ." />
     <meta name="generator"
-        content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+        content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for   with comfortable drag and drop interface." />
     @include('web.frontend.layouts.css.custom2-style')
+    <link rel="shortcut icon" href="{{ asset('admin/images/faces/face1.jpg') }}" type="image/x-icon">
 </head>
