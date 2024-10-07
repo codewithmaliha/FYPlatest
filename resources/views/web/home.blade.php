@@ -179,7 +179,7 @@
                                                 @foreach ($category as $item)
                                                     <li class="product-category product first"> <a
                                                             aria-label="Visit product category Scissor Lift"
-                                                            href="{{url('/post-category')}}"><img
+                                                            href="{{url('/category/'.$item->slug)}}"><img
                                                                 fetchpriority="high" decoding="async"
                                                                 src="{{ asset($item->image) }}"
                                                                 alt="{{$item->slug}}" width="700" height="700" />
