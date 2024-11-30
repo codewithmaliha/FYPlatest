@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank you </title>
+    <title>Contact Us</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
         href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
@@ -27,6 +27,7 @@
     <link rel='stylesheet' id='wp-block-library-css'
         href="{{ asset('frontend/wp-includes/css/dist/block-library/style.min.css') }}" type='text/css'
         media='all' />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style id='webdevia-all-products-style-inline-css' type='text/css'>
         .wp-block-webdevia-all-products {
             position: relative
@@ -1725,37 +1726,6 @@
         header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper {
             padding: 0
         }
-
-
-       
-        .thank-you-page {
-            text-align: center;
-            padding: 50px;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-        .thank-you-page h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        .thank-you-page p {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .thank-you-page .contact-info {
-            font-weight: bold;
-            font-size: 20px;
-            color: #007bff;
-        }
-        .thank-you-page img {
-            margin-top: 20px;
-            max-width: 100%;
-            height: auto;
-        }
-
-
-
-
     </style>
     <link rel='stylesheet' id='lightbox-css'
         href="{{ asset('frontend/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }}" type='text/css'
@@ -1772,13 +1742,6 @@
         href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}"
         type='text/css' media='all' />
     <script type="text/javascript" src="{{ asset('frontend/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
-    </script>
-    <script type="text/javascript" id="wd_main_js_functions-js-extra">
-        var devia = {
-            "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-            "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-            "date_format": "d\/m\/Y"
-        };
     </script>
     <script type="module" src="{{ asset('frontend/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
     </script>
@@ -1907,75 +1870,13 @@
 
 <body
     class="archive post-type-archive post-type-archive-product theme-backhoe woocommerce-shop woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
-    <div class="page-loading">
+    {{-- <div class="page-loading">
         <div class="spinner-loading">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>
         </div>
-    </div>
+    </div> --}}
     <div id="spaces-main" class="pt-perspective ">
-        <div class="top-header">
-            <div class="row">
-                <div class="columns small-12 medium-6 large-6">
-                    <div class="__top-header-left">
-                        <div class="lang_sel_list_horizontal" id="lang_sel_list">
-                            <div id="lang_sel">
-                                <ul>
-                                    <li><a href="#" class="lang_sel_sel icl-en"><noscript><img class="iclflag"
-                                                    src="{{ asset('frontend/wp-content/uploads/2017/12/en.png') }}"
-                                                    alt="en" title="English"></noscript><img
-                                                class="lazyload iclflag"
-                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/en.png"
-                                                alt="en" title="English"> <span
-                                                class="icl_lang_sel_current icl_lang_sel_native">English</span></a>
-                                        <ul>
-                                            <li class="icl-fr"> <a href="#"> <noscript><img class="iclflag"
-                                                            src="{{ asset('frontend/wp-content/uploads/2017/12/fr.png') }}"
-                                                            alt="fr" title="French"></noscript><img
-                                                        class="lazyload iclflag"
-                                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                        data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/fr.png"
-                                                        alt="fr" title="French"> <span
-                                                        class="icl_lang_sel_native">Francais</span> <span
-                                                        class="icl_lang_sel_translated"><span
-                                                            class="icl_lang_sel_bracket">(</span>French<span
-                                                            class="icl_lang_sel_bracket">)</span></span></a></li>
-                                            <li class="icl-es"><a href="#"><noscript><img class="iclflag"
-                                                            src="{{ asset('frontend/wp-content/uploads/2017/12/es.png') }}"
-                                                            alt="es"></noscript><img class="lazyload iclflag"
-                                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                        data-src="http://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/es.png"
-                                                        alt="es"><span
-                                                        class="icl_lang_sel_native">Espanol</span><span
-                                                        class="icl_lang_sel_translated"><span
-                                                            class="icl_lang_sel_bracket">(</span>Spanish<span
-                                                            class="icl_lang_sel_bracket">)</span></span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <ul class="social-media">
-                            <li class=""> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab fa-flickr"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class=""> <a href="#"><i class="fab "></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="columns small-12 medium-6 large-6 hide-for-small-only">
-                    <div class="__top-header-right">
-                        <p>Join our team. Are you ready to change the game? <a href="#"><span>Find out more
-                                    →</span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <header class="l-header creative-layout" data-sticky-container>
             <div class="top-bar-container  slideUp sticky ">
                 <div class="row">
@@ -2092,65 +1993,48 @@
                 </div>
             </div>
         </header>
-        <section>
-            <div class="thank-you-page " style="margin-top : 5rem">
-                <h1>Thank you for your booking!</h1>
-                <p>We have received your request and are now processing it.</p>
-                <p>Our team will contact you shortly to confirm the details.</p>
-                <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
-                <p>We appreciate your trust in us and look forward to serving you.</p>
-        
-                <!-- Add your company logo or another relevant image here -->
-                                                        <a
-                                                            href="{{asset($thanku->image)}}">
-                                                            <img width="200"
-                                                                height="200" src="{{ asset($thanku->image) }}"
-                                                                class="wp-post-image" alt="" title="img6" data-caption=""
-                                                            />
-                                                        </a>
-                <!-- Additional details about your company -->
-                <p>Best regards,<br>[AgriConnect PVT LTD]</p>
-                <p>Your company address: [COMSATS University]</p>
-                <p>Email us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-                <p>Follow us on social media:</p>
-                <p>
-                    <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
-                    <a href="https://twitter.com/yourpage" target="_blank">Twitter</a> |
-                    <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
-                </p>
+        <section class="titlebar">
+            <div class="row">
+                <div>
+                    <h2 id="page-title" class="title">Contact Us</h2>
+                </div>
             </div>
         </section>
+        <div class="row content-wrapper" style="justify-content: center;">
+            <div class="main-content">
+{{-- -------------------------------------------------------------- --}}
+{{-- -------------------------------------------------------------- --}}
+{{-- -------------------------------------------------------------- --}}
+                <div class="our-information">
+                    <div class="container-fluid">
+                        <div class="row">
+                           <div class="card col-md-12">
+                            <div class="card-body">
+                                <h5 class="card-title">Want to submit any complaint?</h5>
+                                <form action="{{ url('/contact-us') }}" method="post">
+                                    @csrf
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Name <span style="color: rgb(117, 2, 2)">( required )</span></label>
+                                      <input type="text" name="name" value="{{old('name')}}" class="form-control" aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Phone <span style="color: rgb(117, 2, 2)"></span> ( required )</label>
+                                      <input type="number" name="phone" value="{{old('phone')}}" class="form-control" aria-describedby="emailHelp" placeholder="Enter Phone">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Message <span style="color: rgb(117, 2, 2)"></span></label>
+                                      <textarea type="text" name="message" class="form-control" aria-describedby="emailHelp" placeholder="Enter Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning">Submit</button>
+                                </form>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
 
-
-        {{--thanku--}}
-        {{-- <div class="thank-you-page">
-            <h1>Thank you for your booking!</h1>
-            <p>We have received your request and are now processing it.</p>
-            <p>Our team will contact you shortly to confirm the details.</p>
-            <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
-            <p>We appreciate your trust in us and look forward to serving you.</p>
-    
-            <!-- Add your company logo or another relevant image here -->
-                                                    <a
-                                                        href="{{asset($thanku->image)}}">
-                                                        <img width="200"
-                                                            height="200" src="{{ asset($thanku->image) }}"
-                                                            class="wp-post-image" alt="" title="img6" data-caption=""
-                                                        />
-                                                    </a>
-            <!-- Additional details about your company -->
-            <p>Best regards,<br>[AgriConnect PVT LTD]</p>
-            <p>Your company address: [COMSATS University]</p>
-            <p>Email us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-            <p>Follow us on social media:</p>
-            <p>
-                <a href="https://facebook.com/yourpage" target="_blank">Facebook</a> |
-                <a href="https://twitter.com/yourpage" target="_blank">Twitter</a> |
-                <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
-            </p>
-        </div> --}}
-    
-       
+            </div>
+        </div>
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
             <div class="row">
@@ -2279,11 +2163,6 @@
         href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}"
         type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'></style>
-    <script type="text/javascript" id="wd_demo_panel_script-js-extra">
-        var demo_panel_vars = {
-            "demo_panel_theme_list": "<div class=\"demos-panel\"> \n\n\t\t<div class=\"demos-panel_overlay\"><\/div>\n\t\t\n\t\t<div class=\"demos-panel_panel\"> \n\t\t\t<div class=\"demos-panel_buttons\"> \n\t\t\t\t<a class=\"demos-panel_button view-themes\" aria-label=\"View Themes\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-book-image\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"\/><circle cx=\"10\" cy=\"8\" r=\"2\"\/><path d=\"m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">View Themes<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\/\" target=\"_blank\" class=\"demos-panel_button\" aria-label=\"Features\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-presentation\"><path d=\"M2 3h20\"\/><path d=\"M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3\"\/><path d=\"m7 21 5-5 5 5\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Features<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/1.envato.market\/qbL6q\" class=\"demos-panel_button\" aria-label=\"Get this Theme\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-shopping-bag\"><path d=\"M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z\"\/><path d=\"M3 6h18\"\/><path d=\"M16 10a4 4 0 0 1-8 0\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Get this Theme<\/span>\n\t\t\t\t<\/a>\n\t\t\t<\/div>\n\t\t\t<div class=\"demos-panel_list-wrapper\">\n\t\t\t\t<ul class=\"demos-panel_list\">\n\t\t\t\t\t\t        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/342824005\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Backhoe\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h5 class=\"demos-panel-theme-title\">Backhoe<\/h5>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/flooring\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/219969421\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Flooring\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Flooring<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/partytent-event-eental-wordPress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/402640017\/preview.__large_preview.png\" width=\"285\" height=\"145\" alt=\"Partytent\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Partytent<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/windows-doors\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/338400814\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Windows & Doors\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Windows & Doors<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/cocina-kitchen-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/462905736\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Cocina\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Cocina<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/voip-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/218971784\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"VOIP\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">VOIP<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/factory\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/371888003\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Manufacturing\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Manufacturing<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/solar-wp\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/222426141\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Green Energy\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Green Energy<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/petroleum-gas\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/267792954\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Petroleum\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Petroleum<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/tires-wheels\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/234290159\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Wheels & Tires\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Wheels & Tires<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/bodyguard\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/472062715\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bodyguard\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bodyguard<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bidpro.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/383205067\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"GRBid\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">GRBid<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$49<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bathrooms.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/246953847\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bathrooms\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bathrooms<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/marbleo.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/481715641\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Marbl\u00e9o\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Marbl\u00e9o<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/compactor-asphal-paving-road-construction-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/291077348\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Compactor\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Compactor<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\n\t\t\t\t<\/ul> \n\t\t\t\t<a href=\"#\" class=\"view-all-themes\">View More Themes<\/a>     \n\t\t\t<\/div>\n\t\t<\/div>  \n  <\/div>",
-            "show_panel": "yes"
-        };
     </script>
     <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
         var urltheme = {
@@ -2334,44 +2213,13 @@
             }
         };
     </script>
-    <script type="text/javascript" id="crisp-js-before">
-        window.$crisp = [];
-        if (!window.CRISP_RUNTIME_CONFIG) {
-            window.CRISP_RUNTIME_CONFIG = {}
-        }
-        if (!window.CRISP_RUNTIME_CONFIG.locale) {
-            window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
-        }
-        CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
-    </script>
-    <script type="text/javascript" async src="{{ asset('frontend/client.crisp.chat/l.js') }}" id="crisp-js"></script>
-    <script type="text/javascript" id="wd-script-js-extra">
-        var urltheme = {
-            "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
-        };
-    </script>
-    <script type="text/javascript" id="wc-cart-fragments-js-extra">
-        var wc_cart_fragments_params = {
-            "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-            "cart_hash_key": "wc_cart_hash_728ebccaeb4c0493f1a53f591ab2d1ae",
-            "fragment_name": "wc_fragments_728ebccaeb4c0493f1a53f591ab2d1ae",
-            "request_timeout": "5000"
-        };
-    </script>
-    <script type="text/javascript" id="wc-price-slider-js-extra">
-        var woocommerce_price_slider_params = {
-            "currency_format_num_decimals": "0",
-            "currency_format_symbol": "$",
-            "currency_format_decimal_sep": ".",
-            "currency_format_thousand_sep": ",",
-            "currency_format": "%s%v"
-        };
-    </script>
     <script defer
         src="{{ asset('frontend/wp-content/cache/autoptimize/1/js/autoptimize_3adb44c6bd6714559295b8a8abc44644.js') }}">
     </script>
-</body>
-<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:13:23 GMT -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    @include('sweetalert::alert')
 
+</body>
 </html>

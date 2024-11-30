@@ -19,14 +19,18 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', [IndexController::class,'index'] );
-Route::get('/category/{slug}' , [IndexController::class, 'postCategory']);
-Route::get('/post-detail/{id}' , [IndexController::class, 'postDetail']);
+Route::get('/category/{slug}', [IndexController::class, 'postCategory']);
+Route::get('/post-detail/{id}', [IndexController::class, 'postDetail']);
+Route::get('/about-us', [IndexController::class, 'AboutUs']);
+Route::get('/contact-us', [IndexController::class, 'ContactUs']);
+Route::post('/contact-us', [IndexController::class, 'storeContactUs']);
 
 
 // reviews routes
 Route::post('/submit-reviews',[IndexController::class,'submitReviews']);
 
 Route::post('/thank-you',[OrderController::class,'StoreClientInfo']);
+Route::get('/thank-you',[OrderController::class,'ShowThankYouPage']);
 // Route::post('/',[RentController::class,'create']);
 // Route:: get('/thanku/{id}' , [IndexController::class, 'thankYou']);
 

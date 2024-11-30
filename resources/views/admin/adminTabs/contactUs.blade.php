@@ -13,7 +13,6 @@
               <tr>
                 <th>Sr#</th>
                 <th>Name</th>
-                <th>Email</th>
                 <th>Phone</th>
                 <th>Message</th>
                 <th>Action</th>
@@ -27,7 +26,6 @@
                     <tr>
                         <td>{{ $srNo++ }}</td>
                         <td>{{ $contact->name }}</td>
-                        <td>{{ $contact->email }}</td>
                         <td>{{ $contact->phone }}</td>
                         <td>{{ $contact->message }}</td>
                         <td>

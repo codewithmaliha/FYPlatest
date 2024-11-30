@@ -106,10 +106,11 @@ class VehicleController extends Controller
      */
     public function updatePostAds(Request $request, $id)
     {
+        // return $request->all();
         $imagename= "";
         $post = PostAds::find($id);
-        $post->vehicle_name = $request->input('vehicle_name');
-        $post->categories = $request->input('categories');
+        $post->serviceName = $request->input('vehiclename');
+        // $post->type = $request->input('categories');
         if($request->hasfile('image')){
             $image = $request->file('image');
             $imagename = time() . '.' . $image->getClientOriginalExtension();
@@ -117,7 +118,7 @@ class VehicleController extends Controller
             $image->move($destinationPath, $imagename);
             $post->image = 'Frontend/services/'.$imagename;;
         }
-        $post->weight = $request->input('weight');
+        $post->loadCapacity = $request->input('loadCapacity');
         $post->price = $request->input('price');
 
 
@@ -131,7 +132,7 @@ class VehicleController extends Controller
 
          $post = PostAds::find($id);
         if ($post->status){
-            
+
             $timestamp = $request->input('time');
             $bookingTime = Carbon::createFromFormat('Y-m-d\TH:i', $timestamp)->format('Y-m-d H:i:s');
 

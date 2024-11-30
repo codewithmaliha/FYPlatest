@@ -1,8 +1,4 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgriConnect | Your Agriculture Partner</title>
-    <meta name='robots' content='max-image-preview:large' />
+
    <link rel='dns-prefetch' href='http://client.crisp.chat/' />
     <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
     <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
@@ -159,4 +155,5 @@
         content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for   with comfortable drag and drop interface." />
     @include('web.frontend.layouts.css.custom2-style')
     <link rel="shortcut icon" href="{{ asset('admin/images/faces/face1.jpg') }}" type="image/x-icon">
-</head>
+
+

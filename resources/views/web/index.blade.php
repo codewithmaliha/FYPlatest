@@ -3,10 +3,18 @@
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriConnect | Your Agriculture Partner</title>
+    <meta name='robots' content='max-image-preview:large' />
+
+    
 @include('web.frontend.layouts.header')
 
-<body
-    class="home page-template-default page page-id-636 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+</head>
+
+<body class="home page-template-default page page-id-636 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
     <div class="page-loading">
         <div class="spinner-loading">
             <div class="double-bounce1"></div>
@@ -19,10 +27,10 @@
         @include('web.frontend.layouts.navbar')
 
         @yield('main-container')
+
     </div>
 
-@include('web.frontend.layouts.footer')
-</body>
-<!-- Mirrored from themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 20:12:30 GMT -->
+    @include('web.frontend.layouts.footer')
 
+</body>
 </html>

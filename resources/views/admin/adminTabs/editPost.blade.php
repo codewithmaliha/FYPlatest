@@ -9,7 +9,7 @@
     <hr>
     <form method="POST" enctype="multipart/form-data"    action="{{ url('/admin/edit-post/'.$post->id) }}">
         @csrf
-        
+
         <div class="form-group">
             <img src="{{asset($post->image)}}" alt="{{($post->image)}}" style="width:100px; height:100px">
         </div>
@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
             <label for="vehiclename">Vehicle Name</label>
-            <input type="text" name="vehiclename" value="{{ $post->vehicle_name }}" class="form-control">
+            <input type="text" name="vehiclename" value="{{ $post->serviceName }}" class="form-control">
         </div>
         <div class="form-group">
             <label for="duration">Duration</label>
@@ -29,27 +29,27 @@
             <label for="location">Location</label>
             <input type="text" name="location" value="{{ $post->location }}" class="form-control">
         </div>
- 
 
-       
+
+
 
 
         <div class="form-group">
-            <label for="weight">Weight</label>
-            <input type="number" name="weight" value="{{ $post->weight }}" class="form-control" placeholder="Enter weight in kg" required>
+            <label for="weight">Load Capacity</label>
+            <input type="number" name="loadCapacity" value="{{ $post->loadCapacity }}" class="form-control" placeholder="Enter weight in kg" required>
             <select name="unit" id="unit">
                 <option value="kg">Kg</option>
                 <option value="lbs">Lbs</option>
               </select>
         </div>
-        
+
         <div class="form-group">
             <label for="description">Description</label>
             <textarea type="text" name="description" value=""  class="form-control" rows="5" cols="30" maxlength="200" >{{ $post->description }}</textarea>
         </div>
         <div class="form-group">
             <label for="categories">Categories</label>
-            <input type="text" name="categories" value="{{ $post->categories }}" class="form-control">
+            <input type="text" name="categories" value="{{ $post->type }}" disabled class="form-control">
         </div>
         <div class="form-group">
             <label for="contact">Contact No</label>

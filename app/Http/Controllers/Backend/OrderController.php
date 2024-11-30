@@ -21,11 +21,20 @@ class OrderController extends Controller
     $rentnow->status = 1;
     $rentnow->save();
 
-     $thanku = PostAds::find($request->id);
-     $user_name = User::where('id',$thanku->user_id)->first('name');
-    $thanku->user_name = $user_name->name;
+    //  $thanku = PostAds::find($request->id);
+    //  $user_name = User::where('id',$thanku->user_id)->first('name');
+    // $thanku->user_name = $user_name->name;
 
-    return view('web.thanku', compact('thanku'));
+    return redirect()->to('thank-you?postid=' . $request->id);
+    // return view('web.thanku', compact('thanku'));
+  }
+  public function ShowThankYouPage(Request $request){
+
+    $postId = $request->query('postid');
+    $thanku = PostAds::find($postId);
+    $user_name = User::where('id',$thanku->user_id)->first('name');
+    $thanku->user_name = $user_name->name;
+    return view('web.thanku',compact('thanku'));
   }
 
   public function order(){
