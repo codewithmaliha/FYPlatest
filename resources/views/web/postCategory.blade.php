@@ -2118,7 +2118,7 @@
         <footer class="second-footer">
             <div class="row">
                 <div class="copyright medium-12 large-12 columns">
-                    <div class="block text-center"> © 2024 Backhoe All rights reserved.</div>
+                    <div class="block text-center"> © 2024 AgriConnect. All rights reserved.</div>
                 </div>
             </div>
         </footer>

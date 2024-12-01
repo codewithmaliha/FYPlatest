@@ -3,7 +3,7 @@
     <h3 class="hide">Footer</h3>
     <div class="row">
         <section class="block">
-            <div class="large-3 medium-6 columns">
+            <div class="large-4 medium-12 columns">
                 <div id="text-3" class=" widget_text ">
                     <h4 class="block-title">About Company</h4>
                     <div class="textwidget">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="large-3 medium-6 columns">
+            <div class="large-4 medium-12 columns">
                 <div id="nav_menu-2" class=" widget_nav_menu ">
                     <h4 class="block-title">Information</h4>
                     <div class="menu-footer-menu-container">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="large-3 medium-6 columns">
+            <div class="large-4 medium-12 columns">
                 <div id="text-5" class=" widget_text ">
                     <h4 class="block-title">contact info</h4>
                     <div class="textwidget">
@@ -75,27 +75,13 @@
                     </div>
                 </div>
             </div>
-            <div class="large-3 medium-6 columns">
-                <div id="recent-posts-3" class=" widget_recent_entries ">
-                    <h4 class="block-title">Recent Post</h4>
-                    <ul>
-                        <li> <a href="blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                Practices
-                                of HR management</a> <span class="post-date">28/08/2019</span></li>
-                        <li> <a href="blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips to Find
-                                Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
-                        <li> <a href="blog/2017/12/28/how-to-organize-a-construction-site/index.html">How to
-                                Setup a Construction Site</a> <span class="post-date">28/12/2017</span></li>
-                    </ul>
-                </div>
-            </div>
         </section>
     </div>
 </section>
 <footer class="second-footer">
     <div class="row">
         <div class="copyright medium-12 large-12 columns">
-            <div class="block text-center"> © 2024 Backhoe All rights reserved.</div>
+            <div class="block text-center"> © 2024 AgriConnect. All rights reserved.</div>
         </div>
     </div>
 </footer>
@@ -127,12 +113,6 @@ type='text/css' media='all' />
 href="{{ asset('frontend/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}"
 type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'></style>
-<script type="text/javascript" id="wd_demo_panel_script-js-extra">
-var demo_panel_vars = {
-    "demo_panel_theme_list": "<div class=\"demos-panel\"> \n\n\t\t<div class=\"demos-panel_overlay\"><\/div>\n\t\t\n\t\t<div class=\"demos-panel_panel\"> \n\t\t\t<div class=\"demos-panel_buttons\"> \n\t\t\t\t<a class=\"demos-panel_button view-themes\" aria-label=\"View Themes\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-book-image\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"\/><circle cx=\"10\" cy=\"8\" r=\"2\"\/><path d=\"m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">View Themes<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\/\" target=\"_blank\" class=\"demos-panel_button\" aria-label=\"Features\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-presentation\"><path d=\"M2 3h20\"\/><path d=\"M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3\"\/><path d=\"m7 21 5-5 5 5\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Features<\/span>\n\t\t\t\t<\/a>\n\t\t\t\t<a href=\"https:\/\/1.envato.market\/qbL6q\" class=\"demos-panel_button\" aria-label=\"Get this Theme\">\n\t\t\t\t\t<span class=\"demos-panel_button-icon\">\n\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" \n\t\t\t\t\t\t\tstroke-linejoin=\"round\" class=\"lucide lucide-shopping-bag\"><path d=\"M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z\"\/><path d=\"M3 6h18\"\/><path d=\"M16 10a4 4 0 0 1-8 0\"\/><\/svg>\n\t\t\t\t\t<\/span>\n\t\t\t\t\t<span class=\"demos-panel_button-desc\">Get this Theme<\/span>\n\t\t\t\t<\/a>\n\t\t\t<\/div>\n\t\t\t<div class=\"demos-panel_list-wrapper\">\n\t\t\t\t<ul class=\"demos-panel_list\">\n\t\t\t\t\t\t        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/342824005\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Backhoe\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h5 class=\"demos-panel-theme-title\">Backhoe<\/h5>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/flooring\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/219969421\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Flooring\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Flooring<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/partytent-event-eental-wordPress-theme\/landing\">\r\n            <img data-src=\"https:\/\/previews.customer.envatousercontent.com\/files\/402640017\/preview.__large_preview.png\" width=\"285\" height=\"145\" alt=\"Partytent\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Partytent<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$89<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/windows-doors\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/338400814\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Windows & Doors\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Windows & Doors<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/demo.webdevia.com\/cocina-kitchen-wordpress-theme\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/462905736\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Cocina\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Cocina<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/voip-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/218971784\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"VOIP\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">VOIP<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/factory\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/371888003\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Manufacturing\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Manufacturing<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"http:\/\/themes.webdevia.com\/solar-wp\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/222426141\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Green Energy\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Green Energy<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/petroleum-gas\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/267792954\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Petroleum\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Petroleum<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/tires-wheels\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/234290159\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Wheels & Tires\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Wheels & Tires<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/bodyguard\/landing\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/472062715\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bodyguard\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bodyguard<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bidpro.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/383205067\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"GRBid\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">GRBid<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$49<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/bathrooms.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/246953847\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Bathrooms\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Bathrooms<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/marbleo.webdevia.com\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/481715641\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Marbl\u00e9o\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Marbl\u00e9o<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$59<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\r\n        <li>\r\n          <a target=\"_blank\" href=\"https:\/\/themes.webdevia.com\/compactor-asphal-paving-road-construction-wordpress-theme\/landing\/\">\r\n            <img data-src=\"https:\/\/s3.envato.com\/files\/291077348\/preview.__large_preview.jpg\" width=\"285\" height=\"145\" alt=\"Compactor\">\r\n            <div class=\"demos-panel-theme-meta\">\r\n              <h6 class=\"demos-panel-theme-title\">Compactor<\/h6>\r\n              <h6 class=\"demos-panel-theme-price\">$69<\/h6>\r\n            <\/div>\r\n          <\/a>\r\n        <\/li>\n\t\t\t\t<\/ul> \n\t\t\t\t<a href=\"#\" class=\"view-all-themes\">View More Themes<\/a>     \n\t\t\t<\/div>\n\t\t<\/div>  \n  <\/div>",
-    "show_panel": "yes"
-};
-</script>
 <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
 var urltheme = {
     "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"
@@ -192,7 +172,6 @@ if (!window.CRISP_RUNTIME_CONFIG.locale) {
 }
 CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
 </script>
-<script type="text/javascript" async src="{{ asset('frontend/client.crisp.chat/l.js') }}" id="crisp-js"></script>
 <script type="text/javascript" id="wd-script-js-extra">
 var urltheme = {
     "template_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php"

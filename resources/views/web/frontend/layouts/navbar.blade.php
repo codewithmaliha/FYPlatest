@@ -21,7 +21,7 @@
                     <ul id="menu-primary-menu" class="desktop-menu menu">
                         <li
                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home    color-2 menu-item-home">
-                            <a href="../index.html">Home</a>
+                            <a href="{{ url('/') }}">Home</a>
                         </li>
                         <li
                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item active  is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
