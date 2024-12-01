@@ -1982,7 +1982,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078">
                                         <a href="{{ url('/contact-us') }}">Contact Us</a>
                                     </li>
-                                    
+
                                 </ul>
                                 <div class="header-cta show-for-large-up large-screen"> <a
                                         href="{{ url('/admin/create-post') }}"
@@ -2039,7 +2039,7 @@
             <h3 class="hide">Footer</h3>
             <div class="row">
                 <section class="block">
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-3" class=" widget_text ">
                             <h4 class="block-title">About Company</h4>
                             <div class="textwidget">
@@ -2058,7 +2058,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="nav_menu-2" class=" widget_nav_menu ">
                             <h4 class="block-title">Information</h4>
                             <div class="menu-footer-menu-container">
@@ -2091,7 +2091,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-5" class=" widget_text ">
                             <h4 class="block-title">contact info</h4>
                             <div class="textwidget">
@@ -2110,20 +2110,6 @@
                                         </a></li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="large-3 medium-6 columns">
-                        <div id="recent-posts-3" class=" widget_recent_entries ">
-                            <h4 class="block-title">Recent Post</h4>
-                            <ul>
-                                <li> <a href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                        Practices of HR management</a> <span class="post-date">28/08/2019</span></li>
-                                <li> <a href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips to
-                                        Find Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
-                                <li> <a href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
-                                        to
-                                        Setup a Construction Site</a> <span class="post-date">28/12/2017</span></li>
-                            </ul>
                         </div>
                     </div>
                 </section>

@@ -1727,7 +1727,7 @@
         }
 
 
-       
+
         .thank-you-page {
             text-align: center;
             padding: 50px;
@@ -2081,7 +2081,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078">
                                         <a href="{{ url('/contact-us') }}">Contact Us</a>
                                     </li>
-                                    
+
                                 </ul>
                                 <div class="header-cta show-for-large-up large-screen"> <a
                                         href="{{ url('/admin/create-post') }}"
@@ -2099,15 +2099,15 @@
                 <p>Our team will contact you shortly to confirm the details.</p>
                 <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
                 <p>We appreciate your trust in us and look forward to serving you.</p>
-        
+
                 <!-- Add your company logo or another relevant image here -->
-                                                        <a
-                                                            href="{{asset($thanku->image)}}">
-                                                            <img width="200"
-                                                                height="200" src="{{ asset($thanku->image) }}"
-                                                                class="wp-post-image" alt="" title="img6" data-caption=""
-                                                            />
-                                                        </a>
+                        <a
+                            href="{{asset($thanku->image)}}">
+                            <img width="200"
+                                height="200" src="{{ asset($thanku->image) }}"
+                                class="wp-post-image" alt="" title="img6" data-caption=""
+                            />
+                        </a>
                 <!-- Additional details about your company -->
                 <p>Best regards,<br>[AgriConnect PVT LTD]</p>
                 <p>Your company address: [COMSATS University]</p>
@@ -2129,7 +2129,7 @@
             <p>Our team will contact you shortly to confirm the details.</p>
             <p>If you need further assistance, please feel free to call us at <span class="contact-info">[{{  $thanku->contact  }}]</span>.</p> <span class="contact-info">[{{  $thanku->user_name  }}]</span>.
             <p>We appreciate your trust in us and look forward to serving you.</p>
-    
+
             <!-- Add your company logo or another relevant image here -->
                                                     <a
                                                         href="{{asset($thanku->image)}}">
@@ -2149,13 +2149,13 @@
                 <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
             </p>
         </div> --}}
-    
-       
+
+
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
             <div class="row">
                 <section class="block">
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-3" class=" widget_text ">
                             <h4 class="block-title">About Company</h4>
                             <div class="textwidget">
@@ -2174,7 +2174,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="nav_menu-2" class=" widget_nav_menu ">
                             <h4 class="block-title">Information</h4>
                             <div class="menu-footer-menu-container">
@@ -2207,7 +2207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-5" class=" widget_text ">
                             <h4 class="block-title">contact info</h4>
                             <div class="textwidget">
@@ -2226,20 +2226,6 @@
                                         </a></li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="large-3 medium-6 columns">
-                        <div id="recent-posts-3" class=" widget_recent_entries ">
-                            <h4 class="block-title">Recent Post</h4>
-                            <ul>
-                                <li> <a href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                        Practices of HR management</a> <span class="post-date">28/08/2019</span></li>
-                                <li> <a href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips to
-                                        Find Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
-                                <li> <a href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
-                                        to
-                                        Setup a Construction Site</a> <span class="post-date">28/12/2017</span></li>
-                            </ul>
                         </div>
                     </div>
                 </section>

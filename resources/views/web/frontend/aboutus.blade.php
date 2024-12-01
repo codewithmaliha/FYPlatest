@@ -1981,7 +1981,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078">
                                         <a href="{{ url('/contact-us') }}">Contact Us</a>
                                     </li>
-                                    
+
                                 </ul>
                                 <div class="header-cta show-for-large-up large-screen"> <a
                                         href="{{ url('/admin/create-post') }}"
@@ -1999,10 +1999,72 @@
                 </div>
             </div>
         </section>
-        <div class="row content-wrapper">
-            <div class="main-content">
-
-                <div class="our-information">
+        {{-- <div class="row content-wrapper">
+            <div class="main-content"> --}}
+                <main class="l-main row">
+                    <div class="main large-12 small-12 columns">
+                        <article>
+                            <div class="body field clearfix ">
+                                <section class="wpb-content-wrapper">
+                                    <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right row">
+                                        <div class="wpb_column vc_column_container vc_col-sm-5">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                        <figure class="wpb_wrapper vc_figure">
+                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                <noscript><img decoding="async" class="vc_single_image-img "
+                                                                        src="wp-content/uploads/2019/10/compactor.jpg" width="578"
+                                                                        height="704" alt="compactor"
+                                                                        title="compactor" /></noscript><img decoding="async"
+                                                                    class="lazyload vc_single_image-img "
+                                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                                    width="578" height="704" alt="compactor"
+                                                                    title="compactor" />
+                                                            </div>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_column vc_column_container vc_col-sm-7">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                        data-heightdesktop='0' style='height:0px'>
+                                                    </div>
+                                                    <div class="wd-heading text-left  " style="max-width: 100%">
+                                                        <h5 style="font-weight:500;font-size:14px;color:#fdb900;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                            class="sub_title_b" data-text="SOME FEATURES AND">Welcome to AgriConnect
+                                                        </h5>
+                                                        <h3 style="margin:0;font-weight:800;" class="">Your Trusted Partner in Agriculture Machinery Services</h3>
+                                                    </div>
+                                                    <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                        data-heightdesktop='5' style='height:5px'>
+                                                    </div>
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>
+                                                                At AgriConnect, we understand the vital role that modern machinery plays in ensuring a productive and sustainable farming operation. Our mission is to empower farmers with state-of-the-art equipment and reliable services tailored to meet the unique demands of the agricultural sector. Whether you're looking to increase efficiency, reduce costs, or embrace innovative farming practices, our extensive range of vehicles and services is designed to help you achieve your goals with ease.
+                                                            </p>
+                                                            <p>
+                                                                From high-performance tractors and harvesters to cutting-edge soil preparation and irrigation systems, we provide farmers with access to the latest machinery that meets international standards. In addition to our equipment, we offer a range of services, including routine maintenance, repair support, and technical consultations, to ensure your machines perform at their best year-round. Our knowledgeable team is dedicated to understanding your specific needs and delivering customized solutions that maximize productivity and profitability.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
+                                                        data-heightdesktop="36" style="height: 36px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </article>
+                    </div>
+                </main>
+                {{-- <div class="our-information">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-8 text-center">
@@ -2023,15 +2085,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </div>
+                </div> --}}
+{{-- -------------------------------------------------- --}}
+{{-- -------------------------------------------------- --}}
+{{-- Main content ends here --}}
+{{-- -------------------------------------------------- --}}
+{{-- -------------------------------------------------- --}}
+            {{-- </div>
+        </div> --}}
         <section class="first-footer">
             <h3 class="hide">Footer</h3>
             <div class="row">
                 <section class="block">
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-3" class=" widget_text ">
                             <h4 class="block-title">About Company</h4>
                             <div class="textwidget">
@@ -2050,7 +2116,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="nav_menu-2" class=" widget_nav_menu ">
                             <h4 class="block-title">Information</h4>
                             <div class="menu-footer-menu-container">
@@ -2083,7 +2149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="large-3 medium-6 columns">
+                    <div class="large-4 medium-12 columns">
                         <div id="text-5" class=" widget_text ">
                             <h4 class="block-title">contact info</h4>
                             <div class="textwidget">
@@ -2102,20 +2168,6 @@
                                         </a></li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="large-3 medium-6 columns">
-                        <div id="recent-posts-3" class=" widget_recent_entries ">
-                            <h4 class="block-title">Recent Post</h4>
-                            <ul>
-                                <li> <a href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                        Practices of HR management</a> <span class="post-date">28/08/2019</span></li>
-                                <li> <a href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10 Tips to
-                                        Find Best Backhoe</a> <span class="post-date">30/03/2019</span></li>
-                                <li> <a href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
-                                        to
-                                        Setup a Construction Site</a> <span class="post-date">28/12/2017</span></li>
-                            </ul>
                         </div>
                     </div>
                 </section>

@@ -29,19 +29,19 @@
                             <ul class="submenu is-dropdown-submenu ">
                                 <li
                                     class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                    <a href="{{ url('/services/agriculture-machinery') }}">Agriculture Machinery</a>
+                                    <a href="{{ url('/category/agriculture-machinery') }}">Agriculture Machinery</a>
                                 </li>
                                 <li
                                     class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                    <a href="{{ url('/services/agriculture-vehicle') }}">Agriculture Vehicle</a>
+                                    <a href="{{ url('/category/agriculture-vehicle') }}">Agriculture Vehicle</a>
                                 </li>
                                 <li
                                     class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                    <a href="{{ url('/services/loading-vehicle') }}">Loading Vehicle</a>
+                                    <a href="{{ url('/category/loading-vehicle') }}">Loading Vehicle</a>
                                 </li>
                                 <li
                                     class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                    <a href="{{ url('/services/labour') }}">Labour</a>
+                                    <a href="{{ url('/category/labour') }}">Labour</a>
                                 </li>
                             </ul>
                         </li>
@@ -66,19 +66,19 @@
                                 <ul class="vertical nested menu">
                                     <li id="menu-item-5352"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5352">
-                                        <a href="{{ url('/services/agriculture-machinery') }}">Agriculture Machinery</a>
+                                        <a href="{{ url('/category/agriculture-machinery') }}">Agriculture Machinery</a>
                                     </li>
                                     <li id="menu-item-3745"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                        <a href="{{ url('/services/agriculture-vehicle') }}">Agriculture Vehicle</a>
+                                        <a href="{{ url('/category/agriculture-vehicle') }}">Agriculture Vehicle</a>
                                     </li>
                                     <li id="menu-item-3745"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                        <a href="{{ url('/services/loading-vehicle') }}">Loading Vehicle</a>
+                                        <a href="{{ url('/category/loading-vehicle') }}">Loading Vehicle</a>
                                     </li>
                                     <li id="menu-item-3745"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                        <a href="{{ url('/services/labour') }}">Labour</a>
+                                        <a href="{{ url('/category/labour') }}">Labour</a>
                                     </li>
                                 </ul>
                             </li>
@@ -90,7 +90,7 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078">
                                 <a href="{{ url('/contact-us') }}">Contact Us</a>
                             </li>
-                            
+
                         </ul>
                         <div class="header-cta show-for-large-up large-screen"> <a
                                 href="{{ url('/admin/create-post') }}"
