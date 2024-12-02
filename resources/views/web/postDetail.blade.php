@@ -2592,7 +2592,7 @@
 
 
 
-                                 <button  data-toggle="modal" data-target="#exampleModal" class="button ">Rent Now</button>
+                                 <button  data-toggle="modal" data-target="#exampleModal" class="button"> @if($DetailAD->status == 0)  Schedule Now @else Rent Now @endif </button>
 
 
 
