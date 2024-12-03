@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Validator;
 class AdminController extends Controller
 {
     public function index(){
+        // write all logic for dashboard
+
+
 
     return view('admin.adminTabs.dashboard');
 }

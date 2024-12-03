@@ -43,10 +43,10 @@
                   <input type="password" name="password" value="{{old('password')}}" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                  <button  type="submit"class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN IN</button>
+                  <button  type="submit"class="btn btn-block btn-lg font-weight-medium auth-form-btn" style="background-color:#fdb900;">SIGN IN</button>
                   </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Don't have an account? <a href="{{url('/admin/register')}}" class="text-primary">Create</a>
+                  Don't have an account? <a href="{{url('/admin/register')}}" style="color: #fdb900">Create</a>
                 </div>
               </form>
             </div>

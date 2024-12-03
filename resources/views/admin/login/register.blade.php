@@ -46,10 +46,10 @@
                       <input type="password" name="password" value="{{ old('password') }}" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <div class="mt-3">
-                      <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN UP</button>
+                      <button type="submit" class="btn btn-block btn-lg font-weight-medium auth-form-btn" style="background-color:#fdb900;">SIGN UP</button>
                     </div>
                     <div class="text-center mt-4 font-weight-light">
-                      Already have an account? <a href="{{ url('login') }}" class="text-primary">Login</a>
+                      Already have an account? <a href="{{ url('login') }}" style="color:#fdb900;">Login</a>
                     </div>
                   </form>
                 </div>
@@ -73,7 +73,7 @@
   <script src="{{ asset('Admin/js/settings.js')}}"></script>
   <script src="{{ asset('Admin/js/todolist.js')}}"></script>
   <!-- endinject -->
-  
+
 @include('sweetalert::alert')
 </body>
 
