@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AgriConnect | Your Agriculture Partner</title>
     <meta name='robots' content='max-image-preview:large' />
+    <link rel="shortcut icon" href="{{ asset('frontend/logo/fav_icon_latest.png') }}" />
 
-    
+
 @include('web.frontend.layouts.header')
 
 </head>

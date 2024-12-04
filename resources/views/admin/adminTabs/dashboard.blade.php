@@ -47,7 +47,7 @@
                         <div class="card card-tale">
                             <div class="card-body">
                                 <p class="mb-4">Today’s Ads</p>
-                                <p class="fs-30 mb-2">0</p>
+                                <p class="fs-30 mb-2" id="number">50000</p>
                             </div>
                         </div>
                     </div>

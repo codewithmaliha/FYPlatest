@@ -7,14 +7,11 @@
                 <div id="text-3" class=" widget_text ">
                     <h4 class="block-title">About Company</h4>
                     <div class="textwidget">
-                        <p><noscript><img decoding="async" src="wp-content/uploads/2019/09/Logo-v2.png"
-                                    alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                    style="padding-bottom: 15px;" /></noscript><img class="lazyload"
-                                decoding="async"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/Logo-v2.png"
-                                alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                style="padding-bottom: 15px;" /></p>
+                        <p>
+                        <img decoding="async" style="width: 200px" src="{{ asset('frontend/logo/navbar-logo-latest.png') }}"
+                                alt="AgriConnect"
+                                style="padding-bottom: 15px;" />
+                        </p>
                         <p>Backhoe is diversified construction company, made up of team of people who are proven
                             in their industries. All working to desing build, transport, operate, and maintain
                             project all over the USA</p>

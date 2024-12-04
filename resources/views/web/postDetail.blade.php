@@ -1952,7 +1952,7 @@
     <div id="spaces-main" class="pt-perspective ">
         <header class="l-header creative-layout" data-sticky-container>
             <div class="top-bar-container  slideUp sticky ">
-                <div class="row">
+                <div class="row" style="justify-content: center">
                     <div class="site-title-bar" style="width:10%" data-responsive-toggle="mobile-menu" data-hide-for="large">
                         <div class="title-bar-left"> <button aria-label="Main Menu" class="menu-icon menu-toggle"
                                 type="button"></button> <span class="site-mobile-title title-bar-title logo"> <a
@@ -1971,15 +1971,17 @@
                     <nav class="site-navigation top-bar" style="width:80%">
                         {{-- <div class="top-bar-left">
                             <div class="site-desktop-title top-bar-title">
-                                <div class="logo-wrapper " data-dropdown-menu> <a href="../index.html" rel="home"
+                                <div class="logo-wrapper" data-dropdown-menu> <a href="../index.html" rel="home"
                                     title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
                                     class="active">
                                     <img class="img-fluid" style="width:209px;height:53px" src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}" alt="logo">
                                 </div>
                             </div>
                         </div> --}}
-                        <div class="left-">
-                            <img class="img-fluid" style="width:209px;height:53px" src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}" alt="logo">
+                        <div class="left">
+                            <a href="{{ url('/') }}">
+                                <img class="img-fluid" style="width:209px;height:53px" src="{{ asset('frontend/logo/navbar-logo-latest.png') }}" alt="logo">
+                            </a>
                         </div>
                         <div class="top-bar-right">
                             <ul id="menu-primary-menu" class="desktop-menu menu">

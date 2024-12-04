@@ -1888,23 +1888,18 @@
                                             src="{{ asset('frontend/wp-content/themes/backhoe/images/Agri.png') }}"
                                             alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
                                         class="lazyload"
-                                        
+
                                         alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
                             </span></div>
                     </div>
                     <nav class="site-navigation top-bar">
                         <div class="top-bar-left">
                             <div class="site-desktop-title top-bar-title">
-                                <div class="logo-wrapper " data-dropdown-menu> <a href="../index.html" rel="home"
-                                        title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                        class="active"><noscript><img
-                                                src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}"
-                                                alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
-                                            class="lazyload"
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="http://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/themes/backhoe/images/logo.png"
+                                <div class="logo-wrapper " data-dropdown-menu> <a href="{{ url('/') }}" rel="home"
+                                    title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
+                                    class="active"><img src="{{ asset('frontend/logo/navbar-logo-latest.png') }}"
                                             alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
-                                </div>
+                            </div>
                             </div>
                         </div>
                         <div class="top-bar-right">

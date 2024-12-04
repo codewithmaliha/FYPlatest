@@ -1,6 +1,6 @@
 
 <footer class="footer">
-   
+
   </footer>
   <!-- partial -->
 </div>
@@ -31,5 +31,23 @@
 <!-- Custom js for this page-->
 <script src="{{url('Admin/js/dashboard.js')}}"></script>
 <script src="{{url('Admin/js/Chart.roundedBarCharts.js')}}"></script>
+<script>
+      let currentNumber = 0;
+        const targetNumber = 50000;
+        const duration = 1000; // Animation duration in milliseconds
+        const intervalTime = 1; // Update interval in milliseconds
+        const increment = targetNumber / (duration / intervalTime);
+
+        const numberElement = document.getElementById('number');
+
+        const interval = setInterval(() => {
+            currentNumber += increment;
+            if (currentNumber >= targetNumber) {
+                currentNumber = targetNumber;
+                clearInterval(interval); // Stop the animation
+            }
+            numberElement.textContent = Math.round(currentNumber);
+        }, intervalTime);
+</script>
 <!-- End custom js for this page-->
 

@@ -1,6 +1,31 @@
 @extends('web.index')
 @section('main-container')
 
+<style>
+
+
+.animated-text {
+            font-size: 2.5rem;
+            position: relative;
+            top: 50%; /* Center the text vertically */
+            transform: translateY(-50%) translateX(-100%); /* Start position off-screen */
+            animation: slideIn 3s ease-in-out forwards; /* Animation */
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-50%) translateX(-100%);
+                opacity: 0; /* Optional: Start invisible */
+            }
+            100% {
+                transform: translateY(-50%) translateX(0%);
+                opacity: 1; /* Optional: End fully visible */
+            }
+        }
+
+</style>
+
+
     <div class="bg-parallax-text">
         <div>Our construction and total service offering lets us deliver projects in their entirety. We can lead
             projects all the way from the initial concept phase to long-term asset management, operations and
@@ -16,6 +41,11 @@
                     <section class="wpb-content-wrapper">
                         <div data-vc-full-width="true" data-vc-full-width-init="false"
                             class="vc_row wpb_row vc_row-fluid vc_custom_1568850484830 vc_row-has-fill" style="height: 50rem">
+                            <h1 class="animated-text" style="
+                                position: relative;
+                                top: 50%;
+                                color: rgb(255, 255, 255);
+                            ">Welcome <br> Your Agriculture Partner</h1>
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
                         <div class="vc_row wpb_row vc_row-fluid">

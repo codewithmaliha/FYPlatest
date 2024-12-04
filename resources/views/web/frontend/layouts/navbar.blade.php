@@ -5,13 +5,11 @@
             <nav class="site-navigation top-bar">
                 <div class="top-bar-left">
                     <div class="site-desktop-title top-bar-title">
-                        <div class="logo-wrapper " data-dropdown-menu> <a href="index.html" rel="home"
-                                title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                class="active"><noscript><img src="{{ asset('frontend/wp-content/themes/backhoe/images/Agri.png') }}"
-                                        alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
-                                    class="lazyload"
-                                    ></a>
-                        </div>
+                        <div class="logo-wrapper " data-dropdown-menu> <a href="{{ url('/') }}" rel="home"
+                            title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
+                            class="active"><img src="{{ asset('frontend/logo/navbar-logo-latest.png') }}"
+                                    alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
+                    </div>
                     </div>
                 </div>
 

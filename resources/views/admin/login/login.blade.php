@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('Admin/css/vertical-layout-light/style.css') }}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{ asset('Admin/images/favicon.png') }}" />
+  <link rel="shortcut icon" href="{{ asset('frontend/logo/fav_icon_latest.png') }}" />
 </head>
 
 <body>
@@ -26,8 +26,8 @@
         <div class="row w-100 mx-0">
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-              <div class="brand-logo">
-                <img src="{{ asset('Admin/images/logo.svg') }}" alt="logo">
+              <div class="brand-logo" style="width: 200px">
+                <img src="{{ asset('frontend/logo/admin-logo-latest.png') }}" alt="logo">
               </div>
               <h4>Hello! let's get started</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
