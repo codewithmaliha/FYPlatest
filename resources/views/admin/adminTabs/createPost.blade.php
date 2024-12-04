@@ -137,7 +137,7 @@
                     <div id="categoryFields"></div>
         
                     <!-- Submit Button -->
-                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    <button type="submit" class="btn btn-primary mt-3" style="background-color:#fdb900;">Submit</button>
                 </form>
             </div>
         </div>

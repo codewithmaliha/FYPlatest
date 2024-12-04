@@ -6,7 +6,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">All posted Ads list
-        <a href="{{ url('/admin/create-post/' ) }}" title="Create Ad" class=" ml-3 badge badge-primary">Create Ad</a>
+        <a href="{{ url('/admin/create-post/' ) }}" title="Create Ad" class=" ml-3 badge badge-primary" style="background-color:#fdb900;">Create Ad</a>
 
         </h4>
 

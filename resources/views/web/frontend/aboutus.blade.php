@@ -1899,7 +1899,7 @@
                                 <div class="logo-wrapper " data-dropdown-menu> <a href="../index.html" rel="home"
                                         title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
                                         class="active"><noscript><img
-                                                src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}"
+                                                src="{{ asset('frontend/wp-content/themes/backhoe/images/Agri.png') }}"
                                                 alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></noscript><img
                                             class="lazyload"
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'

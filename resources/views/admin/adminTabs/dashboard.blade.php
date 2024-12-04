@@ -25,7 +25,7 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card tale-bg">
                     <div class="card-people mt-auto">
-                        <img src="{{ url('Admin/images/dashboard/people.svg') }}" alt="people">
+                        <img src="{{ url('Admin/images/dashboard/people.png') }}" alt="people">
                         <div class="weather-info">
                             <div class="d-flex">
                                 <div>
@@ -33,8 +33,8 @@
                                     </h2>
                                 </div>
                                 <div class="ml-2">
-                                    <h4 class="location font-weight-normal">Bangalore</h4>
-                                    <h6 class="font-weight-normal">India</h6>
+                                    <h4 class="location font-weight-normal">Pakistan</h4>
+                                    <h6 class="font-weight-normal">Sahiwal</h6>
                                 </div>
                             </div>
                         </div>
