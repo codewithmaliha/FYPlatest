@@ -45,7 +45,7 @@
                                 position: relative;
                                 top: 50%;
                                 color: rgb(255, 255, 255);
-                            ">Welcome <br> Your Agriculture Partner</h1>
+                            ">The seeds of innovation have been sown. <br> The seeds of innovation have been sown. Our platform connects farmers, service providers, and resources, cultivating endless possibilities.</h1>
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
                         <div class="vc_row wpb_row vc_row-fluid">
