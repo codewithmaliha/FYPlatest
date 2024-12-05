@@ -46,7 +46,7 @@
                         <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-4 "><a
                                 href="{{ url('/contact-us') }}">Contact Us</a></li>
                     </ul>
-                    <div class="header-cta show-for-large-up large-screen"> <a
+                    <div   id="navbar" class="header-cta show-for-large-up large-screen"> <a
                             href="{{ url('/admin/create-post') }}" class="wd-btn btn-solid btn-medium  icon-after">
                             Post an AD? </a></div>
                     <nav class="mobile-menu vertical menu" id="mobile-menu">

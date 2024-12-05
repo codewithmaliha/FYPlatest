@@ -41,11 +41,11 @@
                     <section class="wpb-content-wrapper">
                         <div data-vc-full-width="true" data-vc-full-width-init="false"
                             class="vc_row wpb_row vc_row-fluid vc_custom_1568850484830 vc_row-has-fill" style="height: 50rem">
-                            <h1 class="animated-text" style="
+                            <h6 class="animated-text" style="
                                 position: relative;
                                 top: 50%;
                                 color: rgb(255, 255, 255);
-                            ">The seeds of innovation have been sown. <br> The seeds of innovation have been sown. Our platform connects farmers, service providers, and resources, cultivating endless possibilities.</h1>
+                            ">The seeds of innovation have been sown. <br>  Our platform connects farmers, service providers, and resources, cultivating endless possibilities.</h6>
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
                         <div class="vc_row wpb_row vc_row-fluid">
@@ -54,7 +54,7 @@
                                     <div class="wpb_wrapper">
                                         <div class='wd_empty_space' data-heightmobile='50' data-heighttablet='50'
                                             data-heightdesktop='100' style='height:100px'></div>
-                                        <div class="wd-heading text-left  " style="max-width: 100%">
+                                        <div  id="categories" class="wd-heading text-left  " style="max-width: 100%">
                                             <h2 style="margin:0;font-weight:800;" class="title_a"
                                                 data-text="Let's Choose"> Categories</h2>
                                             <p style="" class="sub_title_a"> Let's Choose</p>
