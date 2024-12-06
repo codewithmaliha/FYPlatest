@@ -32,13 +32,17 @@
 <script src="{{url('Admin/js/dashboard.js')}}"></script>
 <script src="{{url('Admin/js/Chart.roundedBarCharts.js')}}"></script>
 <script>
+    
       let currentNumber = 0;
-        const targetNumber = 50000;
-        const duration = 1000; // Animation duration in milliseconds
+        const targetNumber = 200;
+        const duration = 100; // Animation duration in milliseconds
         const intervalTime = 1; // Update interval in milliseconds
         const increment = targetNumber / (duration / intervalTime);
 
         const numberElement = document.getElementById('number');
+        const numberElement2 = document.getElementById('number2');
+        const numberElement3 = document.getElementById('number3');
+        const numberElement4 = document.getElementById('number4');
 
         const interval = setInterval(() => {
             currentNumber += increment;
@@ -47,6 +51,9 @@
                 clearInterval(interval); // Stop the animation
             }
             numberElement.textContent = Math.round(currentNumber);
+            numberElement2.textContent = Math.round(currentNumber);
+            numberElement3.textContent = Math.round(currentNumber);
+            numberElement4.textContent = Math.round(currentNumber);
         }, intervalTime);
 </script>
 <!-- End custom js for this page-->

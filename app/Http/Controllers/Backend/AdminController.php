@@ -43,15 +43,12 @@ class AdminController extends Controller
     public function deletePostAds($id){
         PostAds::find($id)->delete();
         return redirect()->to('/admin/post-ads');
-
     }
 
 
 
     public function contactUS(){
         $contact = ContactUs::get();
-
-        // return view('admin.adminTabs.contactUs',compact('contact'));
         return view('admin.adminTabs.contactUs',get_defined_vars());
     }
 

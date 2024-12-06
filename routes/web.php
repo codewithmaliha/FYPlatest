@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Webs Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -46,7 +46,7 @@ Route::get('/login',function(){
 
 
 
-// Admin Routes
+// Admin Routes/Url
 
 Route::prefix('/admin')->group(function () {
 

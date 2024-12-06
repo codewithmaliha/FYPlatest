@@ -61,10 +61,10 @@ class VehicleController extends Controller
 
         return redirect()->to('/admin/post-ads');  /* by url return*/
     }
-    else {
-        alert()->error('Ad Creation failed!','Please Select Image!');
-        return redirect()->back();
-    }
+        else {
+            alert()->error('Ad Creation failed!','Please Select Image!');
+            return redirect()->back();
+        }
     }
 
 

@@ -23,7 +23,7 @@
 </div>
 <!-- partial -->
 <!-- partial:partials/_sidebar.html -->
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-color: black !important">
     <ul class="nav">
         <li class="nav-item">
             <a class="nav-link" href="{{ url('/admin/dashboard') }}">
@@ -38,9 +38,9 @@
                         <span class="menu-title">Contact Us</span>
                     </a>
                 </li>
-           
+
        @else
-           
+
        @endif
         <li class="nav-item">
             <a class="nav-link" href="{{ url('/admin/post-ads') }}">

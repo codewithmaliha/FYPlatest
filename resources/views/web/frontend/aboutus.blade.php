@@ -1877,7 +1877,7 @@
     </div> --}}
     <div id="spaces-main" class="pt-perspective ">
         <header class="l-header creative-layout" data-sticky-container>
-            <div class="top-bar-container  slideUp sticky ">
+            <div class="top-bar-container sticky ">
                 <div class="row">
                     <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
                         <div class="title-bar-left"> <button aria-label="Main Menu" class="menu-icon menu-toggle"
@@ -1907,7 +1907,7 @@
                             <ul id="menu-primary-menu" class="desktop-menu menu">
                                 <li
                                     class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home    color-2 menu-item-home">
-                                    <a href="../index.html">Home</a>
+                                    <a href="{{ url('/') }}">Home</a>
                                 </li>
                                 <li
                                     class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item active  is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
@@ -1915,19 +1915,19 @@
                                     <ul class="submenu is-dropdown-submenu ">
                                         <li
                                             class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                            <a href="{{ url('/services/agriculture-machinery') }}">Agriculture Machinery</a>
+                                            <a href="{{ url('/category/agriculture-machinery') }}">Agriculture Machinery</a>
                                         </li>
                                         <li
                                             class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                            <a href="{{ url('/services/agriculture-vehicle') }}">Agriculture Vehicle</a>
+                                            <a href="{{ url('/category/agriculture-vehicle') }}">Agriculture Vehicle</a>
                                         </li>
                                         <li
                                             class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                            <a href="{{ url('/services/loading-vehicle') }}">Loading Vehicle</a>
+                                            <a href="{{ url('/category/loading-vehicle') }}">Loading Vehicle</a>
                                         </li>
                                         <li
                                             class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children">
-                                            <a href="{{ url('/services/labour') }}">Labour</a>
+                                            <a href="{{ url('/category/labour') }}">Labour</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -1952,19 +1952,19 @@
                                         <ul class="vertical nested menu">
                                             <li id="menu-item-5352"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5352">
-                                                <a href="{{ url('/services/agriculture-machinery') }}">Agriculture Machinery</a>
+                                                <a href="{{ url('/category/agriculture-machinery') }}">Agriculture Machinery</a>
                                             </li>
                                             <li id="menu-item-3745"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                                <a href="{{ url('/services/agriculture-vehicle') }}">Agriculture Vehicle</a>
+                                                <a href="{{ url('/category/agriculture-vehicle') }}">Agriculture Vehicle</a>
                                             </li>
                                             <li id="menu-item-3745"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                                <a href="{{ url('/services/loading-vehicle') }}">Loading Vehicle</a>
+                                                <a href="{{ url('/category/loading-vehicle') }}">Loading Vehicle</a>
                                             </li>
                                             <li id="menu-item-3745"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745">
-                                                <a href="{{ url('/services/labour') }}">Labour</a>
+                                                <a href="{{ url('/category/labour') }}">Labour</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -2059,28 +2059,6 @@
                         </article>
                     </div>
                 </main>
-                {{-- <div class="our-information">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-8 text-center">
-                                <h3>
-                                    Welcome to AgriConnect – Your Trusted Partner in Agriculture Machinery Services
-                                </h3>
-                            </div>
-                            <div class="col-6 p-3">
-                                <p>
-                                    At AgriConnect, we understand the vital role that modern machinery plays in ensuring a productive and sustainable farming operation. Our mission is to empower farmers with state-of-the-art equipment and reliable services tailored to meet the unique demands of the agricultural sector. Whether you're looking to increase efficiency, reduce costs, or embrace innovative farming practices, our extensive range of vehicles and services is designed to help you achieve your goals with ease.
-                                </p>
-                                <p>
-                                    From high-performance tractors and harvesters to cutting-edge soil preparation and irrigation systems, we provide farmers with access to the latest machinery that meets international standards. In addition to our equipment, we offer a range of services, including routine maintenance, repair support, and technical consultations, to ensure your machines perform at their best year-round. Our knowledgeable team is dedicated to understanding your specific needs and delivering customized solutions that maximize productivity and profitability.
-                                </p>
-                                <p>
-                                    Partnering with AgriConnect means more than just renting or purchasing machinery; it’s about building a long-term relationship founded on trust, quality, and innovation. We’re committed to helping farmers cultivate success by making advanced agricultural technology accessible and affordable. Contact us today to learn how we can support your farming operations and be a part of your journey toward a more prosperous future.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
 {{-- -------------------------------------------------- --}}
 {{-- -------------------------------------------------- --}}
 {{-- Main content ends here --}}
@@ -2096,15 +2074,11 @@
                         <div id="text-3" class=" widget_text ">
                             <h4 class="block-title">About Company</h4>
                             <div class="textwidget">
-                                <p><noscript><img decoding="async"
-                                            src="{{ asset('frontend/wp-content/uploads/2019/09/Logo-v2.png') }}"
-                                            alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                            style="padding-bottom: 15px;" /></noscript><img class="lazyload"
-                                        decoding="async"
-                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/Logo-v2.png"
-                                        alt="Backhoe – Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
-                                        style="padding-bottom: 15px;" /></p>
+                                <p>
+                                <img decoding="async" style="width: 200px" src="{{ asset('frontend/logo/navbar-logo-latest.png') }}"
+                                    alt="AgriConnect"
+                                    style="padding-bottom: 15px;" />
+                                </p>
                                 <p>Backhoe is diversified construction company, made up of team of people who are proven
                                     in their industries. All working to desing build, transport, operate, and maintain
                                     project all over the USA</p>
@@ -2118,27 +2092,15 @@
                                 <ul id="menu-footer-menu" class="menu">
                                     <li id="menu-item-4828"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4828">
-                                        <a href="../index.html">Main Home</a>
+                                        <a href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li id="menu-item-4820"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4820">
-                                        <a href="../about/index.html">About us</a>
-                                    </li>
-                                    <li id="menu-item-4821"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821">
-                                        <a href="../blog/index.html">Blog</a>
+                                        <a href="{{ url('about-us') }}">About us</a>
                                     </li>
                                     <li id="menu-item-4824"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4824">
-                                        <a href="../contact/index.html">Contact Us</a>
-                                    </li>
-                                    <li id="menu-item-4825"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4825">
-                                        <a href="../pricing/index.html">Pricing</a>
-                                    </li>
-                                    <li id="menu-item-4826"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4826">
-                                        <a href="../services/index.html">Services</a>
+                                        <a href="{{ url('contact-us') }}">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>

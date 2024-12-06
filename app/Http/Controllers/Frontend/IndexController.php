@@ -39,7 +39,8 @@ class IndexController extends Controller
     public function storeContactUs(Request $request){
         $validate = Validator::make($request->all(),[
             'name'        => 'required ',
-            'phone'      => 'required | integer'
+            'phone'      => 'required | integer',
+            'message'   => 'required'
         ]);
 
         if($validate->fails()){

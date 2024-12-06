@@ -1878,12 +1878,12 @@
     </div> --}}
     <div id="spaces-main" class="pt-perspective ">
         <header class="l-header creative-layout" data-sticky-container>
-            <div class="top-bar-container  slideUp sticky ">
+            <div class="top-bar-container sticky ">
                 <div class="row">
                     <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
                         <div class="title-bar-left"> <button aria-label="Main Menu" class="menu-icon menu-toggle"
                                 type="button"></button> <span class="site-mobile-title title-bar-title logo"> <a
-                                    href="../index.html" rel="home"
+                                    href="{{ url('/') }}" rel="home"
                                     title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme"
                                     class="active"><noscript><img
                                             src="{{ asset('frontend/wp-content/themes/backhoe/images/logo.png') }}"

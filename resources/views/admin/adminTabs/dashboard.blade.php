@@ -47,7 +47,7 @@
                         <div class="card card-tale">
                             <div class="card-body">
                                 <p class="mb-4">Today’s Ads</p>
-                                <p class="fs-30 mb-2" id="number">50000</p>
+                                <p class="fs-30 mb-2" id="number">200</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         <div class="card card-dark-blue">
                             <div class="card-body">
                                 <p class="mb-4">Total Ads</p>
-                                <p class="fs-30 mb-2">0</p>
+                                <p class="fs-30 mb-2" id="number2">200</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                         <div class="card card-light-blue">
                             <div class="card-body">
                                 <p class="mb-4">Total Orders</p>
-                                <p class="fs-30 mb-2">0</p>
+                                <p class="fs-30 mb-2" id="number3">200</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         <div class="card card-light-danger">
                             <div class="card-body">
                                 <p class="mb-4">Total Bookings</p>
-                                <p class="fs-30 mb-2">0</p>
+                                <p class="fs-30 mb-2" id="number4">200</p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 
 <header class="l-header creative-layout" data-sticky-container>
-    <div class="top-bar-container  slideUp sticky ">
+    <div class="top-bar-container sticky " style="top:0">
         <div class="row">
             <nav class="site-navigation top-bar">
                 <div class="top-bar-left">

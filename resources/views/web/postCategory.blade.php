@@ -1877,7 +1877,7 @@
     </div>
     <div id="spaces-main" class="pt-perspective ">
         <header class="l-header creative-layout" data-sticky-container>
-            <div class="top-bar-container  slideUp sticky ">
+            <div class="top-bar-container sticky ">
                 <div class="row">
                     <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
                         <div class="title-bar-left"> <button aria-label="Main Menu" class="menu-icon menu-toggle"
